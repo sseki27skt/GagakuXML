@@ -1,0 +1,1 @@
+This is an XML encoding of the Hichiriki small and medium-sized pieces of music (中小曲) in the Selected Scores of Meiji (明治撰定譜). It was created by referring to the following resource: https://doi.org/10.20730/100270332
