@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?> <?xml-model href="../HichirikiSchema.rng"?> <?xml-stylesheet type="text/xsl" href="../add_id.xsl"?>
+<gagaku>
+    <lb n="1"/>
+    <cell id="c1">
+        <shoga type="large" id="s1">タ</shoga>
+        <tetsuke type="large" id="t1">四</tetsuke>
+    </cell>
+    <cell id="c2">
+        <shoga type="large" id="s2">ア</shoga>
+    </cell>
+    <cell id="c3">
+        <shoga type="large" id="s3">ラ</shoga>
+        <tetsuke type="large" id="t2">一</tetsuke>
+    </cell>
+    <cell id="c4">
+        <shoga type="large" id="s4">リ</shoga>
+        <tetsuke type="large" id="t3">丅</tetsuke>
+    </cell>
+    <cell id="c5">
+        <shoga type="large" id="s5">引</shoga>
+    </cell>
+    <cell id="c6">
+        <shoga type="large" id="s6">．</shoga>
+    </cell>
+    <cell id="c7">
+        <shoga type="large" id="s7">タ</shoga>
+        <tetsuke type="large" id="t4">一</tetsuke>
+    </cell>
+    <cell id="c8">
+        <shoga type="large" id="s8">ア</shoga>
+    </cell>
+    <cell id="c9">
+        <shoga type="large" id="s9">ラ</shoga>
+        <tetsuke type="large" id="t5">四</tetsuke>
+    </cell>
+    <cell id="c10">
+        <shoga type="large" id="s10">リ</shoga>
+        <tetsuke type="large" id="t6">六</tetsuke>
+    </cell>
+    <cell id="c11">
+        <shoga type="large" id="s11">引</shoga>
+    </cell>
+    <cell id="c12">
+        <shoga type="large" id="s12">．</shoga>
+    </cell>
+    <cell id="c13">
+        <shoga type="large" id="s13">チ</shoga>
+        <tetsuke type="large" id="t7">六</tetsuke>
+    </cell>
+    <cell id="c14">
+        <shoga type="large" id="s14">引</shoga>
+    </cell>
+    <cell id="c15">
+        <shoga type="large" id="s15">．</shoga>
+    </cell>
+</gagaku>
