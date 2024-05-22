@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="gagaku">
+      <oneOrMore>
+        <choice>
+          <element name="cell">
+            <attribute name="id">
+              <data type="NCName"/>
+            </attribute>
+            <oneOrMore>
+              <choice>
+                <element name="hyoshi">
+                  <attribute name="id">
+                    <data type="NCName"/>
+                  </attribute>
+                  <attribute name="type">
+                    <choice>
+                      <value>large</value>
+                      <value>small</value>
+                    </choice>
+                  </attribute>
+                </element>
+                <element name="shoga">
+                  <attribute name="id">
+                    <data type="NCName"/>
+                  </attribute>
+                  <attribute name="type">
+                    <choice>
+                      <value>large</value>
+                      <value>small</value>
+                    </choice>
+                  </attribute>
+                  <choice>
+                    <value>ヒ</value>
+                    <value>ヤ</value>
+                    <value>引</value>
+                    <value>ア</value>
+                    <value>オ</value>
+                    <value>ヘ</value>
+                    <value>ウ</value>
+                    <value>テ</value>
+                    <value>ル</value>
+                    <value>ト</value>
+                    <value>リ</value>
+                    <value>ヱ</value>
+                    <value>フ</value>
+                    <value>タ</value>
+                    <value>チ</value>
+                    <value>ホ</value>
+                    <value>イ</value>
+                    <value>レ</value>
+                    <value>ロ</value>
+                    <value>ラ</value>
+                    <value>ヲ</value>
+                    <value>ハ</value>
+                    <value>ツ</value>
+                    <value>．</value>
+                  </choice>
+                </element>
+                <element name="tataki">
+                  <empty/>
+                </element>
+                <element name="tetsuke">
+                  <attribute name="id">
+                    <data type="NCName"/>
+                  </attribute>
+                  <attribute name="type">
+                    <choice>
+                      <value>large</value>
+                      <value>small</value>
+                    </choice>
+                  </attribute>
+                  <choice>
+                    <value>舌</value>
+                    <value>五</value>
+                    <value>工</value>
+                    <value>一</value>
+                    <value>凢</value>
+                    <value>六</value>
+                    <value>丅</value>
+                    <value>丄</value>
+                    <value>四</value>
+
+                  </choice>
+                </element>
+              </choice>
+            </oneOrMore>
+          </element>
+          <element name="hanjo">
+            <data type="NCName"/>
+          </element>
+          <element name="ichinoku">
+            <data type="NCName"/>
+          </element>
+          <element name="juto">
+            <data type="NCName"/>
+          </element>
+          <element name="kaeshiduke">
+            <data type="NCName"/>
+          </element>
+          <element name="kando">
+            <data type="NCName"/>
+          </element>
+          <element name="koreyori">
+            <data type="NCName"/>
+          </element>
+          <element name="lb">
+            <attribute name="n">
+              <data type="integer"/>
+            </attribute>
+          </element>
+          <element name="nihen">
+            <data type="NCName"/>
+          </element>
+          <element name="nijo">
+            <data type="NCName"/>
+          </element>
+          <element name="ninoku">
+            <data type="NCName"/>
+          </element>
+          <element name="pb">
+            <empty/>
+          </element>
+          <element name="sannoku">
+            <data type="NCName"/>
+          </element>
+          <element name="tsukedokoro">
+            <optional>
+              <attribute name="type">
+                <data type="NCName"/>
+              </attribute>
+            </optional>
+            <data type="NCName"/>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>
