@@ -1,141 +1,351 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0"
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+  xmlns:mei="http://www.music-encoding.org/ns/mei"
+  xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
-  <start>
-    <element name="gagaku">
-      <oneOrMore>
-        <choice>
-          <element name="cell">
-            <attribute name="id">
-              <data type="NCName"/>
+  <include href="https://music-encoding.org/schema/5.0/mei-all.rng"/>
+  <start combine="choice">
+    <element name="gagakuXML">
+      <element name="gagakuMeta">
+        <ref name="mei_meiHead"/>
+        <element name="gagakuHead">
+          <element name="choshi">
+            <a:documentation>楽曲の調子を示す．</a:documentation>
+            <choice>
+              <value>壱越調</value>
+              <value>平調</value>
+              <value>双調</value>
+              <value>黄鐘調</value>
+              <value>盤渉調</value>
+              <value>太食調</value>
+              <value>太食調</value>
+            </choice>
+          </element>
+          <element name="title">
+            <attribute name="xml:id">
+                <data type="NCName"/>
             </attribute>
-            <oneOrMore>
+            <data type="NCName"/>
+          </element>
+          <optional>
+            <element name="sizeCategory">
+              <a:documentation>大曲・中曲・小曲の別を示す．</a:documentation>
               <choice>
-                <element name="hyoshi">
-                  <attribute name="id">
-                    <data type="NCName"/>
-                  </attribute>
-                  <attribute name="type">
-                    <choice>
-                      <value>large</value>
-                      <value>small</value>
-                    </choice>
-                  </attribute>
-                </element>
-                <element name="shoga">
-                  <attribute name="id">
-                    <data type="NCName"/>
-                  </attribute>
-                  <attribute name="type">
-                    <choice>
-                      <value>large</value>
-                      <value>small</value>
-                    </choice>
-                  </attribute>
-                  <choice>
-                    <value>ヒ</value>
-                    <value>ヤ</value>
-                    <value>引</value>
-                    <value>ア</value>
-                    <value>オ</value>
-                    <value>ヘ</value>
-                    <value>ウ</value>
-                    <value>テ</value>
-                    <value>ル</value>
-                    <value>ト</value>
-                    <value>リ</value>
-                    <value>ヱ</value>
-                    <value>フ</value>
-                    <value>タ</value>
-                    <value>チ</value>
-                    <value>ホ</value>
-                    <value>イ</value>
-                    <value>レ</value>
-                    <value>ロ</value>
-                    <value>ラ</value>
-                    <value>ヲ</value>
-                    <value>ハ</value>
-                    <value>ツ</value>
-                    <value>．</value>
-                  </choice>
-                </element>
-                <element name="tataki">
-                  <empty/>
-                </element>
-                <element name="tetsuke">
-                  <attribute name="id">
-                    <data type="NCName"/>
-                  </attribute>
-                  <attribute name="type">
-                    <choice>
-                      <value>large</value>
-                      <value>small</value>
-                    </choice>
-                  </attribute>
-                  <choice>
-                    <value>舌</value>
-                    <value>五</value>
-                    <value>工</value>
-                    <value>一</value>
-                    <value>凢</value>
-                    <value>六</value>
-                    <value>丅</value>
-                    <value>丄</value>
-                    <value>四</value>
-
-                  </choice>
-                </element>
+                <value>大曲</value>
+                <value>中曲</value>
+                <value>小曲</value>
+                <value>准大曲</value>
+                <value/>
               </choice>
-            </oneOrMore>
-          </element>
-          <element name="hanjo">
-            <data type="NCName"/>
-          </element>
-          <element name="ichinoku">
-            <data type="NCName"/>
-          </element>
-          <element name="juto">
-            <data type="NCName"/>
-          </element>
-          <element name="kaeshiduke">
-            <data type="NCName"/>
-          </element>
-          <element name="kando">
-            <data type="NCName"/>
-          </element>
-          <element name="koreyori">
-            <data type="NCName"/>
-          </element>
-          <element name="lb">
-            <attribute name="n">
-              <data type="integer"/>
-            </attribute>
-          </element>
-          <element name="nihen">
-            <data type="NCName"/>
-          </element>
-          <element name="nijo">
-            <data type="NCName"/>
-          </element>
-          <element name="ninoku">
-            <data type="NCName"/>
-          </element>
-          <element name="pb">
-            <empty/>
-          </element>
-          <element name="sannoku">
-            <data type="NCName"/>
-          </element>
-          <element name="tsukedokoro">
-            <optional>
+            </element>
+          </optional>
+          <optional>
+            <element name="hyoshi">
+              <a:documentation>楽曲の拍子を示す．</a:documentation>
               <attribute name="type">
+                <value>hyoshi-1</value>
+              </attribute>
+              <choice>
+                <value>早四拍子</value>
+                <value>早八拍子</value>
+                <value>延四拍子</value>
+                <value>延八拍子</value>
+                <value>早只四拍子</value>
+                <value>早只八拍子</value>
+                <value>早六拍子</value>
+                <value>由利吹</value>
+                <data type="NCName"/>
+              </choice>
+            </element>
+          </optional>
+          <optional>
+            <element name="hyoshi">
+              <a:documentation>楽曲の拍子を示す．</a:documentation>
+              <attribute name="type">
+                <value>hyoshi-2</value>
+              </attribute>
+              <choice>
+                <value>拍子十六</value>
+                <value>拍子十</value>
+                <value>拍子二十</value>
+                <value>拍子八</value>
+                <value>拍子十四</value>
+                <value>拍子七</value>
+                <value>拍子六</value>
+                <value>拍子十二</value>
+                <value>拍子十七</value>
+                <value>拍子十一</value>
+                <value>拍子十八</value>
+                <value>拍子十五</value>
+                <value>拍子九</value>
+                <value>拍子二十三</value>
+                <value>拍子二十四</value>
+                <value>拍子二十六</value>
+                <value>拍子二十一</value>
+                <value/>
+              </choice>
+            </element>
+          </optional>
+          <optional>
+            <element name="kuwaeHyoshi">
+              <a:documentation>加拍子を示す．</a:documentation>
+              <data type="string"/>
+            </element>
+          </optional>
+          <optional>
+            <element name="kodo">
+              <a:documentation>後度の表示を示す．</a:documentation>
+              <data type="string"/>
+            </element>
+          </optional>
+        </element>
+      </element>
+      <element name="music">
+<element name="front">
+  <element name="title">
+    <data type="NCName"/>
+  </element>
+  <optional>
+    <element name="sizeCategory">
+      <a:documentation>大曲・中曲・小曲の別を示す．</a:documentation>
+      <choice>
+        <value>大曲</value>
+        <value>中曲</value>
+        <value>小曲</value>
+        <value>准大曲</value>
+        <value/>
+      </choice>
+    </element>
+  </optional>
+  <optional>
+    <element name="hyoshi">
+      <a:documentation>楽曲の拍子を示す．</a:documentation>
+      <attribute name="type">
+        <value>hyoshi-1</value>
+      </attribute>
+      <choice>
+        <value>早四拍子</value>
+        <value>早八拍子</value>
+        <value>延四拍子</value>
+        <value>延八拍子</value>
+        <value>早只四拍子</value>
+        <value>早只八拍子</value>
+        <value>早六拍子</value>
+        <value>由利吹</value>
+        <data type="NCName"/>
+      </choice>
+    </element>
+  </optional>
+  <optional>
+    <element name="hyoshi">
+      <a:documentation>楽曲の拍子を示す．</a:documentation>
+      <attribute name="type">
+        <value>hyoshi-2</value>
+      </attribute>
+      <choice>
+        <value>拍子十六</value>
+        <value>拍子十</value>
+        <value>拍子二十</value>
+        <value>拍子八</value>
+        <value>拍子十四</value>
+        <value>拍子七</value>
+        <value>拍子六</value>
+        <value>拍子十二</value>
+        <value>拍子十七</value>
+        <value>拍子十一</value>
+        <value>拍子十八</value>
+        <value>拍子十五</value>
+        <value>拍子九</value>
+        <value>拍子二十三</value>
+        <value>拍子二十四</value>
+        <value>拍子二十六</value>
+        <value>拍子二十一</value>
+        <value/>
+      </choice>
+    </element>
+  </optional>
+  <optional>
+    <element name="kuwaeHyoshi">
+      <a:documentation>加拍子を示す．</a:documentation>
+      <data type="string"/>
+    </element>
+  </optional>
+  <optional>
+    <element name="kodo">
+      <a:documentation>後度の表示を示す．</a:documentation>
+      <data type="string"/>
+    </element>
+  </optional>
+
+        
+</element>
+        <element name="body">
+     <oneOrMore>
+          <choice>
+            <element name="cell">
+              <attribute name="id">
+                <data type="NCName"/>
+              </attribute>
+              <oneOrMore>
+                <choice>
+                  <element name="hyoshi">
+                    <attribute name="id">
+                      <data type="NCName"/>
+                    </attribute>
+                    <attribute name="type">
+                      <choice>
+                        <value>large</value>
+                        <value>small</value>
+                      </choice>
+                    </attribute>
+                  </element>
+                  <element name="shoga">
+                    <attribute name="id">
+                      <data type="NCName"/>
+                    </attribute>
+                    <attribute name="type">
+                      <choice>
+                        <value>large</value>
+                        <value>small</value>
+                      </choice>
+                    </attribute>
+                    <choice>
+                      <value>ヒ</value>
+                      <value>ヤ</value>
+                      <value>引</value>
+                      <value>ア</value>
+                      <value>オ</value>
+                      <value>ヘ</value>
+                      <value>ウ</value>
+                      <value>テ</value>
+                      <value>ル</value>
+                      <value>ト</value>
+                      <value>リ</value>
+                      <value>ヱ</value>
+                      <value>フ</value>
+                      <value>タ</value>
+                      <value>チ</value>
+                      <value>ホ</value>
+                      <value>イ</value>
+                      <value>レ</value>
+                      <value>ロ</value>
+                      <value>ラ</value>
+                      <value>ヲ</value>
+                      <value>ハ</value>
+                      <value>ツ</value>
+                      <value>．</value>
+                    </choice>
+                  </element>
+                  <element name="tataki">
+                    <empty/>
+                  </element>
+                  <element name="tetsuke">
+                    <attribute name="id">
+                      <data type="NCName"/>
+                    </attribute>
+                    <attribute name="type">
+                      <choice>
+                        <value>large</value>
+                        <value>small</value>
+                      </choice>
+                    </attribute>
+                    <choice>
+                      <value>舌</value>
+                      <value>五</value>
+                      <value>工</value>
+                      <value>一</value>
+                      <value>凢</value>
+                      <value>六</value>
+                      <value>丅</value>
+                      <value>丄</value>
+                      <value>四</value>
+                    </choice>
+                  </element>
+                </choice>
+              </oneOrMore>
+            </element>
+            <element name="hanjo">
+              <data type="NCName"/>
+              <optional>
+              <attribute name="place">
                 <data type="NCName"/>
               </attribute>
             </optional>
-            <data type="NCName"/>
-          </element>
-        </choice>
-      </oneOrMore>
+            </element>
+            <element name="ichinoku">
+              <data type="NCName"/>
+            </element>
+            <element name="juto">
+              <data type="NCName"/>
+            </element>
+            <element name="kaeshiduke">
+              <data type="NCName"/>
+              <optional>
+              <attribute name="place">
+                <data type="NCName"/>
+              </attribute>
+            </optional>
+            </element>
+            <element name="kando">
+              <data type="NCName"/>
+              <optional>
+              <attribute name="place">
+                <data type="NCName"/>
+              </attribute>
+            </optional>
+            </element>
+            <element name="koreyori">
+              <data type="NCName"/>
+            </element>
+            <element name="lb">
+              <attribute name="n">
+                <data type="integer"/>
+              </attribute>
+            </element>
+            <element name="nihen">
+              <data type="NCName"/>
+              <optional>
+              <attribute name="place">
+                <data type="NCName"/>
+              </attribute>
+            </optional>
+            <optional>
+                <attribute name="type">
+                    <data type="string"/>
+                </attribute>
+            </optional>
+            </element>
+            <element name="nijo">
+              <data type="NCName"/>
+            </element>
+            <element name="ninoku">
+              <data type="NCName"/>
+            </element>
+            <element name="pb">
+              <empty/>
+            </element>
+            <element name="sannoku">
+              <data type="NCName"/>
+            </element>
+            <element name="tsukedokoro">
+              <optional>
+                <attribute name="type">
+                <data type="string"/>
+                </attribute>
+                </optional>
+                <optional>
+                <attribute name="place">
+                    <data type="NCName"/>
+                  </attribute>
+              </optional>
+              <data type="string"/>
+            </element>
+            <element name="jobuki">
+              <data type="NCName"/>
+            </element>
+          </choice>
+        </oneOrMore>
+   </element>   </element>
     </element>
   </start>
 </grammar>
