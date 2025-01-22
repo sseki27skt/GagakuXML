@@ -113,3 +113,23 @@ At present, this repository makes available the XML files for the songs listed i
 |   g06_09_14  | 盤渉調 |   越天楽   |
 |   g06_09_15  | 盤渉調 |   採桑老   |
 |   g06_09_16  | 盤渉調 |  剣気褌脱  |
+
+
+<cell>
+    <tetsuke type="small">丅</tetsuke>
+    <tetsuke type="large">中</tetsuke>
+    <shoga type="large">チ</shoga>
+</cell>
+
+<cell>
+    <tetsuke type="small">丅</tetsuke>
+    <tetsuke type="large">中</tetsuke>
+    <shoga type="large" hyphenation="begin">チ</shoga>
+    <shoga type="large" hyhenation="end">ヨ</shoga>
+</cell>
+
+<cell>
+    <ugoki/>
+    <shoga type="large" hyphenation="begin">リ</shoga>
+    <shoga type="large" hyphenation="end">ヨ</shoga>
+</cell>
