@@ -1,49 +1,49 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gagakuXML xmlns:ns0="http://www.music-encoding.org/ns/mei">
 <gagakuMeta>
-<ns0:meiHead>
-<ns0:fileDesc>
-<ns0:titleStmt>
-<ns0:title />
-<ns0:respStmt>
-<ns0:resp>Machine-readable transcription by:</ns0:resp>
-<ns0:persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro
-Seki</ns0:persName>
-</ns0:respStmt>
-<ns0:funder>Japan Society for the Promotion of Science</ns0:funder>
-<ns0:funder>Foundation for Cultural Heritage and Art Research</ns0:funder>
-<ns0:funder>The Kurata Grants, The Hitachi Global Foundation</ns0:funder>
-</ns0:titleStmt>
-<ns0:pubStmt>
-<ns0:distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML
-on Github</ns0:distributor>
-<ns0:availability>
-<ns0:useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This
+<meiHead xmlns="http://www.music-encoding.org/ns/mei">
+<fileDesc>
+<titleStmt>
+<title />
+<respStmt>
+<resp>Machine-readable transcription by:</resp>
+<persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro
+Seki</persName>
+</respStmt>
+<funder>Japan Society for the Promotion of Science</funder>
+<funder>Foundation for Cultural Heritage and Art Research</funder>
+<funder>The Kurata Grants, The Hitachi Global Foundation</funder>
+</titleStmt>
+<pubStmt>
+<distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML
+on Github</distributor>
+<availability>
+<useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This
 edition is licensed under the Creative Commons Attribution 4.0
-International.</ns0:useRestrict>
-</ns0:availability>
-</ns0:pubStmt>
-<ns0:sourceDesc>
-<ns0:source>
-<ns0:bibl target="https://doi.org/10.20730/100376839">
-<ns0:title>雅楽譜(Gagaku Score)</ns0:title>, transcribed <ns0:persName role="transcriber">Hisatsune Ohno</ns0:persName>, held by <ns0:corpName>Tokyo
+International.</useRestrict>
+</availability>
+</pubStmt>
+<sourceDesc>
+<source>
+<bibl target="https://doi.org/10.20730/100376839">
+<title>雅楽譜(Gagaku Score)</title>, transcribed <persName role="transcriber">Hisatsune Ohno</persName>, held by <corpName>Tokyo
 University of the Arts. University
-Library</ns0:corpName>, available on <ns0:name role="distribution">Union
-Catalogue Database of Japanese Texts</ns0:name>. </ns0:bibl>
-</ns0:source>
-</ns0:sourceDesc>
-</ns0:fileDesc>
-<ns0:encodingDesc>
-<ns0:editorialDecl>
-<ns0:p>このファイルは国書データベースで公開されている東京藝術大学付属図書館所蔵の『雅楽譜』を参照して作成された．雅楽譜の持つ文字情報の維持し，それらを機械可読な形式で構造化することを目指している．具体的な翻刻の方針は東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
-唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』を参照すること．</ns0:p>
-</ns0:editorialDecl>
-<ns0:projectDesc>
-<ns0:p xml:lang="ja">このファイルは東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
+Library</corpName>, available on <name role="distribution">Union
+Catalogue Database of Japanese Texts</name>. </bibl>
+</source>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>このファイルは国書データベースで公開されている東京藝術大学付属図書館所蔵の『雅楽譜』を参照して作成された．雅楽譜の持つ文字情報の維持し，それらを機械可読な形式で構造化することを目指している．具体的な翻刻の方針は東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
+唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』を参照すること．</p>
+</editorialDecl>
+<projectDesc>
+<p xml:lang="ja">このファイルは東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
 唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』の一部として翻刻された．本研究は日本学術振興会 特別研究員奨励費
 JSPS23KJ0393，DNP文化振興財団グラフィック文化に関する学術研究助成，公益財団法人日立財団倉田奨励金の支援を受けた．また，関連する研究成果の発表に際しては公益財団法人文化財保護・芸術研究助成財団研究助成，Student
-scholarship for the 2024 Music Encoding Conferenceの援助を受けた．</ns0:p>
-<ns0:p xml:lang="en">This is a digital gagaku score that was transcribed as part of
+scholarship for the 2024 Music Encoding Conferenceの援助を受けた．</p>
+<p xml:lang="en">This is a digital gagaku score that was transcribed as part of
 a doctoral thesis submitted to the Graduate School of Humanities and
 Sociology at the University of Tokyo by Shintaro Seki. This edition uses
 meiHead provided by MEI, but the overall XML structure is based on a unique
@@ -56,10 +56,10 @@ grant-in-aid for academic research on graphic culture, and the Kurata
 Scholarship of the Hitachi Foundation. In addition, I received support from
 the Research Grant for the Foundation for Cultural Heritage and Art Research
 and the Student Scholarship for the 2024 Music Encoding Conference when
-presenting the results of this research.</ns0:p>
-</ns0:projectDesc>
-</ns0:encodingDesc>
-</ns0:meiHead>
+presenting the results of this research.</p>
+</projectDesc>
+</encodingDesc>
+</meiHead>
 <gagakuHead>
 <choshi>黄鐘調</choshi>
 <title xml:id="g07_08_12">青海波</title>
