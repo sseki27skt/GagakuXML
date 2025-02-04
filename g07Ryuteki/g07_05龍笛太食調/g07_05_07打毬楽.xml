@@ -1,761 +1,2292 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gagakuXML xmlns:ns0="http://www.music-encoding.org/ns/mei">
-<gagakuMeta>
-<meiHead xmlns="http://www.music-encoding.org/ns/mei">
-<fileDesc>
-<titleStmt>
-<title>打毬楽</title>
-<respStmt>
-<resp>Machine-readable transcription by:</resp>
-<persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro
-Seki</persName>
-</respStmt>
-<funder>Japan Society for the Promotion of Science</funder>
-<funder>Foundation for Cultural Heritage and Art Research</funder>
-<funder>The Kurata Grants, The Hitachi Global Foundation</funder>
-</titleStmt>
-<pubStmt>
-<distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML
-on Github</distributor>
-<availability>
-<useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This
-edition is licensed under the Creative Commons Attribution 4.0
-International.</useRestrict>
-</availability>
-</pubStmt>
-<sourceDesc>
-<source>
-<bibl target="https://doi.org/10.20730/100376839">
-<title>雅楽譜(Gagaku Score)</title>, transcribed <persName role="transcriber">Hisatsune Ohno</persName>, held by <corpName>Tokyo
-University of the Arts. University
-Library</corpName>, available on <name role="distribution">Union
-Catalogue Database of Japanese Texts</name>. </bibl>
-</source>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<editorialDecl>
-<p>このファイルは国書データベースで公開されている東京藝術大学付属図書館所蔵の『雅楽譜』を参照して作成された．雅楽譜の持つ文字情報の維持し，それらを機械可読な形式で構造化することを目指している．具体的な翻刻の方針は東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
-唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』を参照すること．</p>
-</editorialDecl>
-<projectDesc>
-<p xml:lang="ja">このファイルは東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
-唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』の一部として翻刻された．本研究は日本学術振興会 特別研究員奨励費
-JSPS23KJ0393，DNP文化振興財団グラフィック文化に関する学術研究助成，公益財団法人日立財団倉田奨励金の支援を受けた．また，関連する研究成果の発表に際しては公益財団法人文化財保護・芸術研究助成財団研究助成，Student
-scholarship for the 2024 Music Encoding Conferenceの援助を受けた．</p>
-<p xml:lang="en">This is a digital gagaku score that was transcribed as part of
-a doctoral thesis submitted to the Graduate School of Humanities and
-Sociology at the University of Tokyo by Shintaro Seki. This edition uses
-meiHead provided by MEI, but the overall XML structure is based on a unique
-schema that differs from MEI's. Please refer to the main text of the
-doctoral thesis for more information regarding the concepts and structuring
-policies represented by the elements and attributes used throughout this
-edition. This research was supported by JSPS23KJ0393, a grant-in-aid for
-JSPS Research Fellows, the DNP Foundation for Cultural Affairs, a
-grant-in-aid for academic research on graphic culture, and the Kurata
-Scholarship of the Hitachi Foundation. In addition, I received support from
-the Research Grant for the Foundation for Cultural Heritage and Art Research
-and the Student Scholarship for the 2024 Music Encoding Conference when
-presenting the results of this research.</p>
-</projectDesc>
-</encodingDesc>
-</meiHead>
-<gagakuHead>
-<choshi>太食調</choshi>
-<title xml:id="g07_05_07">打毬楽</title>
-<sizeCategory>中曲</sizeCategory>
-<hyoshi type="hyoshi-1">延八拍子</hyoshi>
-<hyoshi type="hyoshi-2">拍子十一</hyoshi>
-<kuwaeHyoshi>末二拍子加</kuwaeHyoshi>
-<kodo />
-</gagakuHead>
+    <gagakuMeta>
+        <meiHead xmlns="http://www.music-encoding.org/ns/mei">
+            <fileDesc>
+                <titleStmt>
+                    <title>打毬楽</title>
+                    <respStmt>
+                        <resp>Machine-readable transcription by:</resp>
+                        <persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352"
+                            >Shintaro Seki</persName>
+                    </respStmt>
+                    <funder>Japan Society for the Promotion of Science</funder>
+                    <funder>Foundation for Cultural Heritage and Art Research</funder>
+                    <funder>The Kurata Grants, The Hitachi Global Foundation</funder>
+                </titleStmt>
+                <pubStmt>
+                    <distributor corresp="https://github.com/sseki27skt/GagakuXML"
+                        >sseki27skt/GagakuXML on Github</distributor>
+                    <availability>
+                        <useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This
+                            edition is licensed under the Creative Commons Attribution 4.0
+                            International.</useRestrict>
+                    </availability>
+                </pubStmt>
+                <sourceDesc>
+                    <source>
+                        <bibl target="https://doi.org/10.20730/100376839">
+                            <title>雅楽譜(Gagaku Score)</title>, transcribed <persName
+                                role="transcriber">Hisatsune Ohno</persName>, held by
+                                <corpName>Tokyo University of the Arts. University
+                                Library</corpName>, available on <name role="distribution">Union
+                                Catalogue Database of Japanese Texts</name>. </bibl>
+                    </source>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <editorialDecl>
+                    <p>このファイルは国書データベースで公開されている東京藝術大学付属図書館所蔵の『雅楽譜』を参照して作成された．雅楽譜の持つ文字情報の維持し，それらを機械可読な形式で構造化することを目指している．具体的な翻刻の方針は東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
+                        唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』を参照すること．</p>
+                </editorialDecl>
+                <projectDesc>
+                    <p xml:lang="ja">このファイルは東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
+                        唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』の一部として翻刻された．本研究は日本学術振興会 特別研究員奨励費
+                        JSPS23KJ0393，DNP文化振興財団グラフィック文化に関する学術研究助成，公益財団法人日立財団倉田奨励金の支援を受けた．また，関連する研究成果の発表に際しては公益財団法人文化財保護・芸術研究助成財団研究助成，Student
+                        scholarship for the 2024 Music Encoding Conferenceの援助を受けた．</p>
+                    <p xml:lang="en">This is a digital gagaku score that was transcribed as part of
+                        a doctoral thesis submitted to the Graduate School of Humanities and
+                        Sociology at the University of Tokyo by Shintaro Seki. This edition uses
+                        meiHead provided by MEI, but the overall XML structure is based on a unique
+                        schema that differs from MEI's. Please refer to the main text of the
+                        doctoral thesis for more information regarding the concepts and structuring
+                        policies represented by the elements and attributes used throughout this
+                        edition. This research was supported by JSPS23KJ0393, a grant-in-aid for
+                        JSPS Research Fellows, the DNP Foundation for Cultural Affairs, a
+                        grant-in-aid for academic research on graphic culture, and the Kurata
+                        Scholarship of the Hitachi Foundation. In addition, I received support from
+                        the Research Grant for the Foundation for Cultural Heritage and Art Research
+                        and the Student Scholarship for the 2024 Music Encoding Conference when
+                        presenting the results of this research.</p>
+                </projectDesc>
+            </encodingDesc>
+        </meiHead>
+        <gagakuHead>
+            <choshi>太食調</choshi>
+            <title xml:id="g07_05_07">打毬楽</title>
+            <sizeCategory>中曲</sizeCategory>
+            <hyoshi type="hyoshi-1">延八拍子</hyoshi>
+            <hyoshi type="hyoshi-2">拍子十一</hyoshi>
+            <kuwaeHyoshi>末二拍子加</kuwaeHyoshi>
+            <kodo/>
+        </gagakuHead>
 
-</gagakuMeta>
-<music>
-<front>
-<title>打毬楽</title>
-<sizeCategory>中曲</sizeCategory>
-<hyoshi type="hyoshi-1">延八拍子</hyoshi>
-<hyoshi type="hyoshi-2">拍子十一</hyoshi>
-<kuwaeHyoshi>末二拍子加</kuwaeHyoshi>
-<kodo />
-</front>
-<body>
-<cell id="c1"><tetsuke type="large" id="t1">亍</tetsuke><shoga type="large" id="s1">タ</shoga></cell>
-<cell id="c2"><shoga type="large" id="s2">ア</shoga></cell>
-<cell id="c3"><shoga type="large" id="s3">引</shoga><hyoshi type="small" id="h1" /></cell>
-<cell id="c4"><shoga type="large" id="s4">ア</shoga></cell>
-<cell id="c5"><tataku /><shoga type="small" id="s5">ハ</shoga></cell>
-<cell id="c6">
-    <tetsuke type="small" id="t2">丅</tetsuke>
-    <tetsuke type="large" id="t3">中</tetsuke>
-    <shoga type="large" id="s6">チ</shoga>
-</cell>
-<cell id="c7"><tetsuke type="small" id="t4">丅</tetsuke><shoga type="small" id="s7">イ</shoga></cell>
-<cell id="c8"><tetsuke type="large" id="t5">中</tetsuke><shoga type="large" id="s8">ラ</shoga></cell>
-<cell id="c9"><shoga type="large" id="s9">ア</shoga><hyoshi type="small" id="h2" /></cell>
-<cell id="c10"><shoga type="large" id="s10">引</shoga></cell>
-<cell id="c11"><shoga type="large" id="s11">．</shoga></cell>
-<cell id="c12"><tetsuke type="large" id="t6">中</tetsuke><shoga type="large" id="s12">チ</shoga></cell>
-<cell id="c13"><tetsuke type="large" id="t7">夕</tetsuke><shoga type="large" id="s13">ヤ</shoga></cell>
-<cell id="c14"><shoga type="small" id="s14">ア</shoga></cell>
-<cell id="c15"><tetsuke type="small" id="t8">丄</tetsuke><shoga type="small" id="s15">ル</shoga></cell>
-<cell id="c16"><tetsuke type="large" id="t9">夕</tetsuke><shoga type="large" id="s16">ラ</shoga><hyoshi type="small" id="h3" /></cell>
-<cell id="c17"><shoga type="small" id="s17">ア</shoga></cell>
-<cell id="c18"><tetsuke type="small" id="t10">丄</tetsuke><shoga type="small" id="s18">ル</shoga></cell>
-<cell id="c19"><tetsuke type="large" id="t11">夕</tetsuke><shoga type="large" id="s19">ラ</shoga></cell>
-<cell id="c20"><tetsuke type="small" id="t12">丄</tetsuke><shoga type="small" id="s20">ル</shoga></cell>
-<cell id="c21"><tetsuke type="large" id="t13">夕</tetsuke><shoga type="large" id="s21">ラ</shoga></cell>
-<cell id="c22"><tataku /><shoga type="large" id="s22">ハ</shoga></cell>
-<cell id="c23"><tetsuke type="large" id="t14">五</tetsuke><shoga type="large" id="s23">ロ</shoga></cell>
-<cell id="c24"><shoga type="large" id="s24">ヲ</shoga><hyoshi type="large" id="h4" /></cell>
-<cell id="c25"><tetsuke type="large" id="t15">丄</tetsuke><shoga type="large" id="s25">イ</shoga></cell>
-<cell id="c26"><shoga type="large" id="s26">．</shoga></cell>
+    </gagakuMeta>
+    <music>
+        <front>
+            <title>打毬楽</title>
+            <sizeCategory>中曲</sizeCategory>
+            <hyoshi type="hyoshi-1">延八拍子</hyoshi>
+            <hyoshi type="hyoshi-2">拍子十一</hyoshi>
+            <kuwaeHyoshi>末二拍子加</kuwaeHyoshi>
+            <kodo/>
+        </front>
+        <body>
+            <cell id="c1">
+                <tetsuke type="large" id="t1">亍</tetsuke>
+                <shoga type="large" id="s1">タ</shoga>
+            </cell>
+            <cell id="c2">
+                <shoga type="large" id="s2">ア</shoga>
+            </cell>
+            <cell id="c3">
+                <shoga type="large" id="s3">引</shoga>
+                <hyoshi type="small" id="h1"/>
+            </cell>
+            <cell id="c4">
+                <shoga type="large" id="s4">ア</shoga>
+            </cell>
+            <cell id="c5">
+                <tataku/>
+                <shoga type="small" id="s5">ハ</shoga>
+            </cell>
+            <cell id="c6">
+                <tetsuke type="small" id="t2">丅</tetsuke>
+                <tetsuke type="large" id="t3">中</tetsuke>
+                <shoga type="large" id="s6">チ</shoga>
+            </cell>
+            <cell id="c7">
+                <tetsuke type="small" id="t4">丅</tetsuke>
+                <shoga type="small" id="s7">イ</shoga>
+            </cell>
+            <cell id="c8">
+                <tetsuke type="large" id="t5">中</tetsuke>
+                <shoga type="large" id="s8">ラ</shoga>
+            </cell>
+            <cell id="c9">
+                <shoga type="large" id="s9">ア</shoga>
+                <hyoshi type="small" id="h2"/>
+            </cell>
+            <cell id="c10">
+                <shoga type="large" id="s10">引</shoga>
+            </cell>
+            <cell id="c11">
+                <shoga type="large" id="s11">．</shoga>
+            </cell>
+            <cell id="c12">
+                <tetsuke type="large" id="t6">中</tetsuke>
+                <shoga type="large" id="s12">チ</shoga>
+            </cell>
+            <cell id="c13">
+                <tetsuke type="large" id="t7">夕</tetsuke>
+                <shoga type="large" id="s13">ヤ</shoga>
+            </cell>
+            <cell id="c14">
+                <shoga type="small" id="s14">ア</shoga>
+            </cell>
+            <cell id="c15">
+                <tetsuke type="small" id="t8">丄</tetsuke>
+                <shoga type="small" id="s15">ル</shoga>
+            </cell>
+            <cell id="c16">
+                <tetsuke type="large" id="t9">夕</tetsuke>
+                <shoga type="large" id="s16">ラ</shoga>
+                <hyoshi type="small" id="h3"/>
+            </cell>
+            <cell id="c17">
+                <shoga type="small" id="s17">ア</shoga>
+            </cell>
+            <cell id="c18">
+                <tetsuke type="small" id="t10">丄</tetsuke>
+                <shoga type="small" id="s18">ル</shoga>
+            </cell>
+            <cell id="c19">
+                <tetsuke type="large" id="t11">夕</tetsuke>
+                <shoga type="large" id="s19">ラ</shoga>
+            </cell>
+            <cell id="c20">
+                <tetsuke type="small" id="t12">丄</tetsuke>
+                <shoga type="small" id="s20">ル</shoga>
+            </cell>
+            <cell id="c21">
+                <tetsuke type="large" id="t13">夕</tetsuke>
+                <shoga type="large" id="s21">ラ</shoga>
+            </cell>
+            <cell id="c22">
+                <tataku/>
+                <shoga type="large" id="s22">ハ</shoga>
+            </cell>
+            <cell id="c23">
+                <tetsuke type="large" id="t14">五</tetsuke>
+                <shoga type="large" id="s23">ロ</shoga>
+            </cell>
+            <cell id="c24">
+                <shoga type="large" id="s24">ヲ</shoga>
+                <hyoshi type="large" id="h4"/>
+            </cell>
+            <cell id="c25">
+                <tetsuke type="large" id="t15">丄</tetsuke>
+                <shoga type="large" id="s25">イ</shoga>
+            </cell>
+            <cell id="c26">
+                <shoga type="large" id="s26">．</shoga>
+            </cell>
 
-<lb n="1" />
-<cell id="c27"><tetsuke type="small" id="t16">亍</tetsuke><shoga type="small" id="s27">ツ</shoga></cell>
-<cell id="c28"><tetsuke type="large" id="t17">丄</tetsuke><shoga type="large" id="s28">リ</shoga></cell>
-<cell id="c29"><tetsuke type="large" id="t18">五</tetsuke><shoga type="large" id="s29">ラ</shoga></cell>
-<cell id="c30"><shoga type="large" id="s30">ア</shoga><hyoshi type="small" id="h5" /></cell>
-<cell id="c31"><shoga type="large" id="s31">引</shoga></cell>
-<cell id="c32"><tetsuke type="large" id="t19">亍</tetsuke><shoga type="large" id="s32">ラ</shoga></cell>
-<cell id="c33"><shoga type="large" id="s33">ア</shoga></cell>
-<cell id="c34"><shoga type="large" id="s34">引</shoga><hyoshi type="small" id="h6" /></cell>
-<cell id="c35"><shoga type="large" id="s35">引</shoga></cell>
-<cell id="c36"><shoga type="large" id="s36">．</shoga></cell>
-<cell id="c37"><tetsuke type="small" id="t20">亍</tetsuke><shoga type="small" id="s37">ツ</shoga></cell>
-<cell id="c38"><tetsuke type="large" id="t21">丄</tetsuke><shoga type="large" id="s38">リ</shoga></cell>
-<cell id="c39"><tetsuke type="large" id="t22">五</tetsuke><shoga type="large" id="s39">ラ</shoga></cell>
-<cell id="c40"><shoga type="large" id="s40">ア</shoga><hyoshi type="small" id="h7" /></cell>
-<cell id="c41"><shoga type="large" id="s41">引</shoga></cell>
-<cell id="c42"><tetsuke type="large" id="t23">亍</tetsuke><shoga type="large" id="s42">ラ</shoga></cell>
-<cell id="c43"><shoga type="large" id="s43">ア</shoga></cell>
-<cell id="c44"><shoga type="large" id="s44">引</shoga><hyoshi type="small" id="h8" /></cell>
-<cell id="c45"><shoga type="large" id="s45">引</shoga></cell>
-<cell id="c46"><shoga type="large" id="s46">．</shoga></cell>
+            <lb n="1"/>
+            <cell id="c27">
+                <tetsuke type="small" id="t16">亍</tetsuke>
+                <shoga type="small" id="s27">ツ</shoga>
+            </cell>
+            <cell id="c28">
+                <tetsuke type="large" id="t17">丄</tetsuke>
+                <shoga type="large" id="s28">リ</shoga>
+            </cell>
+            <cell id="c29">
+                <tetsuke type="large" id="t18">五</tetsuke>
+                <shoga type="large" id="s29">ラ</shoga>
+            </cell>
+            <cell id="c30">
+                <shoga type="large" id="s30">ア</shoga>
+                <hyoshi type="small" id="h5"/>
+            </cell>
+            <cell id="c31">
+                <shoga type="large" id="s31">引</shoga>
+            </cell>
+            <cell id="c32">
+                <tetsuke type="large" id="t19">亍</tetsuke>
+                <shoga type="large" id="s32">ラ</shoga>
+            </cell>
+            <cell id="c33">
+                <shoga type="large" id="s33">ア</shoga>
+            </cell>
+            <cell id="c34">
+                <shoga type="large" id="s34">引</shoga>
+                <hyoshi type="small" id="h6"/>
+            </cell>
+            <cell id="c35">
+                <shoga type="large" id="s35">引</shoga>
+            </cell>
+            <cell id="c36">
+                <shoga type="large" id="s36">．</shoga>
+            </cell>
+            <cell id="c37">
+                <tetsuke type="small" id="t20">亍</tetsuke>
+                <shoga type="small" id="s37">ツ</shoga>
+            </cell>
+            <cell id="c38">
+                <tetsuke type="large" id="t21">丄</tetsuke>
+                <shoga type="large" id="s38">リ</shoga>
+            </cell>
+            <cell id="c39">
+                <tetsuke type="large" id="t22">五</tetsuke>
+                <shoga type="large" id="s39">ラ</shoga>
+            </cell>
+            <cell id="c40">
+                <shoga type="large" id="s40">ア</shoga>
+                <hyoshi type="small" id="h7"/>
+            </cell>
+            <cell id="c41">
+                <shoga type="large" id="s41">引</shoga>
+            </cell>
+            <cell id="c42">
+                <tetsuke type="large" id="t23">亍</tetsuke>
+                <shoga type="large" id="s42">ラ</shoga>
+            </cell>
+            <cell id="c43">
+                <shoga type="large" id="s43">ア</shoga>
+            </cell>
+            <cell id="c44">
+                <shoga type="large" id="s44">引</shoga>
+                <hyoshi type="small" id="h8"/>
+            </cell>
+            <cell id="c45">
+                <shoga type="large" id="s45">引</shoga>
+            </cell>
+            <cell id="c46">
+                <shoga type="large" id="s46">．</shoga>
+            </cell>
 
-<lb n="2" />
-<cell id="c47"><tetsuke type="small" id="t24">丄</tetsuke><shoga type="small" id="s47">フ</shoga></cell>
-<cell id="c48"><tetsuke type="large" id="t25">六</tetsuke><shoga type="large" id="s48">ロ</shoga></cell>
-<cell id="c49"><shoga type="large" id="s49">ヲ</shoga></cell>
-<cell id="c50"><tetsuke type="small" id="t26">丅</tetsuke><shoga type="small" id="s50">ロ</shoga></cell>
-<cell id="c51"><shoga type="large" id="s51">ヲ</shoga><hyoshi type="small" id="h9" /></cell>
-<cell id="c52"><shoga type="large" id="s52">引</shoga></cell>
-<cell id="c53"><tetsuke type="large" id="t27">六</tetsuke><shoga type="large" id="s53">ロ</shoga></cell>
-<cell id="c54"><seme /><shoga type="large" id="s54">リ</shoga></cell>
-<cell id="c55"><shoga type="large" id="s55">イ</shoga><hyoshi type="small" id="h10" /></cell>
-<cell id="c56"><shoga type="large" id="s56">引</shoga></cell>
-<cell id="c57"><shoga type="large" id="s57">．</shoga></cell>
-<cell id="c58"><tetsuke type="large" id="t28">六</tetsuke><shoga type="large" id="s58">チ</shoga></cell>
-<cell id="c59"><shoga type="small" id="s59">イ</shoga></cell>
-<cell id="c60"><yuri /><shoga type="small" id="s60">ル</shoga></cell>
-<cell id="c61"><shoga type="large" id="s61">リ</shoga></cell>
-<cell id="c62"><tataku /><shoga type="small" id="s62">ヒ</shoga></cell>
-<cell id="c63"><tetsuke type="small" id="t29">丅</tetsuke><shoga type="small" id="s63">リ</shoga></cell>
-<cell id="c64"><tetsuke type="large" id="t30">中</tetsuke><shoga type="large" id="s64">ラ</shoga><hyoshi type="small" id="h11" /></cell>
-<cell id="c65"><shoga type="large" id="s65">ア</shoga></cell>
-<cell id="c66"><shoga type="large" id="s66">引</shoga></cell>
-<cell id="c67"><shoga type="large" id="s67">引</shoga></cell>
-<cell id="c68"><shoga type="large" id="s68">．</shoga></cell>
-<cell id="c69"><tetsuke type="large" id="t31">中</tetsuke><shoga type="large" id="s69">チ</shoga><hyoshi type="large" id="h12" /></cell>
-<cell id="c70"><shoga type="large" id="s70">イ</shoga></cell>
+            <lb n="2"/>
+            <cell id="c47">
+                <tetsuke type="small" id="t24">丄</tetsuke>
+                <shoga type="small" id="s47">フ</shoga>
+            </cell>
+            <cell id="c48">
+                <tetsuke type="large" id="t25">六</tetsuke>
+                <shoga type="large" id="s48">ロ</shoga>
+            </cell>
+            <cell id="c49">
+                <shoga type="large" id="s49">ヲ</shoga>
+            </cell>
+            <cell id="c50">
+                <tetsuke type="small" id="t26">丅</tetsuke>
+                <shoga type="small" id="s50">ロ</shoga>
+            </cell>
+            <cell id="c51">
+                <shoga type="large" id="s51">ヲ</shoga>
+                <hyoshi type="small" id="h9"/>
+            </cell>
+            <cell id="c52">
+                <shoga type="large" id="s52">引</shoga>
+            </cell>
+            <cell id="c53">
+                <tetsuke type="large" id="t27">六</tetsuke>
+                <shoga type="large" id="s53">ロ</shoga>
+            </cell>
+            <cell id="c54">
+                <seme/>
+                <shoga type="large" id="s54">リ</shoga>
+            </cell>
+            <cell id="c55">
+                <shoga type="large" id="s55">イ</shoga>
+                <hyoshi type="small" id="h10"/>
+            </cell>
+            <cell id="c56">
+                <shoga type="large" id="s56">引</shoga>
+            </cell>
+            <cell id="c57">
+                <shoga type="large" id="s57">．</shoga>
+            </cell>
+            <cell id="c58">
+                <tetsuke type="large" id="t28">六</tetsuke>
+                <shoga type="large" id="s58">チ</shoga>
+            </cell>
+            <cell id="c59">
+                <shoga type="small" id="s59">イ</shoga>
+            </cell>
+            <cell id="c60">
+                <yuri/>
+                <shoga type="small" id="s60">ル</shoga>
+            </cell>
+            <cell id="c61">
+                <shoga type="large" id="s61">リ</shoga>
+            </cell>
+            <cell id="c62">
+                <tataku/>
+                <shoga type="small" id="s62">ヒ</shoga>
+            </cell>
+            <cell id="c63">
+                <tetsuke type="small" id="t29">丅</tetsuke>
+                <shoga type="small" id="s63">リ</shoga>
+            </cell>
+            <cell id="c64">
+                <tetsuke type="large" id="t30">中</tetsuke>
+                <shoga type="large" id="s64">ラ</shoga>
+                <hyoshi type="small" id="h11"/>
+            </cell>
+            <cell id="c65">
+                <shoga type="large" id="s65">ア</shoga>
+            </cell>
+            <cell id="c66">
+                <shoga type="large" id="s66">引</shoga>
+            </cell>
+            <cell id="c67">
+                <shoga type="large" id="s67">引</shoga>
+            </cell>
+            <cell id="c68">
+                <shoga type="large" id="s68">．</shoga>
+            </cell>
+            <cell id="c69">
+                <tetsuke type="large" id="t31">中</tetsuke>
+                <shoga type="large" id="s69">チ</shoga>
+                <hyoshi type="large" id="h12"/>
+            </cell>
+            <cell id="c70">
+                <shoga type="large" id="s70">イ</shoga>
+            </cell>
 
-<pb />
-<lb n="3" />
-<cell id="c71"><shoga type="large" id="s71">引</shoga></cell>
-<cell id="c72"><shoga type="large" id="s72">イ</shoga></cell>
-<cell id="c73"><shoga type="large" id="s73">引</shoga><hyoshi type="small" id="h13" /></cell>
-<cell id="c74"><shoga type="large" id="s74">イ</shoga></cell>
-<cell id="c75"><shoga type="large" id="s75">引</shoga></cell>
-<cell id="c76"><shoga type="large" id="s76">引</shoga></cell>
-<cell id="c77"><shoga type="large" id="s77">．</shoga></cell>
-<cell id="c78"><tetsuke type="large" id="t32">中</tetsuke><shoga type="large" id="s78">チ</shoga><hyoshi type="small" id="h14" /></cell>
-<cell id="c79"><shoga type="large" id="s79">イ</shoga></cell>
-<cell id="c80"><tetsuke type="large" id="t33">夕</tetsuke><shoga type="large" id="s80">ヤ</shoga></cell>
-<cell id="c81"><shoga type="large" id="s81">ア</shoga></cell>
-<cell id="c82"><tetsuke type="small" id="t34">丄</tetsuke><shoga type="small" id="s82">ル</shoga></cell>
-<cell id="c83"><tetsuke type="large" id="t35">夕</tetsuke><shoga type="large" id="s83">ラ</shoga><hyoshi type="small" id="h15" /></cell>
-<cell id="c84"><shoga type="small" id="s84">ア</shoga></cell>
-<cell id="c85"><tetsuke type="small" id="t36">丄</tetsuke><shoga type="small" id="s85">ル</shoga></cell>
-<cell id="c86"><tetsuke type="large" id="t37">夕</tetsuke><shoga type="large" id="s86">ラ</shoga></cell>
-<cell id="c87"><tetsuke type="small" id="t38">丄</tetsuke><shoga type="small" id="s87">ル</shoga></cell>
-<cell id="c88"><tetsuke type="small" id="t39">夕</tetsuke><shoga type="small" id="s88">ラ</shoga></cell>
-<cell id="c89"><tataku /><shoga type="large" id="s89">ハ</shoga></cell>
-<cell id="c90"><tetsuke type="large" id="t40">五</tetsuke><shoga type="large" id="s90">ロ</shoga></cell>
-<cell id="c91"><shoga type="large" id="s91">ヲ</shoga><hyoshi type="small" id="h16" /></cell>
-<cell id="c92"><tetsuke type="large" id="t41">丄</tetsuke><shoga type="large" id="s92">イ</shoga></cell>
-<cell id="c93"><shoga type="large" id="s93">．</shoga></cell>
+            <pb/>
+            <lb n="3"/>
+            <cell id="c71">
+                <shoga type="large" id="s71">引</shoga>
+            </cell>
+            <cell id="c72">
+                <shoga type="large" id="s72">イ</shoga>
+            </cell>
+            <cell id="c73">
+                <shoga type="large" id="s73">引</shoga>
+                <hyoshi type="small" id="h13"/>
+            </cell>
+            <cell id="c74">
+                <shoga type="large" id="s74">イ</shoga>
+            </cell>
+            <cell id="c75">
+                <shoga type="large" id="s75">引</shoga>
+            </cell>
+            <cell id="c76">
+                <shoga type="large" id="s76">引</shoga>
+            </cell>
+            <cell id="c77">
+                <shoga type="large" id="s77">．</shoga>
+            </cell>
+            <cell id="c78">
+                <tetsuke type="large" id="t32">中</tetsuke>
+                <shoga type="large" id="s78">チ</shoga>
+                <hyoshi type="small" id="h14"/>
+            </cell>
+            <cell id="c79">
+                <shoga type="large" id="s79">イ</shoga>
+            </cell>
+            <cell id="c80">
+                <tetsuke type="large" id="t33">夕</tetsuke>
+                <shoga type="large" id="s80">ヤ</shoga>
+            </cell>
+            <cell id="c81">
+                <shoga type="large" id="s81">ア</shoga>
+            </cell>
+            <cell id="c82">
+                <tetsuke type="small" id="t34">丄</tetsuke>
+                <shoga type="small" id="s82">ル</shoga>
+            </cell>
+            <cell id="c83">
+                <tetsuke type="large" id="t35">夕</tetsuke>
+                <shoga type="large" id="s83">ラ</shoga>
+                <hyoshi type="small" id="h15"/>
+            </cell>
+            <cell id="c84">
+                <shoga type="small" id="s84">ア</shoga>
+            </cell>
+            <cell id="c85">
+                <tetsuke type="small" id="t36">丄</tetsuke>
+                <shoga type="small" id="s85">ル</shoga>
+            </cell>
+            <cell id="c86">
+                <tetsuke type="large" id="t37">夕</tetsuke>
+                <shoga type="large" id="s86">ラ</shoga>
+            </cell>
+            <cell id="c87">
+                <tetsuke type="small" id="t38">丄</tetsuke>
+                <shoga type="small" id="s87">ル</shoga>
+            </cell>
+            <cell id="c88">
+                <tetsuke type="small" id="t39">夕</tetsuke>
+                <shoga type="small" id="s88">ラ</shoga>
+            </cell>
+            <cell id="c89">
+                <tataku/>
+                <shoga type="large" id="s89">ハ</shoga>
+            </cell>
+            <cell id="c90">
+                <tetsuke type="large" id="t40">五</tetsuke>
+                <shoga type="large" id="s90">ロ</shoga>
+            </cell>
+            <cell id="c91">
+                <shoga type="large" id="s91">ヲ</shoga>
+                <hyoshi type="small" id="h16"/>
+            </cell>
+            <cell id="c92">
+                <tetsuke type="large" id="t41">丄</tetsuke>
+                <shoga type="large" id="s92">イ</shoga>
+            </cell>
+            <cell id="c93">
+                <shoga type="large" id="s93">．</shoga>
+            </cell>
 
-<lb n="4" />
-<kaeshiduke />
-<cell id="c94"><tetsuke type="large" id="t42">五</tetsuke><shoga type="large" id="s94">タ</shoga></cell>
-<cell id="c95"><shoga type="large" id="s95">ア</shoga></cell>
-<cell id="c96"><shoga type="large" id="s96">引</shoga><hyoshi type="small" id="h17" /></cell>
-<cell id="c97"><tetsuke type="large" id="t43">夕</tetsuke><shoga type="large" id="s97">リ</shoga></cell>
-<cell id="c98"><tetsuke type="large" id="t44">五</tetsuke><shoga type="large" id="s98">タ</shoga></cell>
-<cell id="c99"><tetsuke type="large" id="t45">丄</tetsuke><shoga type="large" id="s99">リ</shoga></cell>
-<cell id="c100"><shoga type="large" id="s100">イ</shoga><hyoshi type="small" id="h18" /></cell>
-<cell id="c101"><shoga type="large" id="s101">引</shoga></cell>
-<cell id="c102"><shoga type="large" id="s102">．</shoga></cell>
-<cell id="c103"><tetsuke type="large" id="t46">中</tetsuke><shoga type="large" id="s103">ト</shoga></cell>
-<cell id="c104"><seme /><shoga type="large" id="s104">リ</shoga></cell>
-<cell id="c105"><shoga type="large" id="s105">イ</shoga><hyoshi type="small" id="h19" /></cell>
-<cell id="c106"><shoga type="large" id="s106">引</shoga></cell>
-<cell id="c107"><tetsuke type="large" id="t47">丄</tetsuke><shoga type="large" id="s107">ル</shoga></cell>
-<cell id="c108"><shoga type="large" id="s108">ウ</shoga></cell>
-<cell id="c109"><shoga type="large" id="s109">引</shoga><hyoshi type="large" id="h20" /></cell>
-<cell id="c110"><tetsuke type="large" id="t48">夕</tetsuke><shoga type="large" id="s110">イ</shoga></cell>
-<cell id="c111"><shoga type="large" id="s111">．</shoga></cell>
+            <lb n="4"/>
+            <kaeshiduke/>
+            <cell id="c94">
+                <tetsuke type="large" id="t42">五</tetsuke>
+                <shoga type="large" id="s94">タ</shoga>
+            </cell>
+            <cell id="c95">
+                <shoga type="large" id="s95">ア</shoga>
+            </cell>
+            <cell id="c96">
+                <shoga type="large" id="s96">引</shoga>
+                <hyoshi type="small" id="h17"/>
+            </cell>
+            <cell id="c97">
+                <tetsuke type="large" id="t43">夕</tetsuke>
+                <shoga type="large" id="s97">リ</shoga>
+            </cell>
+            <cell id="c98">
+                <tetsuke type="large" id="t44">五</tetsuke>
+                <shoga type="large" id="s98">タ</shoga>
+            </cell>
+            <cell id="c99">
+                <tetsuke type="large" id="t45">丄</tetsuke>
+                <shoga type="large" id="s99">リ</shoga>
+            </cell>
+            <cell id="c100">
+                <shoga type="large" id="s100">イ</shoga>
+                <hyoshi type="small" id="h18"/>
+            </cell>
+            <cell id="c101">
+                <shoga type="large" id="s101">引</shoga>
+            </cell>
+            <cell id="c102">
+                <shoga type="large" id="s102">．</shoga>
+            </cell>
+            <cell id="c103">
+                <tetsuke type="large" id="t46">中</tetsuke>
+                <shoga type="large" id="s103">ト</shoga>
+            </cell>
+            <cell id="c104">
+                <seme/>
+                <shoga type="large" id="s104">リ</shoga>
+            </cell>
+            <cell id="c105">
+                <shoga type="large" id="s105">イ</shoga>
+                <hyoshi type="small" id="h19"/>
+            </cell>
+            <cell id="c106">
+                <shoga type="large" id="s106">引</shoga>
+            </cell>
+            <cell id="c107">
+                <tetsuke type="large" id="t47">丄</tetsuke>
+                <shoga type="large" id="s107">ル</shoga>
+            </cell>
+            <cell id="c108">
+                <shoga type="large" id="s108">ウ</shoga>
+            </cell>
+            <cell id="c109">
+                <shoga type="large" id="s109">引</shoga>
+                <hyoshi type="large" id="h20"/>
+            </cell>
+            <cell id="c110">
+                <tetsuke type="large" id="t48">夕</tetsuke>
+                <shoga type="large" id="s110">イ</shoga>
+            </cell>
+            <cell id="c111">
+                <shoga type="large" id="s111">．</shoga>
+            </cell>
 
-<lb n="5" />
-<cell id="c112"><tetsuke type="large" id="t49">中</tetsuke><shoga type="large" id="s112">チ</shoga></cell>
-<cell id="c113"><tetsuke type="large" id="t50">丄</tetsuke><shoga type="large" id="s113">ロ</shoga></cell>
-<cell id="c114"><tetsuke type="small" id="t51">夕</tetsuke><shoga type="small" id="s114">ワ</shoga></cell>
-<cell id="c115"><tetsuke type="small" id="t52">丄</tetsuke><shoga type="small" id="s115">ル</shoga></cell>
-<cell id="c116"><tetsuke type="small" id="t53">中</tetsuke><shoga type="small" id="s116">リ</shoga></cell>
-<cell id="c117"><tetsuke type="large" id="t54">丄</tetsuke><shoga type="large" id="s117">ロ</shoga><hyoshi type="small" id="h21" /></cell>
-<cell id="c118"><tetsuke type="large" id="t55">夕</tetsuke><shoga type="large" id="s118">ワ</shoga></cell>
-<cell id="c119"><tetsuke type="small" id="t56">丄</tetsuke><shoga type="small" id="s119">ル</shoga></cell>
-<cell id="c120"><tetsuke type="large" id="t57">夕</tetsuke><shoga type="large" id="s120">ラ</shoga></cell>
-<cell id="c121"><shoga type="small" id="s121">ア</shoga></cell>
-<cell id="c122"><tetsuke type="small" id="t58">丄</tetsuke><shoga type="small" id="s122">ル</shoga></cell>
-<cell id="c123"><tetsuke type="large" id="t59">夕</tetsuke><shoga type="large" id="s123">ラ</shoga></cell>
-<cell id="c124"><tetsuke type="small" id="t60">丄</tetsuke><shoga type="small" id="s124">ル</shoga></cell>
-<cell id="c125"><tetsuke type="large" id="t61">夕</tetsuke><shoga type="large" id="s125">ラ</shoga><hyoshi type="small" id="h22" /></cell>
-<cell id="c126"><shoga type="large" id="s126">ア</shoga></cell>
-<cell id="c127"><shoga type="large" id="s127">．</shoga></cell>
-<cell id="c128"><tetsuke type="large" id="t62">中</tetsuke><shoga type="large" id="s128">ト</shoga></cell>
-<cell id="c129"><seme /><shoga type="large" id="s129">リ</shoga></cell>
-<cell id="c130"><shoga type="large" id="s130">イ</shoga><hyoshi type="small" id="h23" /></cell>
-<cell id="c131"><shoga type="large" id="s131">引</shoga></cell>
-<cell id="c132"><shoga type="small" id="s132">イ</shoga></cell>
-<cell id="c133"><tetsuke type="small" id="t63">丅</tetsuke><shoga type="small" id="s133">リ</shoga></cell>
-<cell id="c134"><tetsuke type="large" id="t64">丄</tetsuke><shoga type="large" id="s134">ル</shoga></cell>
-<cell id="c135"><shoga type="large" id="s135">ウ</shoga></cell>
-<cell id="c136"><shoga type="large" id="s136">引</shoga><hyoshi type="small" id="h24" /></cell>
-<cell id="c137"><tetsuke type="large" id="t65">夕</tetsuke><shoga type="large" id="s137">イ</shoga></cell>
-<cell id="c138"><shoga type="large" id="s138">．</shoga></cell>
+            <lb n="5"/>
+            <cell id="c112">
+                <tetsuke type="large" id="t49">中</tetsuke>
+                <shoga type="large" id="s112">チ</shoga>
+            </cell>
+            <cell id="c113">
+                <tetsuke type="large" id="t50">丄</tetsuke>
+                <shoga type="large" id="s113">ロ</shoga>
+            </cell>
+            <cell id="c114">
+                <tetsuke type="small" id="t51">夕</tetsuke>
+                <shoga type="small" id="s114">ワ</shoga>
+            </cell>
+            <cell id="c115">
+                <tetsuke type="small" id="t52">丄</tetsuke>
+                <shoga type="small" id="s115">ル</shoga>
+            </cell>
+            <cell id="c116">
+                <tetsuke type="small" id="t53">中</tetsuke>
+                <shoga type="small" id="s116">リ</shoga>
+            </cell>
+            <cell id="c117">
+                <tetsuke type="large" id="t54">丄</tetsuke>
+                <shoga type="large" id="s117">ロ</shoga>
+                <hyoshi type="small" id="h21"/>
+            </cell>
+            <cell id="c118">
+                <tetsuke type="large" id="t55">夕</tetsuke>
+                <shoga type="large" id="s118">ワ</shoga>
+            </cell>
+            <cell id="c119">
+                <tetsuke type="small" id="t56">丄</tetsuke>
+                <shoga type="small" id="s119">ル</shoga>
+            </cell>
+            <cell id="c120">
+                <tetsuke type="large" id="t57">夕</tetsuke>
+                <shoga type="large" id="s120">ラ</shoga>
+            </cell>
+            <cell id="c121">
+                <shoga type="small" id="s121">ア</shoga>
+            </cell>
+            <cell id="c122">
+                <tetsuke type="small" id="t58">丄</tetsuke>
+                <shoga type="small" id="s122">ル</shoga>
+            </cell>
+            <cell id="c123">
+                <tetsuke type="large" id="t59">夕</tetsuke>
+                <shoga type="large" id="s123">ラ</shoga>
+            </cell>
+            <cell id="c124">
+                <tetsuke type="small" id="t60">丄</tetsuke>
+                <shoga type="small" id="s124">ル</shoga>
+            </cell>
+            <cell id="c125">
+                <tetsuke type="large" id="t61">夕</tetsuke>
+                <shoga type="large" id="s125">ラ</shoga>
+                <hyoshi type="small" id="h22"/>
+            </cell>
+            <cell id="c126">
+                <shoga type="large" id="s126">ア</shoga>
+            </cell>
+            <cell id="c127">
+                <shoga type="large" id="s127">．</shoga>
+            </cell>
+            <cell id="c128">
+                <tetsuke type="large" id="t62">中</tetsuke>
+                <shoga type="large" id="s128">ト</shoga>
+            </cell>
+            <cell id="c129">
+                <seme/>
+                <shoga type="large" id="s129">リ</shoga>
+            </cell>
+            <cell id="c130">
+                <shoga type="large" id="s130">イ</shoga>
+                <hyoshi type="small" id="h23"/>
+            </cell>
+            <cell id="c131">
+                <shoga type="large" id="s131">引</shoga>
+            </cell>
+            <cell id="c132">
+                <shoga type="small" id="s132">イ</shoga>
+            </cell>
+            <cell id="c133">
+                <tetsuke type="small" id="t63">丅</tetsuke>
+                <shoga type="small" id="s133">リ</shoga>
+            </cell>
+            <cell id="c134">
+                <tetsuke type="large" id="t64">丄</tetsuke>
+                <shoga type="large" id="s134">ル</shoga>
+            </cell>
+            <cell id="c135">
+                <shoga type="large" id="s135">ウ</shoga>
+            </cell>
+            <cell id="c136">
+                <shoga type="large" id="s136">引</shoga>
+                <hyoshi type="small" id="h24"/>
+            </cell>
+            <cell id="c137">
+                <tetsuke type="large" id="t65">夕</tetsuke>
+                <shoga type="large" id="s137">イ</shoga>
+            </cell>
+            <cell id="c138">
+                <shoga type="large" id="s138">．</shoga>
+            </cell>
 
-<lb n="6" />
-<cell id="c139"><tetsuke type="large" id="t66">亍</tetsuke><shoga type="large" id="s139">タ</shoga></cell>
-<cell id="c140"><shoga type="large" id="s140">ア</shoga></cell>
-<cell id="c141"><shoga type="large" id="s141">引</shoga><hyoshi type="small" id="h25" /></cell>
-<cell id="c142"><shoga type="large" id="s142">ア</shoga></cell>
-<cell id="c143"><tetsuke type="large" id="t67">六</tetsuke><shoga type="large" id="s143">ロ</shoga></cell>
-<cell id="c144"><seme /><shoga type="large" id="s144">リ</shoga></cell>
-<cell id="c145"><shoga type="large" id="s145">イ</shoga><hyoshi type="small" id="h26" /></cell>
-<cell id="c146"><shoga type="large" id="s146">引</shoga></cell>
-<cell id="c147"><shoga type="large" id="s147">．</shoga></cell>
-<cell id="c148"><tetsuke type="large" id="t68">中</tetsuke><shoga type="large" id="s148">タ</shoga></cell>
-<cell id="c149"><tetsuke type="small" id="t69">夕</tetsuke><shoga type="small" id="s149">ラ</shoga></cell>
-<cell id="c150"><tetsuke type="small" id="t70">丄</tetsuke><shoga type="small" id="s150">ラ</shoga></cell>
-<cell id="c151"><tetsuke type="small" id="t71">亍</tetsuke><shoga type="small" id="s151">フ</shoga></cell>
-<cell id="c152"><tetsuke type="large" id="t72">五</tetsuke><shoga type="large" id="s152">ロ</shoga></cell>
-<cell id="c153"><shoga type="large" id="s153">ヲ</shoga><hyoshi type="small" id="h27" /></cell>
-<cell id="c154"><tetsuke type="large" id="t73">丄</tetsuke><shoga type="large" id="s154">ラ</shoga></cell>
-<cell id="c155"><tataku /><shoga type="small" id="s155">ハ</shoga></cell>
-<cell id="c156">
-    <tetsuke type="small" id="t74">丅</tetsuke>
-    <tetsuke type="large" id="t75">中</tetsuke>
-    <shoga type="large" id="s156">チ</shoga>
-</cell>
-<cell id="c157"><tetsuke type="small" id="t76">丅</tetsuke><shoga type="small" id="s157">イ</shoga></cell>
-<cell id="c158"><tetsuke type="large" id="t77">中</tetsuke><shoga type="large" id="s158">ラ</shoga></cell>
-<cell id="c159"><shoga type="large" id="s159">ア</shoga><hyoshi type="large" id="h28" /></cell>
-<cell id="c160"><shoga type="large" id="s160">引</shoga></cell>
-<cell id="c161"><shoga type="large" id="s161">．</shoga></cell>
+            <lb n="6"/>
+            <cell id="c139">
+                <tetsuke type="large" id="t66">亍</tetsuke>
+                <shoga type="large" id="s139">タ</shoga>
+            </cell>
+            <cell id="c140">
+                <shoga type="large" id="s140">ア</shoga>
+            </cell>
+            <cell id="c141">
+                <shoga type="large" id="s141">引</shoga>
+                <hyoshi type="small" id="h25"/>
+            </cell>
+            <cell id="c142">
+                <shoga type="large" id="s142">ア</shoga>
+            </cell>
+            <cell id="c143">
+                <tetsuke type="large" id="t67">六</tetsuke>
+                <shoga type="large" id="s143">ロ</shoga>
+            </cell>
+            <cell id="c144">
+                <seme/>
+                <shoga type="large" id="s144">リ</shoga>
+            </cell>
+            <cell id="c145">
+                <shoga type="large" id="s145">イ</shoga>
+                <hyoshi type="small" id="h26"/>
+            </cell>
+            <cell id="c146">
+                <shoga type="large" id="s146">引</shoga>
+            </cell>
+            <cell id="c147">
+                <shoga type="large" id="s147">．</shoga>
+            </cell>
+            <cell id="c148">
+                <tetsuke type="large" id="t68">中</tetsuke>
+                <shoga type="large" id="s148">タ</shoga>
+            </cell>
+            <cell id="c149">
+                <tetsuke type="small" id="t69">夕</tetsuke>
+                <shoga type="small" id="s149">ラ</shoga>
+            </cell>
+            <cell id="c150">
+                <tetsuke type="small" id="t70">丄</tetsuke>
+                <shoga type="small" id="s150">ラ</shoga>
+            </cell>
+            <cell id="c151">
+                <tetsuke type="small" id="t71">亍</tetsuke>
+                <shoga type="small" id="s151">フ</shoga>
+            </cell>
+            <cell id="c152">
+                <tetsuke type="large" id="t72">五</tetsuke>
+                <shoga type="large" id="s152">ロ</shoga>
+            </cell>
+            <cell id="c153">
+                <shoga type="large" id="s153">ヲ</shoga>
+                <hyoshi type="small" id="h27"/>
+            </cell>
+            <cell id="c154">
+                <tetsuke type="large" id="t73">丄</tetsuke>
+                <shoga type="large" id="s154">ラ</shoga>
+            </cell>
+            <cell id="c155">
+                <tataku/>
+                <shoga type="small" id="s155">ハ</shoga>
+            </cell>
+            <cell id="c156">
+                <tetsuke type="small" id="t74">丅</tetsuke>
+                <tetsuke type="large" id="t75">中</tetsuke>
+                <shoga type="large" id="s156">チ</shoga>
+            </cell>
+            <cell id="c157">
+                <tetsuke type="small" id="t76">丅</tetsuke>
+                <shoga type="small" id="s157">イ</shoga>
+            </cell>
+            <cell id="c158">
+                <tetsuke type="large" id="t77">中</tetsuke>
+                <shoga type="large" id="s158">ラ</shoga>
+            </cell>
+            <cell id="c159">
+                <shoga type="large" id="s159">ア</shoga>
+                <hyoshi type="large" id="h28"/>
+            </cell>
+            <cell id="c160">
+                <shoga type="large" id="s160">引</shoga>
+            </cell>
+            <cell id="c161">
+                <shoga type="large" id="s161">．</shoga>
+            </cell>
 
-<lb n="7" />
-<cell id="c162"><tetsuke type="large" id="t78">亍</tetsuke><shoga type="large" id="s162">タ</shoga></cell>
-<cell id="c163"><shoga type="large" id="s163">ア</shoga></cell>
-<cell id="c164"><tataku /><shoga type="large" id="s164">ハ</shoga><hyoshi type="small" id="h29" /></cell>
-<cell id="c165"><shoga type="large" id="s165">ア</shoga></cell>
-<cell id="c166"><shoga type="large" id="s166">引</shoga></cell>
-<cell id="c167"><shoga type="large" id="s167">ア</shoga></cell>
-<cell id="c168"><shoga type="large" id="s168">引</shoga><hyoshi type="small" id="h30" /></cell>
-<cell id="c169"><shoga type="large" id="s169">引</shoga></cell>
-<cell id="c170"><shoga type="large" id="s170">．</shoga></cell>
-<cell id="c171"><tetsuke type="large" id="t79">五</tetsuke><shoga type="large" id="s171">タ</shoga></cell>
-<cell id="c172"><shoga type="large" id="s172">ア</shoga></cell>
-<cell id="c173"><shoga type="large" id="s173">引</shoga><hyoshi type="small" id="h31" /></cell>
-<cell id="c174"><tetsuke type="large" id="t80">亍</tetsuke><shoga type="large" id="s174">ル</shoga></cell>
-<cell id="c175"><tetsuke type="small" id="t81">五</tetsuke><shoga type="small" id="s175">ラ</shoga></cell>
-<cell id="c176"><tetsuke type="large" id="t82">丄</tetsuke><shoga type="large" id="s176">ロ</shoga></cell>
-<cell id="c177"><tetsuke type="small" id="t83">夕</tetsuke><shoga type="small" id="s177">ワ</shoga></cell>
-<cell id="c178"><tetsuke type="small" id="t84">丄</tetsuke><shoga type="small" id="s178">ル</shoga></cell>
-<cell id="c179"><tetsuke type="large" id="t85">夕</tetsuke><shoga type="large" id="s179">ラ</shoga></cell>
-<cell id="c180"><tetsuke type="small" id="t86">丄</tetsuke><shoga type="small" id="s180">ル</shoga></cell>
-<cell id="c181"><tetsuke type="large" id="t87">夕</tetsuke><shoga type="large" id="s181">ラ</shoga><hyoshi type="small" id="h32" /></cell>
-<cell id="c182"><shoga type="large" id="s182">ア</shoga></cell>
-<cell id="c183"><shoga type="large" id="s183">．</shoga></cell>
+            <lb n="7"/>
+            <cell id="c162">
+                <tetsuke type="large" id="t78">亍</tetsuke>
+                <shoga type="large" id="s162">タ</shoga>
+            </cell>
+            <cell id="c163">
+                <shoga type="large" id="s163">ア</shoga>
+            </cell>
+            <cell id="c164">
+                <tataku/>
+                <shoga type="large" id="s164">ハ</shoga>
+                <hyoshi type="small" id="h29"/>
+            </cell>
+            <cell id="c165">
+                <shoga type="large" id="s165">ア</shoga>
+            </cell>
+            <cell id="c166">
+                <shoga type="large" id="s166">引</shoga>
+            </cell>
+            <cell id="c167">
+                <shoga type="large" id="s167">ア</shoga>
+            </cell>
+            <cell id="c168">
+                <shoga type="large" id="s168">引</shoga>
+                <hyoshi type="small" id="h30"/>
+            </cell>
+            <cell id="c169">
+                <shoga type="large" id="s169">引</shoga>
+            </cell>
+            <cell id="c170">
+                <shoga type="large" id="s170">．</shoga>
+            </cell>
+            <cell id="c171">
+                <tetsuke type="large" id="t79">五</tetsuke>
+                <shoga type="large" id="s171">タ</shoga>
+            </cell>
+            <cell id="c172">
+                <shoga type="large" id="s172">ア</shoga>
+            </cell>
+            <cell id="c173">
+                <shoga type="large" id="s173">引</shoga>
+                <hyoshi type="small" id="h31"/>
+            </cell>
+            <cell id="c174">
+                <tetsuke type="large" id="t80">亍</tetsuke>
+                <shoga type="large" id="s174">ル</shoga>
+            </cell>
+            <cell id="c175">
+                <tetsuke type="small" id="t81">五</tetsuke>
+                <shoga type="small" id="s175">ラ</shoga>
+            </cell>
+            <cell id="c176">
+                <tetsuke type="large" id="t82">丄</tetsuke>
+                <shoga type="large" id="s176">ロ</shoga>
+            </cell>
+            <cell id="c177">
+                <tetsuke type="small" id="t83">夕</tetsuke>
+                <shoga type="small" id="s177">ワ</shoga>
+            </cell>
+            <cell id="c178">
+                <tetsuke type="small" id="t84">丄</tetsuke>
+                <shoga type="small" id="s178">ル</shoga>
+            </cell>
+            <cell id="c179">
+                <tetsuke type="large" id="t85">夕</tetsuke>
+                <shoga type="large" id="s179">ラ</shoga>
+            </cell>
+            <cell id="c180">
+                <tetsuke type="small" id="t86">丄</tetsuke>
+                <shoga type="small" id="s180">ル</shoga>
+            </cell>
+            <cell id="c181">
+                <tetsuke type="large" id="t87">夕</tetsuke>
+                <shoga type="large" id="s181">ラ</shoga>
+                <hyoshi type="small" id="h32"/>
+            </cell>
+            <cell id="c182">
+                <shoga type="large" id="s182">ア</shoga>
+            </cell>
+            <cell id="c183">
+                <shoga type="large" id="s183">．</shoga>
+            </cell>
 
-<lb n="8" />
-<cell id="c184"><tetsuke type="large" id="t88">中</tetsuke><shoga type="large" id="s184">ト</shoga></cell>
-<cell id="c185"><seme /><shoga type="large" id="s185">リ</shoga></cell>
-<cell id="c186"><shoga type="large" id="s186">イ</shoga><hyoshi type="small" id="h33" /></cell>
-<cell id="c187"><tetsuke type="large" id="t89">夕</tetsuke><shoga type="large" id="s187">ル</shoga></cell>
-<cell id="c188"><tetsuke type="small" id="t90">中</tetsuke><shoga type="small" id="s188">ラ</shoga></cell>
-<cell id="c189"><tetsuke type="large" id="t91">六</tetsuke><shoga type="large" id="s189">ロ</shoga></cell>
-<cell id="c190"><seme /><shoga type="large" id="s190">リ</shoga></cell>
-<cell id="c191"><shoga type="large" id="s191">イ</shoga><hyoshi type="small" id="h34" /></cell>
-<cell id="c192"><shoga type="large" id="s192">引</shoga></cell>
-<cell id="c193"><shoga type="large" id="s193">．</shoga></cell>
-<cell id="c194"><tetsuke type="small" id="t92">亍</tetsuke><shoga type="small" id="s194">ツ</shoga></cell>
-<cell id="c195"><tetsuke type="large" id="t93">丄</tetsuke><shoga type="large" id="s195">リ</shoga></cell>
-<cell id="c196"><tetsuke type="large" id="t94">五</tetsuke><shoga type="large" id="s196">ラ</shoga></cell>
-<cell id="c197"><shoga type="large" id="s197">ア</shoga><hyoshi type="small" id="h35" /></cell>
-<cell id="c198"><shoga type="large" id="s198">引</shoga></cell>
-<cell id="c199"><tetsuke type="large" id="t95">亍</tetsuke><shoga type="large" id="s199">ラ</shoga></cell>
-<cell id="c200"><shoga type="large" id="s200">ア</shoga></cell>
-<cell id="c201"><shoga type="large" id="s201">．</shoga></cell>
-<cell id="c202"><tetsuke type="large" id="t96">亍</tetsuke><shoga type="large" id="s202">タ</shoga><hyoshi type="large" id="h36" /></cell>
-<cell id="c203"><shoga type="large" id="s203">ア</shoga></cell>
+            <lb n="8"/>
+            <cell id="c184">
+                <tetsuke type="large" id="t88">中</tetsuke>
+                <shoga type="large" id="s184">ト</shoga>
+            </cell>
+            <cell id="c185">
+                <seme/>
+                <shoga type="large" id="s185">リ</shoga>
+            </cell>
+            <cell id="c186">
+                <shoga type="large" id="s186">イ</shoga>
+                <hyoshi type="small" id="h33"/>
+            </cell>
+            <cell id="c187">
+                <tetsuke type="large" id="t89">夕</tetsuke>
+                <shoga type="large" id="s187">ル</shoga>
+            </cell>
+            <cell id="c188">
+                <tetsuke type="small" id="t90">中</tetsuke>
+                <shoga type="small" id="s188">ラ</shoga>
+            </cell>
+            <cell id="c189">
+                <tetsuke type="large" id="t91">六</tetsuke>
+                <shoga type="large" id="s189">ロ</shoga>
+            </cell>
+            <cell id="c190">
+                <seme/>
+                <shoga type="large" id="s190">リ</shoga>
+            </cell>
+            <cell id="c191">
+                <shoga type="large" id="s191">イ</shoga>
+                <hyoshi type="small" id="h34"/>
+            </cell>
+            <cell id="c192">
+                <shoga type="large" id="s192">引</shoga>
+            </cell>
+            <cell id="c193">
+                <shoga type="large" id="s193">．</shoga>
+            </cell>
+            <cell id="c194">
+                <tetsuke type="small" id="t92">亍</tetsuke>
+                <shoga type="small" id="s194">ツ</shoga>
+            </cell>
+            <cell id="c195">
+                <tetsuke type="large" id="t93">丄</tetsuke>
+                <shoga type="large" id="s195">リ</shoga>
+            </cell>
+            <cell id="c196">
+                <tetsuke type="large" id="t94">五</tetsuke>
+                <shoga type="large" id="s196">ラ</shoga>
+            </cell>
+            <cell id="c197">
+                <shoga type="large" id="s197">ア</shoga>
+                <hyoshi type="small" id="h35"/>
+            </cell>
+            <cell id="c198">
+                <shoga type="large" id="s198">引</shoga>
+            </cell>
+            <cell id="c199">
+                <tetsuke type="large" id="t95">亍</tetsuke>
+                <shoga type="large" id="s199">ラ</shoga>
+            </cell>
+            <cell id="c200">
+                <shoga type="large" id="s200">ア</shoga>
+            </cell>
+            <cell id="c201">
+                <shoga type="large" id="s201">．</shoga>
+            </cell>
+            <cell id="c202">
+                <tetsuke type="large" id="t96">亍</tetsuke>
+                <shoga type="large" id="s202">タ</shoga>
+                <hyoshi type="large" id="h36"/>
+            </cell>
+            <cell id="c203">
+                <shoga type="large" id="s203">ア</shoga>
+            </cell>
 
-<lb n="9" />
-<cell id="c204"><shoga type="large" id="s204">引</shoga></cell>
-<cell id="c205"><shoga type="large" id="s205">ア</shoga></cell>
-<cell id="c206"><shoga type="large" id="s206">引</shoga><hyoshi type="small" id="h37" /></cell>
-<cell id="c207"><shoga type="large" id="s207">ア</shoga></cell>
-<cell id="c208"><shoga type="large" id="s208">引</shoga></cell>
-<cell id="c209"><shoga type="large" id="s209">引</shoga></cell>
-<cell id="c210"><shoga type="large" id="s210">．</shoga></cell>
-<cell id="c211"><tetsuke type="large" id="t97">亍</tetsuke><shoga type="large" id="s211">タ</shoga><hyoshi type="small" id="h38" /></cell>
-<cell id="c212"><shoga type="large" id="s212">ア</shoga></cell>
-<cell id="c213"><shoga type="large" id="s213">引</shoga></cell>
-<cell id="c214"><shoga type="large" id="s214">ア</shoga></cell>
-<cell id="c215"><shoga type="large" id="s215">引</shoga><hyoshi type="small" id="h39" /></cell>
-<cell id="c216"><shoga type="large" id="s216">ア</shoga></cell>
-<cell id="c217"><shoga type="large" id="s217">引</shoga></cell>
-<cell id="c218"><shoga type="large" id="s218">引</shoga></cell>
-<cell id="c219"><shoga type="large" id="s219">．</shoga></cell>
-<cell id="c220">
-    <tetsuke type="small" id="t98">丅</tetsuke>
-    <tetsuke type="large" id="t99">中</tetsuke>
-    <shoga type="large" id="s220">チ</shoga>
-    <yhoshi type="small" />
-</cell>
-<cell id="c221"><shoga type="large" id="s221">イ</shoga></cell>
+            <lb n="9"/>
+            <cell id="c204">
+                <shoga type="large" id="s204">引</shoga>
+            </cell>
+            <cell id="c205">
+                <shoga type="large" id="s205">ア</shoga>
+            </cell>
+            <cell id="c206">
+                <shoga type="large" id="s206">引</shoga>
+                <hyoshi type="small" id="h37"/>
+            </cell>
+            <cell id="c207">
+                <shoga type="large" id="s207">ア</shoga>
+            </cell>
+            <cell id="c208">
+                <shoga type="large" id="s208">引</shoga>
+            </cell>
+            <cell id="c209">
+                <shoga type="large" id="s209">引</shoga>
+            </cell>
+            <cell id="c210">
+                <shoga type="large" id="s210">．</shoga>
+            </cell>
+            <cell id="c211">
+                <tetsuke type="large" id="t97">亍</tetsuke>
+                <shoga type="large" id="s211">タ</shoga>
+                <hyoshi type="small" id="h38"/>
+            </cell>
+            <cell id="c212">
+                <shoga type="large" id="s212">ア</shoga>
+            </cell>
+            <cell id="c213">
+                <shoga type="large" id="s213">引</shoga>
+            </cell>
+            <cell id="c214">
+                <shoga type="large" id="s214">ア</shoga>
+            </cell>
+            <cell id="c215">
+                <shoga type="large" id="s215">引</shoga>
+                <hyoshi type="small" id="h39"/>
+            </cell>
+            <cell id="c216">
+                <shoga type="large" id="s216">ア</shoga>
+            </cell>
+            <cell id="c217">
+                <shoga type="large" id="s217">引</shoga>
+            </cell>
+            <cell id="c218">
+                <shoga type="large" id="s218">引</shoga>
+            </cell>
+            <cell id="c219">
+                <shoga type="large" id="s219">．</shoga>
+            </cell>
+            <cell id="c220">
+                <tetsuke type="small" id="t98">丅</tetsuke>
+                <tetsuke type="large" id="t99">中</tetsuke>
+                <shoga type="large" id="s220">チ</shoga>
+                <yhoshi type="small"/>
+            </cell>
+            <cell id="c221">
+                <shoga type="large" id="s221">イ</shoga>
+            </cell>
 
-<lb n="10" />
-<cell id="c222"><shoga type="large" id="s222">引</shoga></cell>
-<cell id="c223"><shoga type="large" id="s223">リ</shoga></cell>
-<cell id="c224"><tetsuke type="small" id="t100">丅</tetsuke><shoga type="small" id="s224">イ</shoga></cell>
-<cell id="c225"><tetsuke type="small" id="t101">中</tetsuke><shoga type="small" id="s225">ラ</shoga></cell>
-<cell id="c226"><shoga type="large" id="s226">ア</shoga><hyoshi type="small" id="h40" /></cell>
-<cell id="c227"><shoga type="large" id="s227">引</shoga></cell>
-<cell id="c228"><shoga type="small" id="s228">ア</shoga></cell>
-<cell id="c229"><tetsuke type="small" id="t102">丅</tetsuke><shoga type="small" id="s229">リ</shoga></cell>
-<cell id="c230"><tetsuke type="large" id="t103">丄</tetsuke><shoga type="large" id="s230">ホ</shoga></cell>
-<cell id="c231"><shoga type="large" id="s231">ヲ</shoga></cell>
-<cell id="c232"><tetsuke type="small" id="t104">夕</tetsuke><shoga type="small" id="s232">イ</shoga></cell>
-<cell id="c233"><tetsuke type="large" id="t105">丄</tetsuke><shoga type="large" id="s233">ラ</shoga><hyoshi type="small" id="h41" /></cell>
-<cell id="c234"><shoga type="large" id="s234">ア</shoga></cell>
-<cell id="c235"><shoga type="large" id="s235">．</shoga></cell>
-<cell id="c236"><tetsuke type="small" id="t106">亍</tetsuke><shoga type="small" id="s236">ツ</shoga></cell>
-<cell id="c237"><tetsuke type="large" id="t107">丄</tetsuke><shoga type="large" id="s237">リ</shoga></cell>
-<cell id="c238"><tetsuke type="large" id="t108">五</tetsuke><shoga type="large" id="s238">ラ</shoga></cell>
-<cell id="c239"><shoga type="large" id="s239">ア</shoga><hyoshi type="small" id="h42" /></cell>
-<cell id="c240"><shoga type="small" id="s240">ア</shoga></cell>
-<cell id="c241"><tetsuke type="small" id="t109">亍</tetsuke><shoga type="small" id="s241">ル</shoga></cell>
-<cell id="c242"><tetsuke type="large" id="t110">五</tetsuke><shoga type="large" id="s242">ラ</shoga></cell>
-<cell id="c243"><tataku /><shoga type="small" id="s243">ハ</shoga></cell>
-<cell id="c244">
-    <tetsuke type="small" id="t111">丅</tetsuke>
-    <tetsuke type="large" id="t112">中</tetsuke>
-    <shoga type="large" id="s244">チ</shoga>
-</cell>
-<cell id="c245"><tetsuke type="small" id="t113">丅</tetsuke><shoga type="small" id="s245">イ</shoga></cell>
-<cell id="c246"><tetsuke type="large" id="t114">中</tetsuke><shoga type="large" id="s246">ラ</shoga></cell>
-<cell id="c247"><shoga type="large" id="s247">ア</shoga><hyoshi type="large" id="h43" /></cell>
-<cell id="c248"><shoga type="large" id="s248">引</shoga></cell>
-<cell id="c249"><shoga type="large" id="s249">．</shoga></cell>
+            <lb n="10"/>
+            <cell id="c222">
+                <shoga type="large" id="s222">引</shoga>
+            </cell>
+            <cell id="c223">
+                <shoga type="large" id="s223">リ</shoga>
+            </cell>
+            <cell id="c224">
+                <tetsuke type="small" id="t100">丅</tetsuke>
+                <shoga type="small" id="s224">イ</shoga>
+            </cell>
+            <cell id="c225">
+                <tetsuke type="small" id="t101">中</tetsuke>
+                <shoga type="small" id="s225">ラ</shoga>
+            </cell>
+            <cell id="c226">
+                <shoga type="large" id="s226">ア</shoga>
+                <hyoshi type="small" id="h40"/>
+            </cell>
+            <cell id="c227">
+                <shoga type="large" id="s227">引</shoga>
+            </cell>
+            <cell id="c228">
+                <shoga type="small" id="s228">ア</shoga>
+            </cell>
+            <cell id="c229">
+                <tetsuke type="small" id="t102">丅</tetsuke>
+                <shoga type="small" id="s229">リ</shoga>
+            </cell>
+            <cell id="c230">
+                <tetsuke type="large" id="t103">丄</tetsuke>
+                <shoga type="large" id="s230">ホ</shoga>
+            </cell>
+            <cell id="c231">
+                <shoga type="large" id="s231">ヲ</shoga>
+            </cell>
+            <cell id="c232">
+                <tetsuke type="small" id="t104">夕</tetsuke>
+                <shoga type="small" id="s232">イ</shoga>
+            </cell>
+            <cell id="c233">
+                <tetsuke type="large" id="t105">丄</tetsuke>
+                <shoga type="large" id="s233">ラ</shoga>
+                <hyoshi type="small" id="h41"/>
+            </cell>
+            <cell id="c234">
+                <shoga type="large" id="s234">ア</shoga>
+            </cell>
+            <cell id="c235">
+                <shoga type="large" id="s235">．</shoga>
+            </cell>
+            <cell id="c236">
+                <tetsuke type="small" id="t106">亍</tetsuke>
+                <shoga type="small" id="s236">ツ</shoga>
+            </cell>
+            <cell id="c237">
+                <tetsuke type="large" id="t107">丄</tetsuke>
+                <shoga type="large" id="s237">リ</shoga>
+            </cell>
+            <cell id="c238">
+                <tetsuke type="large" id="t108">五</tetsuke>
+                <shoga type="large" id="s238">ラ</shoga>
+            </cell>
+            <cell id="c239">
+                <shoga type="large" id="s239">ア</shoga>
+                <hyoshi type="small" id="h42"/>
+            </cell>
+            <cell id="c240">
+                <shoga type="small" id="s240">ア</shoga>
+            </cell>
+            <cell id="c241">
+                <tetsuke type="small" id="t109">亍</tetsuke>
+                <shoga type="small" id="s241">ル</shoga>
+            </cell>
+            <cell id="c242">
+                <tetsuke type="large" id="t110">五</tetsuke>
+                <shoga type="large" id="s242">ラ</shoga>
+            </cell>
+            <cell id="c243">
+                <tataku/>
+                <shoga type="small" id="s243">ハ</shoga>
+            </cell>
+            <cell id="c244">
+                <tetsuke type="small" id="t111">丅</tetsuke>
+                <tetsuke type="large" id="t112">中</tetsuke>
+                <shoga type="large" id="s244">チ</shoga>
+            </cell>
+            <cell id="c245">
+                <tetsuke type="small" id="t113">丅</tetsuke>
+                <shoga type="small" id="s245">イ</shoga>
+            </cell>
+            <cell id="c246">
+                <tetsuke type="large" id="t114">中</tetsuke>
+                <shoga type="large" id="s246">ラ</shoga>
+            </cell>
+            <cell id="c247">
+                <shoga type="large" id="s247">ア</shoga>
+                <hyoshi type="large" id="h43"/>
+            </cell>
+            <cell id="c248">
+                <shoga type="large" id="s248">引</shoga>
+            </cell>
+            <cell id="c249">
+                <shoga type="large" id="s249">．</shoga>
+            </cell>
 
-<pb />
-<lb n="11" />
-<cell id="c250"><tetsuke type="large" id="t115">亍</tetsuke><shoga type="large" id="s250">タ</shoga></cell>
-<cell id="c251"><shoga type="large" id="s251">ア</shoga></cell>
-<cell id="c252"><shoga type="large" id="s252">引</shoga><hyoshi type="small" id="h44" /></cell>
-<cell id="c253"><shoga type="large" id="s253">ア</shoga></cell>
-<cell id="c254"><tetsuke type="large" id="t116">六</tetsuke><shoga type="large" id="s254">ル</shoga></cell>
-<cell id="c255"><shoga type="large" id="s255">ウ</shoga></cell>
-<cell id="c256"><tetsuke type="large" id="t117">丅</tetsuke><shoga type="large" id="s256">ロ</shoga><hyoshi type="small" id="h45" /></cell>
-<cell id="c257"><shoga type="large" id="s257">ヲ</shoga></cell>
-<cell id="c258"><shoga type="large" id="s258">．</shoga></cell>
-<cell id="c259"><tetsuke type="small" id="t118">六</tetsuke><shoga type="small" id="s259">ト</shoga></cell>
-<cell id="c260"><tetsuke type="large" id="t119">亍</tetsuke><shoga type="large" id="s260">ラ</shoga></cell>
-<cell id="c261"><tetsuke type="large" id="t120">六</tetsuke><shoga type="large" id="s261">ロ</shoga></cell>
-<cell id="c262"><seme /><shoga type="large" id="s262">リ</shoga><hyoshi type="small" id="h46" /></cell>
-<cell id="c263"><tetsuke type="large" id="t121">亍</tetsuke><shoga type="large" id="s263">ラ</shoga></cell>
-<cell id="c264"><tataku /><shoga type="small" id="s264">ハ</shoga></cell>
-<cell id="c265"><tetsuke type="large" id="t122">五</tetsuke><shoga type="large" id="s265">チ</shoga></cell>
-<cell id="c266"><shoga type="large" id="s266">イ</shoga></cell>
-<cell id="c267"><tetsuke type="small" id="t123">丄</tetsuke><shoga type="small" id="s267">イ</shoga></cell>
-<cell id="c268"><tetsuke type="large" id="t124">五</tetsuke><shoga type="large" id="s268">ラ</shoga><hyoshi type="small" id="h47" /></cell>
-<cell id="c269"><shoga type="large" id="s269">ア</shoga></cell>
-<cell id="c270"><shoga type="large" id="s270">．</shoga></cell>
+            <pb/>
+            <lb n="11"/>
+            <cell id="c250">
+                <tetsuke type="large" id="t115">亍</tetsuke>
+                <shoga type="large" id="s250">タ</shoga>
+            </cell>
+            <cell id="c251">
+                <shoga type="large" id="s251">ア</shoga>
+            </cell>
+            <cell id="c252">
+                <shoga type="large" id="s252">引</shoga>
+                <hyoshi type="small" id="h44"/>
+            </cell>
+            <cell id="c253">
+                <shoga type="large" id="s253">ア</shoga>
+            </cell>
+            <cell id="c254">
+                <tetsuke type="large" id="t116">六</tetsuke>
+                <shoga type="large" id="s254">ル</shoga>
+            </cell>
+            <cell id="c255">
+                <shoga type="large" id="s255">ウ</shoga>
+            </cell>
+            <cell id="c256">
+                <tetsuke type="large" id="t117">丅</tetsuke>
+                <shoga type="large" id="s256">ロ</shoga>
+                <hyoshi type="small" id="h45"/>
+            </cell>
+            <cell id="c257">
+                <shoga type="large" id="s257">ヲ</shoga>
+            </cell>
+            <cell id="c258">
+                <shoga type="large" id="s258">．</shoga>
+            </cell>
+            <cell id="c259">
+                <tetsuke type="small" id="t118">六</tetsuke>
+                <shoga type="small" id="s259">ト</shoga>
+            </cell>
+            <cell id="c260">
+                <tetsuke type="large" id="t119">亍</tetsuke>
+                <shoga type="large" id="s260">ラ</shoga>
+            </cell>
+            <cell id="c261">
+                <tetsuke type="large" id="t120">六</tetsuke>
+                <shoga type="large" id="s261">ロ</shoga>
+            </cell>
+            <cell id="c262">
+                <seme/>
+                <shoga type="large" id="s262">リ</shoga>
+                <hyoshi type="small" id="h46"/>
+            </cell>
+            <cell id="c263">
+                <tetsuke type="large" id="t121">亍</tetsuke>
+                <shoga type="large" id="s263">ラ</shoga>
+            </cell>
+            <cell id="c264">
+                <tataku/>
+                <shoga type="small" id="s264">ハ</shoga>
+            </cell>
+            <cell id="c265">
+                <tetsuke type="large" id="t122">五</tetsuke>
+                <shoga type="large" id="s265">チ</shoga>
+            </cell>
+            <cell id="c266">
+                <shoga type="large" id="s266">イ</shoga>
+            </cell>
+            <cell id="c267">
+                <tetsuke type="small" id="t123">丄</tetsuke>
+                <shoga type="small" id="s267">イ</shoga>
+            </cell>
+            <cell id="c268">
+                <tetsuke type="large" id="t124">五</tetsuke>
+                <shoga type="large" id="s268">ラ</shoga>
+                <hyoshi type="small" id="h47"/>
+            </cell>
+            <cell id="c269">
+                <shoga type="large" id="s269">ア</shoga>
+            </cell>
+            <cell id="c270">
+                <shoga type="large" id="s270">．</shoga>
+            </cell>
 
-<lb n="12" />
-<cell id="c271"><tetsuke type="large" id="t125">亍</tetsuke><shoga type="large" id="s271">タ</shoga></cell>
-<cell id="c272"><shoga type="large" id="s272">ア</shoga></cell>
-<cell id="c273"><shoga type="large" id="s273">引</shoga><hyoshi type="small" id="h48" /></cell>
-<cell id="c274"><shoga type="large" id="s274">ア</shoga></cell>
-<cell id="c275"><tetsuke type="large" id="t126">六</tetsuke><shoga type="large" id="s275">ロ</shoga></cell>
-<cell id="c276"><seme /><shoga type="large" id="s276">リ</shoga></cell>
-<cell id="c277"><shoga type="large" id="s277">イ</shoga><hyoshi type="small" id="h49" /></cell>
-<cell id="c278"><shoga type="large" id="s278">引</shoga></cell>
-<cell id="c279"><shoga type="large" id="s279">．</shoga></cell>
-<cell id="c280"><tetsuke type="large" id="t127">六</tetsuke><shoga type="large" id="s280">チ</shoga></cell>
-<cell id="c281"><shoga type="small" id="s281">イ</shoga></cell>
-<cell id="c282"><yuri /><shoga type="small" id="s282">ル</shoga></cell>
-<cell id="c283"><shoga type="large" id="s283">リ</shoga></cell>
-<cell id="c284"><tataku /><shoga type="small" id="s284">ヒ</shoga></cell>
-<cell id="c285"><tetsuke type="small" id="t128">丅</tetsuke><shoga type="small" id="s285">リ</shoga></cell>
-<cell id="c286"><tetsuke type="large" id="t129">中</tetsuke><shoga type="large" id="s286">ラ</shoga><hyoshi type="small" id="h50" /></cell>
-<cell id="c287"><shoga type="large" id="s287">ア</shoga></cell>
-<cell id="c288"><shoga type="large" id="s288">引</shoga></cell>
-<cell id="c289"><shoga type="large" id="s289">引</shoga></cell>
-<cell id="c290"><shoga type="large" id="s290">．</shoga></cell>
-<cell id="c291"><tetsuke type="large" id="t130">中</tetsuke><shoga type="large" id="s291">チ</shoga><hyoshi type="large" id="h51" /></cell>
-<cell id="c292"><shoga type="large" id="s292">イ</shoga></cell>
+            <lb n="12"/>
+            <cell id="c271">
+                <tetsuke type="large" id="t125">亍</tetsuke>
+                <shoga type="large" id="s271">タ</shoga>
+            </cell>
+            <cell id="c272">
+                <shoga type="large" id="s272">ア</shoga>
+            </cell>
+            <cell id="c273">
+                <shoga type="large" id="s273">引</shoga>
+                <hyoshi type="small" id="h48"/>
+            </cell>
+            <cell id="c274">
+                <shoga type="large" id="s274">ア</shoga>
+            </cell>
+            <cell id="c275">
+                <tetsuke type="large" id="t126">六</tetsuke>
+                <shoga type="large" id="s275">ロ</shoga>
+            </cell>
+            <cell id="c276">
+                <seme/>
+                <shoga type="large" id="s276">リ</shoga>
+            </cell>
+            <cell id="c277">
+                <shoga type="large" id="s277">イ</shoga>
+                <hyoshi type="small" id="h49"/>
+            </cell>
+            <cell id="c278">
+                <shoga type="large" id="s278">引</shoga>
+            </cell>
+            <cell id="c279">
+                <shoga type="large" id="s279">．</shoga>
+            </cell>
+            <cell id="c280">
+                <tetsuke type="large" id="t127">六</tetsuke>
+                <shoga type="large" id="s280">チ</shoga>
+            </cell>
+            <cell id="c281">
+                <shoga type="small" id="s281">イ</shoga>
+            </cell>
+            <cell id="c282">
+                <yuri/>
+                <shoga type="small" id="s282">ル</shoga>
+            </cell>
+            <cell id="c283">
+                <shoga type="large" id="s283">リ</shoga>
+            </cell>
+            <cell id="c284">
+                <tataku/>
+                <shoga type="small" id="s284">ヒ</shoga>
+            </cell>
+            <cell id="c285">
+                <tetsuke type="small" id="t128">丅</tetsuke>
+                <shoga type="small" id="s285">リ</shoga>
+            </cell>
+            <cell id="c286">
+                <tetsuke type="large" id="t129">中</tetsuke>
+                <shoga type="large" id="s286">ラ</shoga>
+                <hyoshi type="small" id="h50"/>
+            </cell>
+            <cell id="c287">
+                <shoga type="large" id="s287">ア</shoga>
+            </cell>
+            <cell id="c288">
+                <shoga type="large" id="s288">引</shoga>
+            </cell>
+            <cell id="c289">
+                <shoga type="large" id="s289">引</shoga>
+            </cell>
+            <cell id="c290">
+                <shoga type="large" id="s290">．</shoga>
+            </cell>
+            <cell id="c291">
+                <tetsuke type="large" id="t130">中</tetsuke>
+                <shoga type="large" id="s291">チ</shoga>
+                <hyoshi type="large" id="h51"/>
+            </cell>
+            <cell id="c292">
+                <shoga type="large" id="s292">イ</shoga>
+            </cell>
 
-<lb n="13" />
-<cell id="c293"><shoga type="large" id="s293">引</shoga></cell>
-<cell id="c294"><shoga type="large" id="s294">イ</shoga></cell>
-<cell id="c295"><shoga type="large" id="s295">引</shoga><hyoshi type="small" id="h52" /></cell>
-<cell id="c296"><shoga type="large" id="s296">イ</shoga></cell>
-<cell id="c297"><shoga type="large" id="s297">引</shoga></cell>
-<cell id="c298"><shoga type="large" id="s298">引</shoga></cell>
-<cell id="c299"><shoga type="large" id="s299">．</shoga></cell>
-<cell id="c300"><tetsuke type="small" id="t131">六</tetsuke><shoga type="small" id="s300">ト</shoga></cell>
-<cell id="c301"><tetsuke type="large" id="t132">亍</tetsuke><shoga type="large" id="s301">ラ</shoga><hyoshi type="small" id="h53" /></cell>
-<cell id="c302"><tetsuke type="large" id="t133">六</tetsuke><shoga type="large" id="s302">ロ</shoga></cell>
-<cell id="c303"><shoga type="large" id="s303">ヲ</shoga></cell>
-<cell id="c304"><shoga type="large" id="s304">引</shoga></cell>
-<cell id="c305"><seme /><shoga type="large" id="s305">リ</shoga><hyoshi type="small" id="h54" /></cell>
-<cell id="c306"><shoga type="large" id="s306">イ</shoga></cell>
-<cell id="c307"><fukura /><shoga type="large" id="s307">チ</shoga></cell>
-<cell id="c308"><shoga type="large" id="s308">イ</shoga></cell>
-<cell id="c309"><tetsuke type="large" id="t134">丅</tetsuke><shoga type="large" id="s309">ラ</shoga><hyoshi type="small" id="h55" /></cell>
-<cell id="c310"><shoga type="large" id="s310">ア</shoga></cell>
-<cell id="c311"><shoga type="large" id="s311">．</shoga></cell>
+            <lb n="13"/>
+            <cell id="c293">
+                <shoga type="large" id="s293">引</shoga>
+            </cell>
+            <cell id="c294">
+                <shoga type="large" id="s294">イ</shoga>
+            </cell>
+            <cell id="c295">
+                <shoga type="large" id="s295">引</shoga>
+                <hyoshi type="small" id="h52"/>
+            </cell>
+            <cell id="c296">
+                <shoga type="large" id="s296">イ</shoga>
+            </cell>
+            <cell id="c297">
+                <shoga type="large" id="s297">引</shoga>
+            </cell>
+            <cell id="c298">
+                <shoga type="large" id="s298">引</shoga>
+            </cell>
+            <cell id="c299">
+                <shoga type="large" id="s299">．</shoga>
+            </cell>
+            <cell id="c300">
+                <tetsuke type="small" id="t131">六</tetsuke>
+                <shoga type="small" id="s300">ト</shoga>
+            </cell>
+            <cell id="c301">
+                <tetsuke type="large" id="t132">亍</tetsuke>
+                <shoga type="large" id="s301">ラ</shoga>
+                <hyoshi type="small" id="h53"/>
+            </cell>
+            <cell id="c302">
+                <tetsuke type="large" id="t133">六</tetsuke>
+                <shoga type="large" id="s302">ロ</shoga>
+            </cell>
+            <cell id="c303">
+                <shoga type="large" id="s303">ヲ</shoga>
+            </cell>
+            <cell id="c304">
+                <shoga type="large" id="s304">引</shoga>
+            </cell>
+            <cell id="c305">
+                <seme/>
+                <shoga type="large" id="s305">リ</shoga>
+                <hyoshi type="small" id="h54"/>
+            </cell>
+            <cell id="c306">
+                <shoga type="large" id="s306">イ</shoga>
+            </cell>
+            <cell id="c307">
+                <fukura/>
+                <shoga type="large" id="s307">チ</shoga>
+            </cell>
+            <cell id="c308">
+                <shoga type="large" id="s308">イ</shoga>
+            </cell>
+            <cell id="c309">
+                <tetsuke type="large" id="t134">丅</tetsuke>
+                <shoga type="large" id="s309">ラ</shoga>
+                <hyoshi type="small" id="h55"/>
+            </cell>
+            <cell id="c310">
+                <shoga type="large" id="s310">ア</shoga>
+            </cell>
+            <cell id="c311">
+                <shoga type="large" id="s311">．</shoga>
+            </cell>
 
-<lb n="14" />
-<cell id="c312"><tetsuke type="large" id="t135">中</tetsuke><shoga type="large" id="s312">ト</shoga></cell>
-<cell id="c313"><seme /><shoga type="large" id="s313">リ</shoga></cell>
-<cell id="c314"><shoga type="large" id="s314">イ</shoga><hyoshi type="small" id="h56" /></cell>
-<cell id="c315"><shoga type="large" id="s315">引</shoga></cell>
-<cell id="c316"><tetsuke type="large" id="t136">丄</tetsuke><shoga type="large" id="s316">ル</shoga></cell>
-<cell id="c317"><shoga type="large" id="s317">ウ</shoga></cell>
-<cell id="c318"><shoga type="large" id="s318">引</shoga><hyoshi type="small" id="h57" /></cell>
-<cell id="c319"><tetsuke type="large" id="t137">夕</tetsuke><shoga type="large" id="s319">イ</shoga></cell>
-<cell id="c320"><shoga type="large" id="s320">．</shoga></cell>
-<cell id="c321"><tetsuke type="small" id="t138">丄</tetsuke><shoga type="small" id="s321">フ</shoga></cell>
-<cell id="c322"><tetsuke type="large" id="t139">六</tetsuke><shoga type="large" id="s322">ロ</shoga></cell>
-<cell id="c323"><shoga type="large" id="s323">ヲ</shoga></cell>
-<cell id="c324"><tetsuke type="small" id="t140">丅</tetsuke><shoga type="small" id="s324">ロ</shoga></cell>
-<cell id="c325"><shoga type="large" id="s325">ヲ</shoga><hyoshi type="small" id="h58" /></cell>
-<cell id="c326"><shoga type="large" id="s326">引</shoga></cell>
-<cell id="c327"><tetsuke type="large" id="t141">六</tetsuke><shoga type="large" id="s327">ロ</shoga></cell>
-<cell id="c328"><seme /><shoga type="large" id="s328">リ</shoga></cell>
-<cell id="c329"><shoga type="large" id="s329">イ</shoga><hyoshi type="large" id="h59" /></cell>
-<cell id="c330"><shoga type="large" id="s330">引</shoga></cell>
-<cell id="c331"><shoga type="large" id="s331">．</shoga></cell>
+            <lb n="14"/>
+            <cell id="c312">
+                <tetsuke type="large" id="t135">中</tetsuke>
+                <shoga type="large" id="s312">ト</shoga>
+            </cell>
+            <cell id="c313">
+                <seme/>
+                <shoga type="large" id="s313">リ</shoga>
+            </cell>
+            <cell id="c314">
+                <shoga type="large" id="s314">イ</shoga>
+                <hyoshi type="small" id="h56"/>
+            </cell>
+            <cell id="c315">
+                <shoga type="large" id="s315">引</shoga>
+            </cell>
+            <cell id="c316">
+                <tetsuke type="large" id="t136">丄</tetsuke>
+                <shoga type="large" id="s316">ル</shoga>
+            </cell>
+            <cell id="c317">
+                <shoga type="large" id="s317">ウ</shoga>
+            </cell>
+            <cell id="c318">
+                <shoga type="large" id="s318">引</shoga>
+                <hyoshi type="small" id="h57"/>
+            </cell>
+            <cell id="c319">
+                <tetsuke type="large" id="t137">夕</tetsuke>
+                <shoga type="large" id="s319">イ</shoga>
+            </cell>
+            <cell id="c320">
+                <shoga type="large" id="s320">．</shoga>
+            </cell>
+            <cell id="c321">
+                <tetsuke type="small" id="t138">丄</tetsuke>
+                <shoga type="small" id="s321">フ</shoga>
+            </cell>
+            <cell id="c322">
+                <tetsuke type="large" id="t139">六</tetsuke>
+                <shoga type="large" id="s322">ロ</shoga>
+            </cell>
+            <cell id="c323">
+                <shoga type="large" id="s323">ヲ</shoga>
+            </cell>
+            <cell id="c324">
+                <tetsuke type="small" id="t140">丅</tetsuke>
+                <shoga type="small" id="s324">ロ</shoga>
+            </cell>
+            <cell id="c325">
+                <shoga type="large" id="s325">ヲ</shoga>
+                <hyoshi type="small" id="h58"/>
+            </cell>
+            <cell id="c326">
+                <shoga type="large" id="s326">引</shoga>
+            </cell>
+            <cell id="c327">
+                <tetsuke type="large" id="t141">六</tetsuke>
+                <shoga type="large" id="s327">ロ</shoga>
+            </cell>
+            <cell id="c328">
+                <seme/>
+                <shoga type="large" id="s328">リ</shoga>
+            </cell>
+            <cell id="c329">
+                <shoga type="large" id="s329">イ</shoga>
+                <hyoshi type="large" id="h59"/>
+            </cell>
+            <cell id="c330">
+                <shoga type="large" id="s330">引</shoga>
+            </cell>
+            <cell id="c331">
+                <shoga type="large" id="s331">．</shoga>
+            </cell>
 
-<lb n="15" />
-<cell id="c332"><tetsuke type="large" id="t142">亍</tetsuke><shoga type="large" id="s332">タ</shoga></cell>
-<cell id="c333"><shoga type="large" id="s333">ア</shoga></cell>
-<cell id="c334"><tataku /><shoga type="large" id="s334">ハ</shoga><hyoshi type="small" id="h60" /></cell>
-<cell id="c335"><shoga type="large" id="s335">ア</shoga></cell>
-<cell id="c336"><shoga type="large" id="s336">引</shoga></cell>
-<cell id="c337"><shoga type="large" id="s337">ア</shoga></cell>
-<cell id="c338"><shoga type="large" id="s338">引</shoga><hyoshi type="small" id="h61" /></cell>
-<cell id="c339"><shoga type="large" id="s339">引</shoga></cell>
-<cell id="c340"><shoga type="large" id="s340">．</shoga></cell>
-<cell id="c341"><tetsuke type="large" id="t143">六</tetsuke><shoga type="large" id="s341">チ</shoga></cell>
-<cell id="c342"><shoga type="small" id="s342">イ</shoga></cell>
-<cell id="c343"><yuri /><shoga type="small" id="s343">ル</shoga></cell>
-<cell id="c344"><shoga type="large" id="s344">リ</shoga></cell>
-<cell id="c345"><tataku /><shoga type="small" id="s345">ヒ</shoga></cell>
-<cell id="c346"><tetsuke type="small" id="t144">丅</tetsuke><shoga type="small" id="s346">リ</shoga></cell>
-<cell id="c347"><tetsuke type="large" id="t145">中</tetsuke><shoga type="large" id="s347">ラ</shoga><hyoshi type="small" id="h62" /></cell>
-<cell id="c348"><shoga type="large" id="s348">ア</shoga></cell>
-<cell id="c349"><shoga type="large" id="s349">引</shoga></cell>
-<cell id="c350"><shoga type="large" id="s350">ア</shoga></cell>
-<cell id="c351"><shoga type="large" id="s351">引</shoga><hyoshi type="small" id="h63" /></cell>
-<cell id="c352"><shoga type="large" id="s352">引</shoga></cell>
-<cell id="c353"><shoga type="large" id="s353">．</shoga></cell>
+            <lb n="15"/>
+            <cell id="c332">
+                <tetsuke type="large" id="t142">亍</tetsuke>
+                <shoga type="large" id="s332">タ</shoga>
+            </cell>
+            <cell id="c333">
+                <shoga type="large" id="s333">ア</shoga>
+            </cell>
+            <cell id="c334">
+                <tataku/>
+                <shoga type="large" id="s334">ハ</shoga>
+                <hyoshi type="small" id="h60"/>
+            </cell>
+            <cell id="c335">
+                <shoga type="large" id="s335">ア</shoga>
+            </cell>
+            <cell id="c336">
+                <shoga type="large" id="s336">引</shoga>
+            </cell>
+            <cell id="c337">
+                <shoga type="large" id="s337">ア</shoga>
+            </cell>
+            <cell id="c338">
+                <shoga type="large" id="s338">引</shoga>
+                <hyoshi type="small" id="h61"/>
+            </cell>
+            <cell id="c339">
+                <shoga type="large" id="s339">引</shoga>
+            </cell>
+            <cell id="c340">
+                <shoga type="large" id="s340">．</shoga>
+            </cell>
+            <cell id="c341">
+                <tetsuke type="large" id="t143">六</tetsuke>
+                <shoga type="large" id="s341">チ</shoga>
+            </cell>
+            <cell id="c342">
+                <shoga type="small" id="s342">イ</shoga>
+            </cell>
+            <cell id="c343">
+                <yuri/>
+                <shoga type="small" id="s343">ル</shoga>
+            </cell>
+            <cell id="c344">
+                <shoga type="large" id="s344">リ</shoga>
+            </cell>
+            <cell id="c345">
+                <tataku/>
+                <shoga type="small" id="s345">ヒ</shoga>
+            </cell>
+            <cell id="c346">
+                <tetsuke type="small" id="t144">丅</tetsuke>
+                <shoga type="small" id="s346">リ</shoga>
+            </cell>
+            <cell id="c347">
+                <tetsuke type="large" id="t145">中</tetsuke>
+                <shoga type="large" id="s347">ラ</shoga>
+                <hyoshi type="small" id="h62"/>
+            </cell>
+            <cell id="c348">
+                <shoga type="large" id="s348">ア</shoga>
+            </cell>
+            <cell id="c349">
+                <shoga type="large" id="s349">引</shoga>
+            </cell>
+            <cell id="c350">
+                <shoga type="large" id="s350">ア</shoga>
+            </cell>
+            <cell id="c351">
+                <shoga type="large" id="s351">引</shoga>
+                <hyoshi type="small" id="h63"/>
+            </cell>
+            <cell id="c352">
+                <shoga type="large" id="s352">引</shoga>
+            </cell>
+            <cell id="c353">
+                <shoga type="large" id="s353">．</shoga>
+            </cell>
 
-<lb n="16" />
-<cell id="c354"><tetsuke type="large" id="t146">中</tetsuke><shoga type="large" id="s354">ト</shoga></cell>
-<cell id="c355"><seme /><shoga type="large" id="s355">リ</shoga></cell>
-<cell id="c356"><shoga type="large" id="s356">イ</shoga><hyoshi type="small" id="h64" /></cell>
-<cell id="c357"><shoga type="large" id="s357">引</shoga></cell>
-<cell id="c358"><tetsuke type="large" id="t147">五</tetsuke><shoga type="large" id="s358">リ</shoga></cell>
-<cell id="c359"><tetsuke type="large" id="t148">亍</tetsuke><shoga type="large" id="s359">ラ</shoga></cell>
-<cell id="c360"><shoga type="large" id="s360">ア</shoga><hyoshi type="small" id="h65" /></cell>
-<cell id="c361"><shoga type="large" id="s361">引</shoga></cell>
-<cell id="c362"><shoga type="large" id="s362">．</shoga></cell>
-<cell id="c363"><tetsuke type="small" id="t149">丄</tetsuke><shoga type="small" id="s363">フ</shoga></cell>
-<cell id="c364"><tetsuke type="large" id="t150">六</tetsuke><shoga type="large" id="s364">ロ</shoga></cell>
-<cell id="c365"><shoga type="large" id="s365">ヲ</shoga></cell>
-<cell id="c366"><tetsuke type="small" id="t151">丅</tetsuke><shoga type="small" id="s366">ロ</shoga></cell>
-<cell id="c367"><shoga type="large" id="s367">ヲ</shoga><hyoshi type="small" id="h66" /></cell>
-<cell id="c368"><shoga type="large" id="s368">引</shoga></cell>
-<cell id="c369"><tetsuke type="large" id="t152">六</tetsuke><shoga type="large" id="s369">ロ</shoga></cell>
-<cell id="c370"><seme /><shoga type="large" id="s370">リ</shoga></cell>
-<cell id="c371"><shoga type="large" id="s371">イ</shoga><hyoshi type="large" id="h67" /></cell>
-<cell id="c372"><shoga type="large" id="s372">引</shoga></cell>
-<cell id="c373"><shoga type="large" id="s373">．</shoga></cell>
-
-
-<lb n="17" />
-<cell id="c374"><tetsuke type="large" id="t153">亍</tetsuke><shoga type="large" id="s374">タ</shoga></cell>
-<cell id="c375"><shoga type="small" id="s375">ア</shoga></cell>
-<cell id="c376"><yuri /><shoga type="small" id="s376">ル</shoga></cell>
-<cell id="c377"><shoga type="large" id="s377">ラ</shoga></cell>
-<cell id="c378"><shoga type="small" id="s378">ア</shoga></cell>
-<cell id="c379"><yuri /><shoga type="small" id="s379">ル</shoga></cell>
-<cell id="c380"><shoga type="large" id="s380">ロ</shoga><hyoshi type="small" id="h68" /></cell>
-<cell id="c381"><shoga type="large" id="s381">ヲ</shoga></cell>
-<cell id="c382"><tetsuke type="large" id="t154">五</tetsuke><shoga type="large" id="s382">ラ</shoga></cell>
-<cell id="c383"><shoga type="large" id="s383">ア</shoga></cell>
-<cell id="c384"><shoga type="large" id="s384">引</shoga><hyoshi type="small" id="h69" /></cell>
-<cell id="c385"><shoga type="large" id="s385">引</shoga></cell>
-<cell id="c386"><shoga type="large" id="s386">．</shoga></cell>
-<cell id="c387"><tetsuke type="large" id="t155">中</tetsuke><shoga type="large" id="s387">チ</shoga></cell>
-<cell id="c388"><tetsuke type="large" id="t156">丄</tetsuke><shoga type="large" id="s388">ロ</shoga></cell>
-<cell id="c389"><tetsuke type="small" id="t157">夕</tetsuke><shoga type="small" id="s389">ワ</shoga></cell>
-<cell id="c390"><tetsuke type="small" id="t158">丄</tetsuke><shoga type="small" id="s390">ル</shoga></cell>
-<cell id="c391"><tetsuke type="small" id="t159">中</tetsuke><shoga type="small" id="s391">リ</shoga></cell>
-<cell id="c392"><tetsuke type="large" id="t160">丄</tetsuke><shoga type="large" id="s392">ロ</shoga><hyoshi type="small" id="h70" /></cell>
-<cell id="c393"><tetsuke type="large" id="t161">夕</tetsuke><shoga type="large" id="s393">ワ</shoga></cell>
-<cell id="c394"><tetsuke type="small" id="t162">丄</tetsuke><shoga type="small" id="s394">ル</shoga></cell>
-<cell id="c395"><tetsuke type="large" id="t163">夕</tetsuke><shoga type="large" id="s395">ラ</shoga></cell>
-<cell id="c396"><shoga type="small" id="s396">ア</shoga></cell>
-<cell id="c397"><tetsuke type="small" id="t164">丄</tetsuke><shoga type="small" id="s397">ル</shoga></cell>
-<cell id="c398"><tetsuke type="large" id="t165">夕</tetsuke><shoga type="large" id="s398">ラ</shoga></cell>
-<cell id="c399"><tetsuke type="small" id="t166">丄</tetsuke><shoga type="small" id="s399">ル</shoga></cell>
-<cell id="c400"><tetsuke type="large" id="t167">夕</tetsuke><shoga type="large" id="s400">ラ</shoga><hyoshi type="small" id="h71" /></cell>
-<cell id="c401"><shoga type="large" id="s401">ア</shoga></cell>
-<cell id="c402"><shoga type="large" id="s402">．</shoga></cell>
-
-<lb n="18" />
-<cell id="c403">
-    <tetsuke type="small" id="t168">丅</tetsuke>
-    <tetsuke type="large" id="t169">中</tetsuke>
-    <shoga type="large" id="s403">チ</shoga>
-</cell>
-<cell id="c404"><shoga type="large" id="s404">リ</shoga></cell>
-<cell id="c405"><tetsuke type="small" id="t170">丅</tetsuke><shoga type="small" id="s405">イ</shoga></cell>
-<cell id="c406"><tetsuke type="small" id="t171">中</tetsuke><shoga type="small" id="s406">ラ</shoga></cell>
-<cell id="c407"><shoga type="large" id="s407">ア</shoga><hyoshi type="small" id="h72" /></cell>
-<cell id="c408"><shoga type="large" id="s408">引</shoga></cell>
-<cell id="c409"><shoga type="small" id="s409">ア</shoga></cell>
-<cell id="c410"><tetsuke type="small" id="t172">丅</tetsuke><shoga type="small" id="s410">リ</shoga></cell>
-<cell id="c411"><tetsuke type="large" id="t173">丄</tetsuke><shoga type="large" id="s411">ホ</shoga></cell>
-<cell id="c412"><shoga type="large" id="s412">ヲ</shoga></cell>
-<cell id="c413"><tetsuke type="small" id="t174">夕</tetsuke><shoga type="small" id="s413">イ</shoga></cell>
-<cell id="c414"><tetsuke type="large" id="t175">丄</tetsuke><shoga type="large" id="s414">ラ</shoga><hyoshi type="small" id="h73" /></cell>
-<cell id="c415"><shoga type="large" id="s415">ア</shoga></cell>
-<cell id="c416"><shoga type="large" id="s416">．</shoga></cell>
-<cell id="c417"><tetsuke type="small" id="t176">亍</tetsuke><shoga type="small" id="s417">ツ</shoga></cell>
-<cell id="c418"><tetsuke type="large" id="t177">丄</tetsuke><shoga type="large" id="s418">リ</shoga></cell>
-<cell id="c419"><tetsuke type="large" id="t178">五</tetsuke><shoga type="large" id="s419">ラ</shoga></cell>
-<cell id="c420"><shoga type="large" id="s420">ア</shoga><hyoshi type="small" id="h74" /></cell>
-<cell id="c421"><shoga type="small" id="s421">ア</shoga></cell>
-<cell id="c422"><tetsuke type="small" id="t179">亍</tetsuke><shoga type="small" id="s422">ル</shoga></cell>
-<cell id="c423"><tetsuke type="large" id="t180">五</tetsuke><shoga type="large" id="s423">ラ</shoga></cell>
-<cell id="c424"><tataku /><shoga type="small" id="s424">ハ</shoga></cell>
-<cell id="c425">
-    <tetsuke type="small" id="t181">丅</tetsuke>
-    <tetsuke type="large" id="t182">中</tetsuke>
-    <shoga type="large" id="s425">チ</shoga>
-</cell>
-<cell id="c426"><tetsuke type="small" id="t183">丅</tetsuke><shoga type="small" id="s426">イ</shoga></cell>
-<cell id="c427"><tetsuke type="large" id="t184">中</tetsuke><shoga type="large" id="s427">ラ</shoga></cell>
-<cell id="c428"><shoga type="large" id="s428">ア</shoga><hyoshi type="large" id="h75" /></cell>
-<cell id="c429"><shoga type="large" id="s429">引</shoga></cell>
-<cell id="c430"><shoga type="large" id="s430">．</shoga></cell>
-
-<pb />
-<lb n="19" />
-<cell id="c431"><tetsuke type="large" id="t185">亍</tetsuke><shoga type="large" id="s431">タ</shoga></cell>
-<cell id="c432"><shoga type="large" id="s432">ア</shoga></cell>
-<cell id="c433"><tataku /><shoga type="large" id="s433">ハ</shoga><hyoshi type="small" id="h76" /></cell>
-<cell id="c434"><shoga type="large" id="s434">ア</shoga></cell>
-<cell id="c435"><shoga type="large" id="s435">引</shoga></cell>
-<cell id="c436"><shoga type="large" id="s436">ア</shoga></cell>
-<cell id="c437"><shoga type="large" id="s437">引</shoga><hyoshi type="small" id="h77" /></cell>
-<cell id="c438"><shoga type="large" id="s438">引</shoga></cell>
-<cell id="c439"><shoga type="large" id="s439">．</shoga></cell>
-<cell id="c440"><tetsuke type="large" id="t186">六</tetsuke><shoga type="large" id="s440">チ</shoga></cell>
-<cell id="c441"><shoga type="small" id="s441">イ</shoga></cell>
-<cell id="c442"><yuri /><shoga type="small" id="s442">ル</shoga></cell>
-<cell id="c443"><shoga type="large" id="s443">リ</shoga></cell>
-<cell id="c444"><tataku /><shoga type="small" id="s444">ヒ</shoga></cell>
-<cell id="c445"><tetsuke type="small" id="t187">丅</tetsuke><shoga type="small" id="s445">リ</shoga></cell>
-<cell id="c446"><tetsuke type="large" id="t188">中</tetsuke><shoga type="large" id="s446">ラ</shoga><hyoshi type="small" id="h78" /></cell>
-<cell id="c447"><shoga type="large" id="s447">ア</shoga></cell>
-<cell id="c448"><shoga type="large" id="s448">引</shoga></cell>
-<cell id="c449"><shoga type="large" id="s449">ア</shoga></cell>
-<cell id="c450"><shoga type="large" id="s450">引</shoga><hyoshi type="small" id="h79" /></cell>
-<cell id="c451"><shoga type="large" id="s451">引</shoga></cell>
-<cell id="c452"><shoga type="large" id="s452">．</shoga></cell>
-
-<lb n="20" />
-<cell id="c453"><tetsuke type="large" id="t189">中</tetsuke><shoga type="large" id="s453">ト</shoga></cell>
-<cell id="c454"><seme /><shoga type="large" id="s454">リ</shoga></cell>
-<cell id="c455"><shoga type="large" id="s455">イ</shoga><hyoshi type="small" id="h80" /></cell>
-<cell id="c456"><tetsuke type="large" id="t190">夕</tetsuke><shoga type="large" id="s456">ル</shoga></cell>
-<cell id="c457"><tetsuke type="small" id="t191">中</tetsuke><shoga type="small" id="s457">ラ</shoga></cell>
-<cell id="c458"><tetsuke type="large" id="t192">六</tetsuke><shoga type="large" id="s458">ロ</shoga></cell>
-<cell id="c459"><seme /><shoga type="large" id="s459">リ</shoga></cell>
-<cell id="c460"><shoga type="large" id="s460">イ</shoga><hyoshi type="small" id="h81" /></cell>
-<cell id="c461"><shoga type="large" id="s461">引</shoga></cell>
-<cell id="c462"><shoga type="large" id="s462">．</shoga></cell>
-<cell id="c463"><tetsuke type="small" id="t193">亍</tetsuke><shoga type="small" id="s463">ツ</shoga></cell>
-<cell id="c464"><tetsuke type="large" id="t194">丄</tetsuke><shoga type="large" id="s464">リ</shoga></cell>
-<cell id="c465"><tetsuke type="large" id="t195">五</tetsuke><shoga type="large" id="s465">ラ</shoga></cell>
-<cell id="c466"><shoga type="large" id="s466">ア</shoga><hyoshi type="small" id="h82" /></cell>
-<cell id="c467"><shoga type="large" id="s467">引</shoga></cell>
-<cell id="c468"><tetsuke type="large" id="t196">亍</tetsuke><shoga type="large" id="s468">ラ</shoga></cell>
-<cell id="c469"><shoga type="large" id="s469">ア</shoga></cell>
-<cell id="c470"><shoga type="large" id="s470">．</shoga></cell>
-<cell id="c471"><tetsuke type="large" id="t197">亍</tetsuke><shoga type="large" id="s471">タ</shoga><hyoshi type="large" id="h83" /></cell>
-<cell id="c472"><shoga type="large" id="s472">ア</shoga></cell>
-
-<lb n="21" />
-<cell id="c473"><shoga type="large" id="s473">引</shoga></cell>
-<cell id="c474"><shoga type="large" id="s474">ア</shoga></cell>
-<cell id="c475"><shoga type="large" id="s475">引</shoga><hyoshi type="small" id="h84" /></cell>
-<cell id="c476"><shoga type="large" id="s476">ア</shoga></cell>
-<cell id="c477"><shoga type="large" id="s477">引</shoga></cell>
-<cell id="c478"><shoga type="large" id="s478">引</shoga></cell>
-<cell id="c479"><shoga type="large" id="s479">．</shoga></cell>
-<cell id="c480"><tetsuke type="large" id="t198">亍</tetsuke><shoga type="large" id="s480">タ</shoga><hyoshi type="small" id="h85" /></cell>
-<cell id="c481"><shoga type="large" id="s481">ア</shoga></cell>
-<cell id="c482"><shoga type="large" id="s482">引</shoga></cell>
-<cell id="c483"><shoga type="large" id="s483">ア</shoga></cell>
-<cell id="c484"><shoga type="large" id="s484">引</shoga><hyoshi type="small" id="h86" /></cell>
-<cell id="c485"><shoga type="large" id="s485">ア</shoga></cell>
-<cell id="c486"><shoga type="large" id="s486">引</shoga></cell>
-<cell id="c487"><shoga type="large" id="s487">引</shoga></cell>
-<cell id="c488"><shoga type="large" id="s488">．</shoga></cell>
-
-<lb n="22" />
-<kando />
-<cell id="c489"><tetsuke type="large" id="t199">亍</tetsuke><shoga type="large" id="s489">タ</shoga><hyoshi type="small" id="h87" /></cell>
-<cell id="c490"><shoga type="large" id="s490">ア</shoga></cell>
-<cell id="c491"><shoga type="large" id="s491">引</shoga></cell>
-<cell id="c492"><shoga type="large" id="s492">ア</shoga></cell>
-<cell id="c493"><tataku /><shoga type="large" id="s493">ハ</shoga><hyoshi type="small" id="h88" /></cell>
-<cell id="c494"><shoga type="large" id="s494">ア</shoga></cell>
-<cell id="c495"><shoga type="large" id="s495">引</shoga></cell>
-<cell id="c496"><shoga type="large" id="s496">ア</shoga></cell>
-<cell id="c497"><shoga type="large" id="s497">引</shoga><hyoshi type="small" id="h89" /></cell>
-<cell id="c498"><shoga type="large" id="s498">引</shoga></cell>
-<cell id="c499"><shoga type="large" id="s499">．</shoga></cell>
-<cell id="c500"><tetsuke type="large" id="t200">中</tetsuke><shoga type="large" id="s500">チ</shoga></cell>
-<cell id="c501"><shoga type="small" id="s501">イ</shoga></cell>
-<cell id="c502"><tetsuke type="small" id="t201">夕</tetsuke><shoga type="small" id="s502">ヤ</shoga></cell>
-<cell id="c503"><tetsuke type="large" id="t202">五</tetsuke><shoga type="large" id="s503">ト</shoga></cell>
-<cell id="c504"><tetsuke type="small" id="t203">丄</tetsuke><shoga type="small" id="s504">ロ</shoga></cell>
-<cell id="c505"><tetsuke type="small" id="t204">夕</tetsuke><shoga type="small" id="s505">ラ</shoga></cell>
-<cell id="c506"><tetsuke type="large" id="t205">五</tetsuke><shoga type="large" id="s506">ル</shoga><hyoshi type="small" id="h90" /></cell>
-<cell id="c507"><shoga type="large" id="s507">ウ</shoga></cell>
-<cell id="c508"><shoga type="small" id="s508">ウ</shoga></cell>
-<cell id="c509"><tetsuke type="small" id="t206">丄</tetsuke><shoga type="small" id="s509">イ</shoga></cell>
-
-<lb n="23" />
-<cell id="c510"><tetsuke type="large" id="t207">亍</tetsuke><shoga type="large" id="s510">ラ</shoga></cell>
-<cell id="c511"><shoga type="large" id="s511">ア</shoga></cell>
-<cell id="c512"><shoga type="large" id="s512">引</shoga><hyoshi type="large" id="h91" /></cell>
-<cell id="c513"><shoga type="large" id="s513">引</shoga></cell>
-<cell id="c514"><shoga type="large" id="s514">．</shoga></cell>
-<cell id="c515"><tetsuke type="large" id="t208">六</tetsuke><shoga type="large" id="s515">チ</shoga></cell>
-<cell id="c516"><shoga type="small" id="s516">イ</shoga></cell>
-<cell id="c517"><yuri /><shoga type="small" id="s517">ル</shoga></cell>
-<cell id="c518"><shoga type="large" id="s518">リ</shoga></cell>
-<cell id="c519"><tataku /><shoga type="small" id="s519">ヒ</shoga></cell>
-<cell id="c520"><tetsuke type="small" id="t209">丅</tetsuke><shoga type="small" id="s520">リ</shoga></cell>
-<cell id="c521"><tetsuke type="large" id="t210">中</tetsuke><shoga type="large" id="s521">ラ</shoga><hyoshi type="small" id="h92" /></cell>
-<cell id="c522"><shoga type="large" id="s522">ア</shoga></cell>
-<cell id="c523"><shoga type="large" id="s523">引</shoga></cell>
-<cell id="c524"><shoga type="large" id="s524">ア</shoga></cell>
-<cell id="c525"><shoga type="large" id="s525">引</shoga><hyoshi type="small" id="h93" /></cell>
-<cell id="c526"><shoga type="large" id="s526">引</shoga></cell>
-<cell id="c527"><shoga type="large" id="s527">．</shoga></cell>
-<cell id="c528"><tetsuke type="large" id="t211">丅</tetsuke><shoga type="large" id="s528">ト</shoga></cell>
-<cell id="c529"><shoga type="large" id="s529">ヲ</shoga></cell>
-<cell id="c530"><yuri /><shoga type="small" id="s530">ル</shoga></cell>
-<cell id="c531"><shoga type="large" id="s531">ロ</shoga><hyoshi type="small" id="h94" /></cell>
-<cell id="c532"><shoga type="large" id="s532">ヲ</shoga></cell>
-
-<lb n="24" />
-<cell id="c533"><tetsuke type="large" id="t212">五</tetsuke><shoga type="large" id="s533">リ</shoga></cell>
-<cell id="c534"><tetsuke type="large" id="t213">亍</tetsuke><shoga type="large" id="s534">ラ</shoga></cell>
-<cell id="c535"><shoga type="large" id="s535">ア</shoga><hyoshi type="small" id="h95" /></cell>
-<cell id="c536"><shoga type="large" id="s536">引</shoga></cell>
-<cell id="c537"><shoga type="large" id="s537">．</shoga></cell>
-<cell id="c538"><tetsuke type="large" id="t214">亍</tetsuke><shoga type="large" id="s538">タ</shoga></cell>
-<cell id="c539"><shoga type="large" id="s539">ア</shoga></cell>
-<cell id="c540"><shoga type="large" id="s540">引</shoga><hyoshi type="small" id="h96" /></cell>
-<cell id="c541"><shoga type="large" id="s541">ア</shoga></cell>
-<cell id="c542"><tataku /><shoga type="small" id="s542">ハ</shoga></cell>
-<cell id="c543">
-    <tetsuke type="small" id="t215">丅</tetsuke>
-    <tetsuke type="large" id="t216">中</tetsuke>
-    <shoga type="large" id="s543">チ</shoga>
-</cell>
-<cell id="c544"><tetsuke type="small" id="t217">丅</tetsuke><shoga type="small" id="s544">イ</shoga></cell>
-<cell id="c545"><tetsuke type="large" id="t218">中</tetsuke><shoga type="large" id="s545">ラ</shoga></cell>
-<cell id="c546"><shoga type="large" id="s546">ア</shoga><hyoshi type="small" id="h97" /></cell>
-<cell id="c547"><shoga type="large" id="s547">引</shoga></cell>
-<cell id="c548"><shoga type="large" id="s548">．</shoga></cell>
-<cell id="c549"><tetsuke type="large" id="t219">中</tetsuke><shoga type="large" id="s549">チ</shoga></cell>
-<cell id="c550"><tetsuke type="large" id="t220">丄</tetsuke><shoga type="large" id="s550">ロ</shoga></cell>
-<cell id="c551"><tetsuke type="small" id="t221">夕</tetsuke><shoga type="small" id="s551">ワ</shoga></cell>
-<cell id="c552"><tetsuke type="small" id="t222">丄</tetsuke><shoga type="small" id="s552">ル</shoga></cell>
-<cell id="c553"><tetsuke type="small" id="t223">中</tetsuke><shoga type="small" id="s553">リ</shoga></cell>
-<cell id="c554"><tetsuke type="large" id="t224">丄</tetsuke><shoga type="large" id="s554">ロ</shoga><hyoshi type="small" id="h98" /></cell>
-<cell id="c555"><tetsuke type="large" id="t225">夕</tetsuke><shoga type="large" id="s555">ワ</shoga></cell>
-<cell id="c556"><tetsuke type="small" id="t226">丄</tetsuke><shoga type="small" id="s556">ル</shoga></cell>
-<cell id="c557"><tetsuke type="large" id="t227">夕</tetsuke><shoga type="large" id="s557">ラ</shoga></cell>
-
-<lb n="25" />
-<cell id="c558"><tataku /><shoga type="large" id="s558">ハ</shoga></cell>
-<cell id="c559"><shoga type="large" id="s559">ア</shoga></cell>
-<cell id="c560"><shoga type="large" id="s560">．</shoga></cell>
-<cell id="c561"><tetsuke type="large" id="t228">ト</tetsuke><shoga type="large" id="s561" /><hyoshi type="large" id="h99" /></cell>
-<cell id="c562"><shoga type="large" id="s562">ヲ</shoga></cell>
-<cell id="c563"><shoga type="large" id="s563">引</shoga></cell>
-<cell id="c564"><seme /><shoga type="large" id="s564">リ</shoga></cell>
-<cell id="c565"><tataku /><shoga type="large" id="s565">ヒ</shoga><hyoshi type="small" id="h100" /></cell>
-<cell id="c566"><shoga type="large" id="s566">イ</shoga></cell>
-<cell id="c567"><shoga type="large" id="s567">引</shoga></cell>
-<cell id="c568"><shoga type="large" id="s568">イ</shoga></cell>
-<cell id="c569"><shoga type="large" id="s569">引</shoga><hyoshi type="small" id="h101" /></cell>
-<cell id="c570"><shoga type="large" id="s570">引</shoga></cell>
-<cell id="c571"><shoga type="large" id="s571">．</shoga></cell>
-<cell id="c572"><tetsuke type="large" id="t229">中</tetsuke><shoga type="large" id="s572">チ</shoga></cell>
-<cell id="c573"><tetsuke type="large" id="t230">夕</tetsuke><shoga type="large" id="s573">ヤ</shoga></cell>
-<cell id="c574"><shoga type="small" id="s574">ア</shoga></cell>
-<cell id="c575"><tetsuke type="small" id="t231">丄</tetsuke><shoga type="small" id="s575">ル</shoga></cell>
-<cell id="c576"><tetsuke type="large" id="t232">夕</tetsuke><shoga type="large" id="s576">ラ</shoga><hyoshi type="small" id="h102" /></cell>
-<cell id="c577"><shoga type="small" id="s577">ア</shoga></cell>
-<cell id="c578"><tetsuke type="small" id="t233">丄</tetsuke><shoga type="small" id="s578">ル</shoga></cell>
-<cell id="c579"><tetsuke type="large" id="t234">夕</tetsuke><shoga type="large" id="s579">ラ</shoga></cell>
-<cell id="c580"><tetsuke type="small" id="t235">丄</tetsuke><shoga type="small" id="s580">ル</shoga></cell>
-<cell id="c581"><tetsuke type="small" id="t236">夕</tetsuke><shoga type="small" id="s581">ラ</shoga></cell>
-
-<lb n="26" />
-<cell id="c582"><tataku /><shoga type="large" id="s582">ハ</shoga></cell>
-<cell id="c583"><tetsuke type="large" id="t237">五</tetsuke><shoga type="large" id="s583">ロ</shoga></cell>
-<cell id="c584"><shoga type="large" id="s584">ヲ</shoga><hyoshi type="small" id="h103" /></cell>
-<cell id="c585"><tetsuke type="large" id="t238">丄</tetsuke><shoga type="large" id="s585">イ</shoga></cell>
-<cell id="c586"><shoga type="large" id="s586">．</shoga></cell>
+            <lb n="16"/>
+            <cell id="c354">
+                <tetsuke type="large" id="t146">中</tetsuke>
+                <shoga type="large" id="s354">ト</shoga>
+            </cell>
+            <cell id="c355">
+                <seme/>
+                <shoga type="large" id="s355">リ</shoga>
+            </cell>
+            <cell id="c356">
+                <shoga type="large" id="s356">イ</shoga>
+                <hyoshi type="small" id="h64"/>
+            </cell>
+            <cell id="c357">
+                <shoga type="large" id="s357">引</shoga>
+            </cell>
+            <cell id="c358">
+                <tetsuke type="large" id="t147">五</tetsuke>
+                <shoga type="large" id="s358">リ</shoga>
+            </cell>
+            <cell id="c359">
+                <tetsuke type="large" id="t148">亍</tetsuke>
+                <shoga type="large" id="s359">ラ</shoga>
+            </cell>
+            <cell id="c360">
+                <shoga type="large" id="s360">ア</shoga>
+                <hyoshi type="small" id="h65"/>
+            </cell>
+            <cell id="c361">
+                <shoga type="large" id="s361">引</shoga>
+            </cell>
+            <cell id="c362">
+                <shoga type="large" id="s362">．</shoga>
+            </cell>
+            <cell id="c363">
+                <tetsuke type="small" id="t149">丄</tetsuke>
+                <shoga type="small" id="s363">フ</shoga>
+            </cell>
+            <cell id="c364">
+                <tetsuke type="large" id="t150">六</tetsuke>
+                <shoga type="large" id="s364">ロ</shoga>
+            </cell>
+            <cell id="c365">
+                <shoga type="large" id="s365">ヲ</shoga>
+            </cell>
+            <cell id="c366">
+                <tetsuke type="small" id="t151">丅</tetsuke>
+                <shoga type="small" id="s366">ロ</shoga>
+            </cell>
+            <cell id="c367">
+                <shoga type="large" id="s367">ヲ</shoga>
+                <hyoshi type="small" id="h66"/>
+            </cell>
+            <cell id="c368">
+                <shoga type="large" id="s368">引</shoga>
+            </cell>
+            <cell id="c369">
+                <tetsuke type="large" id="t152">六</tetsuke>
+                <shoga type="large" id="s369">ロ</shoga>
+            </cell>
+            <cell id="c370">
+                <seme/>
+                <shoga type="large" id="s370">リ</shoga>
+            </cell>
+            <cell id="c371">
+                <shoga type="large" id="s371">イ</shoga>
+                <hyoshi type="large" id="h67"/>
+            </cell>
+            <cell id="c372">
+                <shoga type="large" id="s372">引</shoga>
+            </cell>
+            <cell id="c373">
+                <shoga type="large" id="s373">．</shoga>
+            </cell>
 
 
-</body>
-</music>
+            <lb n="17"/>
+            <cell id="c374">
+                <tetsuke type="large" id="t153">亍</tetsuke>
+                <shoga type="large" id="s374">タ</shoga>
+            </cell>
+            <cell id="c375">
+                <shoga type="small" id="s375">ア</shoga>
+            </cell>
+            <cell id="c376">
+                <yuri/>
+                <shoga type="small" id="s376">ル</shoga>
+            </cell>
+            <cell id="c377">
+                <shoga type="large" id="s377">ラ</shoga>
+            </cell>
+            <cell id="c378">
+                <shoga type="small" id="s378">ア</shoga>
+            </cell>
+            <cell id="c379">
+                <yuri/>
+                <shoga type="small" id="s379">ル</shoga>
+            </cell>
+            <cell id="c380">
+                <shoga type="large" id="s380">ロ</shoga>
+                <hyoshi type="small" id="h68"/>
+            </cell>
+            <cell id="c381">
+                <shoga type="large" id="s381">ヲ</shoga>
+            </cell>
+            <cell id="c382">
+                <tetsuke type="large" id="t154">五</tetsuke>
+                <shoga type="large" id="s382">ラ</shoga>
+            </cell>
+            <cell id="c383">
+                <shoga type="large" id="s383">ア</shoga>
+            </cell>
+            <cell id="c384">
+                <shoga type="large" id="s384">引</shoga>
+                <hyoshi type="small" id="h69"/>
+            </cell>
+            <cell id="c385">
+                <shoga type="large" id="s385">引</shoga>
+            </cell>
+            <cell id="c386">
+                <shoga type="large" id="s386">．</shoga>
+            </cell>
+            <cell id="c387">
+                <tetsuke type="large" id="t155">中</tetsuke>
+                <shoga type="large" id="s387">チ</shoga>
+            </cell>
+            <cell id="c388">
+                <tetsuke type="large" id="t156">丄</tetsuke>
+                <shoga type="large" id="s388">ロ</shoga>
+            </cell>
+            <cell id="c389">
+                <tetsuke type="small" id="t157">夕</tetsuke>
+                <shoga type="small" id="s389">ワ</shoga>
+            </cell>
+            <cell id="c390">
+                <tetsuke type="small" id="t158">丄</tetsuke>
+                <shoga type="small" id="s390">ル</shoga>
+            </cell>
+            <cell id="c391">
+                <tetsuke type="small" id="t159">中</tetsuke>
+                <shoga type="small" id="s391">リ</shoga>
+            </cell>
+            <cell id="c392">
+                <tetsuke type="large" id="t160">丄</tetsuke>
+                <shoga type="large" id="s392">ロ</shoga>
+                <hyoshi type="small" id="h70"/>
+            </cell>
+            <cell id="c393">
+                <tetsuke type="large" id="t161">夕</tetsuke>
+                <shoga type="large" id="s393">ワ</shoga>
+            </cell>
+            <cell id="c394">
+                <tetsuke type="small" id="t162">丄</tetsuke>
+                <shoga type="small" id="s394">ル</shoga>
+            </cell>
+            <cell id="c395">
+                <tetsuke type="large" id="t163">夕</tetsuke>
+                <shoga type="large" id="s395">ラ</shoga>
+            </cell>
+            <cell id="c396">
+                <shoga type="small" id="s396">ア</shoga>
+            </cell>
+            <cell id="c397">
+                <tetsuke type="small" id="t164">丄</tetsuke>
+                <shoga type="small" id="s397">ル</shoga>
+            </cell>
+            <cell id="c398">
+                <tetsuke type="large" id="t165">夕</tetsuke>
+                <shoga type="large" id="s398">ラ</shoga>
+            </cell>
+            <cell id="c399">
+                <tetsuke type="small" id="t166">丄</tetsuke>
+                <shoga type="small" id="s399">ル</shoga>
+            </cell>
+            <cell id="c400">
+                <tetsuke type="large" id="t167">夕</tetsuke>
+                <shoga type="large" id="s400">ラ</shoga>
+                <hyoshi type="small" id="h71"/>
+            </cell>
+            <cell id="c401">
+                <shoga type="large" id="s401">ア</shoga>
+            </cell>
+            <cell id="c402">
+                <shoga type="large" id="s402">．</shoga>
+            </cell>
+
+            <lb n="18"/>
+            <cell id="c403">
+                <tetsuke type="small" id="t168">丅</tetsuke>
+                <tetsuke type="large" id="t169">中</tetsuke>
+                <shoga type="large" id="s403">チ</shoga>
+            </cell>
+            <cell id="c404">
+                <shoga type="large" id="s404">リ</shoga>
+            </cell>
+            <cell id="c405">
+                <tetsuke type="small" id="t170">丅</tetsuke>
+                <shoga type="small" id="s405">イ</shoga>
+            </cell>
+            <cell id="c406">
+                <tetsuke type="small" id="t171">中</tetsuke>
+                <shoga type="small" id="s406">ラ</shoga>
+            </cell>
+            <cell id="c407">
+                <shoga type="large" id="s407">ア</shoga>
+                <hyoshi type="small" id="h72"/>
+            </cell>
+            <cell id="c408">
+                <shoga type="large" id="s408">引</shoga>
+            </cell>
+            <cell id="c409">
+                <shoga type="small" id="s409">ア</shoga>
+            </cell>
+            <cell id="c410">
+                <tetsuke type="small" id="t172">丅</tetsuke>
+                <shoga type="small" id="s410">リ</shoga>
+            </cell>
+            <cell id="c411">
+                <tetsuke type="large" id="t173">丄</tetsuke>
+                <shoga type="large" id="s411">ホ</shoga>
+            </cell>
+            <cell id="c412">
+                <shoga type="large" id="s412">ヲ</shoga>
+            </cell>
+            <cell id="c413">
+                <tetsuke type="small" id="t174">夕</tetsuke>
+                <shoga type="small" id="s413">イ</shoga>
+            </cell>
+            <cell id="c414">
+                <tetsuke type="large" id="t175">丄</tetsuke>
+                <shoga type="large" id="s414">ラ</shoga>
+                <hyoshi type="small" id="h73"/>
+            </cell>
+            <cell id="c415">
+                <shoga type="large" id="s415">ア</shoga>
+            </cell>
+            <cell id="c416">
+                <shoga type="large" id="s416">．</shoga>
+            </cell>
+            <cell id="c417">
+                <tetsuke type="small" id="t176">亍</tetsuke>
+                <shoga type="small" id="s417">ツ</shoga>
+            </cell>
+            <cell id="c418">
+                <tetsuke type="large" id="t177">丄</tetsuke>
+                <shoga type="large" id="s418">リ</shoga>
+            </cell>
+            <cell id="c419">
+                <tetsuke type="large" id="t178">五</tetsuke>
+                <shoga type="large" id="s419">ラ</shoga>
+            </cell>
+            <cell id="c420">
+                <shoga type="large" id="s420">ア</shoga>
+                <hyoshi type="small" id="h74"/>
+            </cell>
+            <cell id="c421">
+                <shoga type="small" id="s421">ア</shoga>
+            </cell>
+            <cell id="c422">
+                <tetsuke type="small" id="t179">亍</tetsuke>
+                <shoga type="small" id="s422">ル</shoga>
+            </cell>
+            <cell id="c423">
+                <tetsuke type="large" id="t180">五</tetsuke>
+                <shoga type="large" id="s423">ラ</shoga>
+            </cell>
+            <cell id="c424">
+                <tataku/>
+                <shoga type="small" id="s424">ハ</shoga>
+            </cell>
+            <cell id="c425">
+                <tetsuke type="small" id="t181">丅</tetsuke>
+                <tetsuke type="large" id="t182">中</tetsuke>
+                <shoga type="large" id="s425">チ</shoga>
+            </cell>
+            <cell id="c426">
+                <tetsuke type="small" id="t183">丅</tetsuke>
+                <shoga type="small" id="s426">イ</shoga>
+            </cell>
+            <cell id="c427">
+                <tetsuke type="large" id="t184">中</tetsuke>
+                <shoga type="large" id="s427">ラ</shoga>
+            </cell>
+            <cell id="c428">
+                <shoga type="large" id="s428">ア</shoga>
+                <hyoshi type="large" id="h75"/>
+            </cell>
+            <cell id="c429">
+                <shoga type="large" id="s429">引</shoga>
+            </cell>
+            <cell id="c430">
+                <shoga type="large" id="s430">．</shoga>
+            </cell>
+
+            <pb/>
+            <lb n="19"/>
+            <cell id="c431">
+                <tetsuke type="large" id="t185">亍</tetsuke>
+                <shoga type="large" id="s431">タ</shoga>
+            </cell>
+            <cell id="c432">
+                <shoga type="large" id="s432">ア</shoga>
+            </cell>
+            <cell id="c433">
+                <tataku/>
+                <shoga type="large" id="s433">ハ</shoga>
+                <hyoshi type="small" id="h76"/>
+            </cell>
+            <cell id="c434">
+                <shoga type="large" id="s434">ア</shoga>
+            </cell>
+            <cell id="c435">
+                <shoga type="large" id="s435">引</shoga>
+            </cell>
+            <cell id="c436">
+                <shoga type="large" id="s436">ア</shoga>
+            </cell>
+            <cell id="c437">
+                <shoga type="large" id="s437">引</shoga>
+                <hyoshi type="small" id="h77"/>
+            </cell>
+            <cell id="c438">
+                <shoga type="large" id="s438">引</shoga>
+            </cell>
+            <cell id="c439">
+                <shoga type="large" id="s439">．</shoga>
+            </cell>
+            <cell id="c440">
+                <tetsuke type="large" id="t186">六</tetsuke>
+                <shoga type="large" id="s440">チ</shoga>
+            </cell>
+            <cell id="c441">
+                <shoga type="small" id="s441">イ</shoga>
+            </cell>
+            <cell id="c442">
+                <yuri/>
+                <shoga type="small" id="s442">ル</shoga>
+            </cell>
+            <cell id="c443">
+                <shoga type="large" id="s443">リ</shoga>
+            </cell>
+            <cell id="c444">
+                <tataku/>
+                <shoga type="small" id="s444">ヒ</shoga>
+            </cell>
+            <cell id="c445">
+                <tetsuke type="small" id="t187">丅</tetsuke>
+                <shoga type="small" id="s445">リ</shoga>
+            </cell>
+            <cell id="c446">
+                <tetsuke type="large" id="t188">中</tetsuke>
+                <shoga type="large" id="s446">ラ</shoga>
+                <hyoshi type="small" id="h78"/>
+            </cell>
+            <cell id="c447">
+                <shoga type="large" id="s447">ア</shoga>
+            </cell>
+            <cell id="c448">
+                <shoga type="large" id="s448">引</shoga>
+            </cell>
+            <cell id="c449">
+                <shoga type="large" id="s449">ア</shoga>
+            </cell>
+            <cell id="c450">
+                <shoga type="large" id="s450">引</shoga>
+                <hyoshi type="small" id="h79"/>
+            </cell>
+            <cell id="c451">
+                <shoga type="large" id="s451">引</shoga>
+            </cell>
+            <cell id="c452">
+                <shoga type="large" id="s452">．</shoga>
+            </cell>
+
+            <lb n="20"/>
+            <cell id="c453">
+                <tetsuke type="large" id="t189">中</tetsuke>
+                <shoga type="large" id="s453">ト</shoga>
+            </cell>
+            <cell id="c454">
+                <seme/>
+                <shoga type="large" id="s454">リ</shoga>
+            </cell>
+            <cell id="c455">
+                <shoga type="large" id="s455">イ</shoga>
+                <hyoshi type="small" id="h80"/>
+            </cell>
+            <cell id="c456">
+                <tetsuke type="large" id="t190">夕</tetsuke>
+                <shoga type="large" id="s456">ル</shoga>
+            </cell>
+            <cell id="c457">
+                <tetsuke type="small" id="t191">中</tetsuke>
+                <shoga type="small" id="s457">ラ</shoga>
+            </cell>
+            <cell id="c458">
+                <tetsuke type="large" id="t192">六</tetsuke>
+                <shoga type="large" id="s458">ロ</shoga>
+            </cell>
+            <cell id="c459">
+                <seme/>
+                <shoga type="large" id="s459">リ</shoga>
+            </cell>
+            <cell id="c460">
+                <shoga type="large" id="s460">イ</shoga>
+                <hyoshi type="small" id="h81"/>
+            </cell>
+            <cell id="c461">
+                <shoga type="large" id="s461">引</shoga>
+            </cell>
+            <cell id="c462">
+                <shoga type="large" id="s462">．</shoga>
+            </cell>
+            <cell id="c463">
+                <tetsuke type="small" id="t193">亍</tetsuke>
+                <shoga type="small" id="s463">ツ</shoga>
+            </cell>
+            <cell id="c464">
+                <tetsuke type="large" id="t194">丄</tetsuke>
+                <shoga type="large" id="s464">リ</shoga>
+            </cell>
+            <cell id="c465">
+                <tetsuke type="large" id="t195">五</tetsuke>
+                <shoga type="large" id="s465">ラ</shoga>
+            </cell>
+            <cell id="c466">
+                <shoga type="large" id="s466">ア</shoga>
+                <hyoshi type="small" id="h82"/>
+            </cell>
+            <cell id="c467">
+                <shoga type="large" id="s467">引</shoga>
+            </cell>
+            <cell id="c468">
+                <tetsuke type="large" id="t196">亍</tetsuke>
+                <shoga type="large" id="s468">ラ</shoga>
+            </cell>
+            <cell id="c469">
+                <shoga type="large" id="s469">ア</shoga>
+            </cell>
+            <cell id="c470">
+                <shoga type="large" id="s470">．</shoga>
+            </cell>
+            <cell id="c471">
+                <tetsuke type="large" id="t197">亍</tetsuke>
+                <shoga type="large" id="s471">タ</shoga>
+                <hyoshi type="large" id="h83"/>
+            </cell>
+            <cell id="c472">
+                <shoga type="large" id="s472">ア</shoga>
+            </cell>
+
+            <lb n="21"/>
+            <cell id="c473">
+                <shoga type="large" id="s473">引</shoga>
+            </cell>
+            <cell id="c474">
+                <shoga type="large" id="s474">ア</shoga>
+            </cell>
+            <cell id="c475">
+                <shoga type="large" id="s475">引</shoga>
+                <hyoshi type="small" id="h84"/>
+            </cell>
+            <cell id="c476">
+                <shoga type="large" id="s476">ア</shoga>
+            </cell>
+            <cell id="c477">
+                <shoga type="large" id="s477">引</shoga>
+            </cell>
+            <cell id="c478">
+                <shoga type="large" id="s478">引</shoga>
+            </cell>
+            <cell id="c479">
+                <shoga type="large" id="s479">．</shoga>
+            </cell>
+            <cell id="c480">
+                <tetsuke type="large" id="t198">亍</tetsuke>
+                <shoga type="large" id="s480">タ</shoga>
+                <hyoshi type="small" id="h85"/>
+            </cell>
+            <cell id="c481">
+                <shoga type="large" id="s481">ア</shoga>
+            </cell>
+            <cell id="c482">
+                <shoga type="large" id="s482">引</shoga>
+            </cell>
+            <cell id="c483">
+                <shoga type="large" id="s483">ア</shoga>
+            </cell>
+            <cell id="c484">
+                <shoga type="large" id="s484">引</shoga>
+                <hyoshi type="small" id="h86"/>
+            </cell>
+            <cell id="c485">
+                <shoga type="large" id="s485">ア</shoga>
+            </cell>
+            <cell id="c486">
+                <shoga type="large" id="s486">引</shoga>
+            </cell>
+            <cell id="c487">
+                <shoga type="large" id="s487">引</shoga>
+            </cell>
+            <cell id="c488">
+                <shoga type="large" id="s488">．</shoga>
+            </cell>
+
+            <lb n="22"/>
+            <kando/>
+            <cell id="c489">
+                <tetsuke type="large" id="t199">亍</tetsuke>
+                <shoga type="large" id="s489">タ</shoga>
+                <hyoshi type="small" id="h87"/>
+            </cell>
+            <cell id="c490">
+                <shoga type="large" id="s490">ア</shoga>
+            </cell>
+            <cell id="c491">
+                <shoga type="large" id="s491">引</shoga>
+            </cell>
+            <cell id="c492">
+                <shoga type="large" id="s492">ア</shoga>
+            </cell>
+            <cell id="c493">
+                <tataku/>
+                <shoga type="large" id="s493">ハ</shoga>
+                <hyoshi type="small" id="h88"/>
+            </cell>
+            <cell id="c494">
+                <shoga type="large" id="s494">ア</shoga>
+            </cell>
+            <cell id="c495">
+                <shoga type="large" id="s495">引</shoga>
+            </cell>
+            <cell id="c496">
+                <shoga type="large" id="s496">ア</shoga>
+            </cell>
+            <cell id="c497">
+                <shoga type="large" id="s497">引</shoga>
+                <hyoshi type="small" id="h89"/>
+            </cell>
+            <cell id="c498">
+                <shoga type="large" id="s498">引</shoga>
+            </cell>
+            <cell id="c499">
+                <shoga type="large" id="s499">．</shoga>
+            </cell>
+            <cell id="c500">
+                <tetsuke type="large" id="t200">中</tetsuke>
+                <shoga type="large" id="s500">チ</shoga>
+            </cell>
+            <cell id="c501">
+                <shoga type="small" id="s501">イ</shoga>
+            </cell>
+            <cell id="c502">
+                <tetsuke type="small" id="t201">夕</tetsuke>
+                <shoga type="small" id="s502">ヤ</shoga>
+            </cell>
+            <cell id="c503">
+                <tetsuke type="large" id="t202">五</tetsuke>
+                <shoga type="large" id="s503">ト</shoga>
+            </cell>
+            <cell id="c504">
+                <tetsuke type="small" id="t203">丄</tetsuke>
+                <shoga type="small" id="s504">ロ</shoga>
+            </cell>
+            <cell id="c505">
+                <tetsuke type="small" id="t204">夕</tetsuke>
+                <shoga type="small" id="s505">ラ</shoga>
+            </cell>
+            <cell id="c506">
+                <tetsuke type="large" id="t205">五</tetsuke>
+                <shoga type="large" id="s506">ル</shoga>
+                <hyoshi type="small" id="h90"/>
+            </cell>
+            <cell id="c507">
+                <shoga type="large" id="s507">ウ</shoga>
+            </cell>
+            <cell id="c508">
+                <shoga type="small" id="s508">ウ</shoga>
+            </cell>
+            <cell id="c509">
+                <tetsuke type="small" id="t206">丄</tetsuke>
+                <shoga type="small" id="s509">イ</shoga>
+            </cell>
+
+            <lb n="23"/>
+            <cell id="c510">
+                <tetsuke type="large" id="t207">亍</tetsuke>
+                <shoga type="large" id="s510">ラ</shoga>
+            </cell>
+            <cell id="c511">
+                <shoga type="large" id="s511">ア</shoga>
+            </cell>
+            <cell id="c512">
+                <shoga type="large" id="s512">引</shoga>
+                <hyoshi type="large" id="h91"/>
+            </cell>
+            <cell id="c513">
+                <shoga type="large" id="s513">引</shoga>
+            </cell>
+            <cell id="c514">
+                <shoga type="large" id="s514">．</shoga>
+            </cell>
+            <cell id="c515">
+                <tetsuke type="large" id="t208">六</tetsuke>
+                <shoga type="large" id="s515">チ</shoga>
+            </cell>
+            <cell id="c516">
+                <shoga type="small" id="s516">イ</shoga>
+            </cell>
+            <cell id="c517">
+                <yuri/>
+                <shoga type="small" id="s517">ル</shoga>
+            </cell>
+            <cell id="c518">
+                <shoga type="large" id="s518">リ</shoga>
+            </cell>
+            <cell id="c519">
+                <tataku/>
+                <shoga type="small" id="s519">ヒ</shoga>
+            </cell>
+            <cell id="c520">
+                <tetsuke type="small" id="t209">丅</tetsuke>
+                <shoga type="small" id="s520">リ</shoga>
+            </cell>
+            <cell id="c521">
+                <tetsuke type="large" id="t210">中</tetsuke>
+                <shoga type="large" id="s521">ラ</shoga>
+                <hyoshi type="small" id="h92"/>
+            </cell>
+            <cell id="c522">
+                <shoga type="large" id="s522">ア</shoga>
+            </cell>
+            <cell id="c523">
+                <shoga type="large" id="s523">引</shoga>
+            </cell>
+            <cell id="c524">
+                <shoga type="large" id="s524">ア</shoga>
+            </cell>
+            <cell id="c525">
+                <shoga type="large" id="s525">引</shoga>
+                <hyoshi type="small" id="h93"/>
+            </cell>
+            <cell id="c526">
+                <shoga type="large" id="s526">引</shoga>
+            </cell>
+            <cell id="c527">
+                <shoga type="large" id="s527">．</shoga>
+            </cell>
+            <cell id="c528">
+                <tetsuke type="large" id="t211">丅</tetsuke>
+                <shoga type="large" id="s528">ト</shoga>
+            </cell>
+            <cell id="c529">
+                <shoga type="large" id="s529">ヲ</shoga>
+            </cell>
+            <cell id="c530">
+                <yuri/>
+                <shoga type="small" id="s530">ル</shoga>
+            </cell>
+            <cell id="c531">
+                <shoga type="large" id="s531">ロ</shoga>
+                <hyoshi type="small" id="h94"/>
+            </cell>
+            <cell id="c532">
+                <shoga type="large" id="s532">ヲ</shoga>
+            </cell>
+
+            <lb n="24"/>
+            <cell id="c533">
+                <tetsuke type="large" id="t212">五</tetsuke>
+                <shoga type="large" id="s533">リ</shoga>
+            </cell>
+            <cell id="c534">
+                <tetsuke type="large" id="t213">亍</tetsuke>
+                <shoga type="large" id="s534">ラ</shoga>
+            </cell>
+            <cell id="c535">
+                <shoga type="large" id="s535">ア</shoga>
+                <hyoshi type="small" id="h95"/>
+            </cell>
+            <cell id="c536">
+                <shoga type="large" id="s536">引</shoga>
+            </cell>
+            <cell id="c537">
+                <shoga type="large" id="s537">．</shoga>
+            </cell>
+            <cell id="c538">
+                <tetsuke type="large" id="t214">亍</tetsuke>
+                <shoga type="large" id="s538">タ</shoga>
+            </cell>
+            <cell id="c539">
+                <shoga type="large" id="s539">ア</shoga>
+            </cell>
+            <cell id="c540">
+                <shoga type="large" id="s540">引</shoga>
+                <hyoshi type="small" id="h96"/>
+            </cell>
+            <cell id="c541">
+                <shoga type="large" id="s541">ア</shoga>
+            </cell>
+            <cell id="c542">
+                <tataku/>
+                <shoga type="small" id="s542">ハ</shoga>
+            </cell>
+            <cell id="c543">
+                <tetsuke type="small" id="t215">丅</tetsuke>
+                <tetsuke type="large" id="t216">中</tetsuke>
+                <shoga type="large" id="s543">チ</shoga>
+            </cell>
+            <cell id="c544">
+                <tetsuke type="small" id="t217">丅</tetsuke>
+                <shoga type="small" id="s544">イ</shoga>
+            </cell>
+            <cell id="c545">
+                <tetsuke type="large" id="t218">中</tetsuke>
+                <shoga type="large" id="s545">ラ</shoga>
+            </cell>
+            <cell id="c546">
+                <shoga type="large" id="s546">ア</shoga>
+                <hyoshi type="small" id="h97"/>
+            </cell>
+            <cell id="c547">
+                <shoga type="large" id="s547">引</shoga>
+            </cell>
+            <cell id="c548">
+                <shoga type="large" id="s548">．</shoga>
+            </cell>
+            <cell id="c549">
+                <tetsuke type="large" id="t219">中</tetsuke>
+                <shoga type="large" id="s549">チ</shoga>
+            </cell>
+            <cell id="c550">
+                <tetsuke type="large" id="t220">丄</tetsuke>
+                <shoga type="large" id="s550">ロ</shoga>
+            </cell>
+            <cell id="c551">
+                <tetsuke type="small" id="t221">夕</tetsuke>
+                <shoga type="small" id="s551">ワ</shoga>
+            </cell>
+            <cell id="c552">
+                <tetsuke type="small" id="t222">丄</tetsuke>
+                <shoga type="small" id="s552">ル</shoga>
+            </cell>
+            <cell id="c553">
+                <tetsuke type="small" id="t223">中</tetsuke>
+                <shoga type="small" id="s553">リ</shoga>
+            </cell>
+            <cell id="c554">
+                <tetsuke type="large" id="t224">丄</tetsuke>
+                <shoga type="large" id="s554">ロ</shoga>
+                <hyoshi type="small" id="h98"/>
+            </cell>
+            <cell id="c555">
+                <tetsuke type="large" id="t225">夕</tetsuke>
+                <shoga type="large" id="s555">ワ</shoga>
+            </cell>
+            <cell id="c556">
+                <tetsuke type="small" id="t226">丄</tetsuke>
+                <shoga type="small" id="s556">ル</shoga>
+            </cell>
+            <cell id="c557">
+                <tetsuke type="large" id="t227">夕</tetsuke>
+                <shoga type="large" id="s557">ラ</shoga>
+            </cell>
+
+            <lb n="25"/>
+            <cell id="c558">
+                <tataku/>
+                <shoga type="large" id="s558">ハ</shoga>
+            </cell>
+            <cell id="c559">
+                <shoga type="large" id="s559">ア</shoga>
+            </cell>
+            <cell id="c560">
+                <shoga type="large" id="s560">．</shoga>
+            </cell>
+            <cell id="c561">
+                <tetsuke type="large" id="t228">ト</tetsuke>
+                <shoga type="large" id="s561"/>
+                <hyoshi type="large" id="h99"/>
+            </cell>
+            <cell id="c562">
+                <shoga type="large" id="s562">ヲ</shoga>
+            </cell>
+            <cell id="c563">
+                <shoga type="large" id="s563">引</shoga>
+            </cell>
+            <cell id="c564">
+                <seme/>
+                <shoga type="large" id="s564">リ</shoga>
+            </cell>
+            <cell id="c565">
+                <tataku/>
+                <shoga type="large" id="s565">ヒ</shoga>
+                <hyoshi type="small" id="h100"/>
+            </cell>
+            <cell id="c566">
+                <shoga type="large" id="s566">イ</shoga>
+            </cell>
+            <cell id="c567">
+                <shoga type="large" id="s567">引</shoga>
+            </cell>
+            <cell id="c568">
+                <shoga type="large" id="s568">イ</shoga>
+            </cell>
+            <cell id="c569">
+                <shoga type="large" id="s569">引</shoga>
+                <hyoshi type="small" id="h101"/>
+            </cell>
+            <cell id="c570">
+                <shoga type="large" id="s570">引</shoga>
+            </cell>
+            <cell id="c571">
+                <shoga type="large" id="s571">．</shoga>
+            </cell>
+            <cell id="c572">
+                <tetsuke type="large" id="t229">中</tetsuke>
+                <shoga type="large" id="s572">チ</shoga>
+            </cell>
+            <cell id="c573">
+                <tetsuke type="large" id="t230">夕</tetsuke>
+                <shoga type="large" id="s573">ヤ</shoga>
+            </cell>
+            <cell id="c574">
+                <shoga type="small" id="s574">ア</shoga>
+            </cell>
+            <cell id="c575">
+                <tetsuke type="small" id="t231">丄</tetsuke>
+                <shoga type="small" id="s575">ル</shoga>
+            </cell>
+            <cell id="c576">
+                <tetsuke type="large" id="t232">夕</tetsuke>
+                <shoga type="large" id="s576">ラ</shoga>
+                <hyoshi type="small" id="h102"/>
+            </cell>
+            <cell id="c577">
+                <shoga type="small" id="s577">ア</shoga>
+            </cell>
+            <cell id="c578">
+                <tetsuke type="small" id="t233">丄</tetsuke>
+                <shoga type="small" id="s578">ル</shoga>
+            </cell>
+            <cell id="c579">
+                <tetsuke type="large" id="t234">夕</tetsuke>
+                <shoga type="large" id="s579">ラ</shoga>
+            </cell>
+            <cell id="c580">
+                <tetsuke type="small" id="t235">丄</tetsuke>
+                <shoga type="small" id="s580">ル</shoga>
+            </cell>
+            <cell id="c581">
+                <tetsuke type="small" id="t236">夕</tetsuke>
+                <shoga type="small" id="s581">ラ</shoga>
+            </cell>
+
+            <lb n="26"/>
+            <cell id="c582">
+                <tataku/>
+                <shoga type="large" id="s582">ハ</shoga>
+            </cell>
+            <cell id="c583">
+                <tetsuke type="large" id="t237">五</tetsuke>
+                <shoga type="large" id="s583">ロ</shoga>
+            </cell>
+            <cell id="c584">
+                <shoga type="large" id="s584">ヲ</shoga>
+                <hyoshi type="small" id="h103"/>
+            </cell>
+            <cell id="c585">
+                <tetsuke type="large" id="t238">丄</tetsuke>
+                <shoga type="large" id="s585">イ</shoga>
+            </cell>
+            <cell id="c586">
+                <shoga type="large" id="s586">．</shoga>
+            </cell>
+
+
+        </body>
+    </music>
 </gagakuXML>

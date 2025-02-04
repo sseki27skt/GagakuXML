@@ -8,63 +8,52 @@
           <respStmt>
             <resp>Machine-readable transcription by:</resp>
             <persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro
-Seki</persName>
+              Seki</persName>
           </respStmt>
           <funder>Japan Society for the Promotion of Science</funder>
           <funder>Foundation for Cultural Heritage and Art Research</funder>
           <funder>The Kurata Grants, The Hitachi Global Foundation</funder>
         </titleStmt>
         <pubStmt>
-          <distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML
-on Github</distributor>
+          <distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML on
+            Github</distributor>
           <availability>
-            <useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This
-edition is licensed under the Creative Commons Attribution 4.0
-International.</useRestrict>
+            <useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This edition is
+              licensed under the Creative Commons Attribution 4.0 International.</useRestrict>
           </availability>
         </pubStmt>
         <sourceDesc>
           <source>
             <bibl target="https://doi.org/10.20730/100376839">
-              <title>雅楽譜(Gagaku Score)</title>
-              , transcribed 
-              <persName role="transcriber">Hisatsune Ohno</persName>
-              , held by 
-              <corpName>Tokyo
-University of the Arts. University
-Library</corpName>
-              , available on 
-              <name role="distribution">Union
-Catalogue Database of Japanese Texts</name>
-              . 
-            </bibl>
+              <title>雅楽譜(Gagaku Score)</title> , transcribed <persName role="transcriber">Hisatsune
+                Ohno</persName> , held by <corpName>Tokyo University of the Arts. University
+                Library</corpName> , available on <name role="distribution">Union Catalogue Database
+                of Japanese Texts</name> . </bibl>
           </source>
         </sourceDesc>
       </fileDesc>
       <encodingDesc>
         <editorialDecl>
           <p>このファイルは国書データベースで公開されている東京藝術大学付属図書館所蔵の『雅楽譜』を参照して作成された．雅楽譜の持つ文字情報の維持し，それらを機械可読な形式で構造化することを目指している．具体的な翻刻の方針は東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
-唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』を参照すること．</p>
+            唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』を参照すること．</p>
         </editorialDecl>
         <projectDesc>
           <p xml:lang="ja">このファイルは東京大学大学院人文社会系研究科に提出された博士論文『楽譜記述の機械可読化による無形文化財の保護・継承・研究:
-唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』の一部として翻刻された．本研究は日本学術振興会 特別研究員奨励費
-JSPS23KJ0393，DNP文化振興財団グラフィック文化に関する学術研究助成，公益財団法人日立財団倉田奨励金の支援を受けた．また，関連する研究成果の発表に際しては公益財団法人文化財保護・芸術研究助成財団研究助成，Student
-scholarship for the 2024 Music Encoding Conferenceの援助を受けた．</p>
-          <p xml:lang="en">This is a digital gagaku score that was transcribed as part of
-a doctoral thesis submitted to the Graduate School of Humanities and
-Sociology at the University of Tokyo by Shintaro Seki. This edition uses
-meiHead provided by MEI, but the overall XML structure is based on a unique
-schema that differs from MEI's. Please refer to the main text of the
-doctoral thesis for more information regarding the concepts and structuring
-policies represented by the elements and attributes used throughout this
-edition. This research was supported by JSPS23KJ0393, a grant-in-aid for
-JSPS Research Fellows, the DNP Foundation for Cultural Affairs, a
-grant-in-aid for academic research on graphic culture, and the Kurata
-Scholarship of the Hitachi Foundation. In addition, I received support from
-the Research Grant for the Foundation for Cultural Heritage and Art Research
-and the Student Scholarship for the 2024 Music Encoding Conference when
-presenting the results of this research.</p>
+            唐楽中小曲に含まれる三管の譜を対象としたデジタル版雅楽譜の構築を通して』の一部として翻刻された．本研究は日本学術振興会 特別研究員奨励費
+            JSPS23KJ0393，DNP文化振興財団グラフィック文化に関する学術研究助成，公益財団法人日立財団倉田奨励金の支援を受けた．また，関連する研究成果の発表に際しては公益財団法人文化財保護・芸術研究助成財団研究助成，Student
+            scholarship for the 2024 Music Encoding Conferenceの援助を受けた．</p>
+          <p xml:lang="en">This is a digital gagaku score that was transcribed as part of a doctoral
+            thesis submitted to the Graduate School of Humanities and Sociology at the University of
+            Tokyo by Shintaro Seki. This edition uses meiHead provided by MEI, but the overall XML
+            structure is based on a unique schema that differs from MEI's. Please refer to the main
+            text of the doctoral thesis for more information regarding the concepts and structuring
+            policies represented by the elements and attributes used throughout this edition. This
+            research was supported by JSPS23KJ0393, a grant-in-aid for JSPS Research Fellows, the
+            DNP Foundation for Cultural Affairs, a grant-in-aid for academic research on graphic
+            culture, and the Kurata Scholarship of the Hitachi Foundation. In addition, I received
+            support from the Research Grant for the Foundation for Cultural Heritage and Art
+            Research and the Student Scholarship for the 2024 Music Encoding Conference when
+            presenting the results of this research.</p>
         </projectDesc>
       </encodingDesc>
     </meiHead>
@@ -75,7 +64,7 @@ presenting the results of this research.</p>
       <hyoshi type="hyoshi-1">延八拍子</hyoshi>
       <hyoshi type="hyoshi-2">拍子八</hyoshi>
       <kuwaeHyoshi>末四拍子加</kuwaeHyoshi>
-      <kodo />
+      <kodo/>
     </gagakuHead>
   </gagakuMeta>
   <music>
@@ -85,14 +74,14 @@ presenting the results of this research.</p>
       <hyoshi type="hyoshi-1">延八拍子</hyoshi>
       <hyoshi type="hyoshi-2">拍子八</hyoshi>
       <kuwaeHyoshi>末四拍子加</kuwaeHyoshi>
-      <kodo />
+      <kodo/>
     </front>
     <body>
-      <lb n="1" />
+      <lb n="1"/>
       <cell id="c1">
         <tetsuke type="large" id="t1">丄</tetsuke>
         <shoga type="large" id="s1">タ</shoga>
-        <hyoshi type="small" id="h1" />
+        <hyoshi type="small" id="h1"/>
       </cell>
       <cell id="c2">
         <shoga type="large" id="s2">ア</shoga>
@@ -104,7 +93,7 @@ presenting the results of this research.</p>
         <shoga type="large" id="s4">ア</shoga>
       </cell>
       <cell id="c5">
-        <tataku />
+        <tataku/>
         <shoga type="large" id="s5">ハ</shoga>
       </cell>
       <cell id="c6">
@@ -119,7 +108,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c9">
         <shoga type="large" id="s9">引</shoga>
-        <hyoshi type="small" id="h2" />
+        <hyoshi type="small" id="h2"/>
       </cell>
       <cell id="c10">
         <shoga type="large" id="s10">引</shoga>
@@ -140,11 +129,11 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c15">
         <shoga type="large" id="s15">ア</shoga>
-        <hyoshi type="small" id="h3" />
+        <hyoshi type="small" id="h3"/>
       </cell>
       <cell id="c16">
         <shoga type="large" id="s16">ア</shoga>
-        <hyoshi type="small" id="h4" />
+        <hyoshi type="small" id="h4"/>
       </cell>
       <cell id="c17">
         <tetsuke type="small" id="t5">六</tetsuke>
@@ -155,7 +144,7 @@ presenting the results of this research.</p>
         <shoga type="large" id="s18">ラ</shoga>
       </cell>
       <cell id="c19">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s19">ハ</shoga>
       </cell>
       <cell id="c20">
@@ -165,10 +154,10 @@ presenting the results of this research.</p>
       <cell id="c21">
         <shoga type="large" id="s21">イ</shoga>
       </cell>
-      <lb n="2" />
+      <lb n="2"/>
       <cell id="c22">
         <shoga type="large" id="s22">引</shoga>
-        <hyoshi type="small" id="h5" />
+        <hyoshi type="small" id="h5"/>
       </cell>
       <cell id="c23">
         <shoga type="large" id="s23">引</shoga>
@@ -185,9 +174,9 @@ presenting the results of this research.</p>
         <shoga type="large" id="s26">ロ</shoga>
       </cell>
       <cell id="c27">
-        <tataku />
+        <tataku/>
         <shoga type="large" id="s27">ホ</shoga>
-        <hyoshi type="small" id="h6" />
+        <hyoshi type="small" id="h6"/>
       </cell>
       <cell id="c28">
         <shoga type="large" id="s28">ヲ</shoga>
@@ -201,7 +190,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c31">
         <shoga type="large" id="s31">引</shoga>
-        <hyoshi type="small" id="h7" />
+        <hyoshi type="small" id="h7"/>
       </cell>
       <cell id="c32">
         <shoga type="large" id="s32">引</shoga>
@@ -217,13 +206,13 @@ presenting the results of this research.</p>
         <shoga type="large" id="s35">ア</shoga>
       </cell>
       <cell id="c36">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s36">ハ</shoga>
       </cell>
       <cell id="c37">
         <tetsuke type="large" id="t12">五</tetsuke>
         <shoga type="large" id="s37">ラ</shoga>
-        <hyoshi type="small" id="h8" />
+        <hyoshi type="small" id="h8"/>
       </cell>
       <cell id="c38">
         <tetsuke type="large" id="t13">亍</tetsuke>
@@ -248,11 +237,11 @@ presenting the results of this research.</p>
         <tetsuke type="small" id="t17">亍</tetsuke>
         <shoga type="small" id="s43">ル</shoga>
       </cell>
-      <lb n="3" />
+      <lb n="3"/>
       <cell id="c44">
         <tetsuke type="large" id="t18">五</tetsuke>
         <shoga type="large" id="s44">ラ</shoga>
-        <hyoshi type="small" id="h9" />
+        <hyoshi type="small" id="h9"/>
       </cell>
       <cell id="c45">
         <shoga type="large" id="s45">ア</shoga>
@@ -269,13 +258,13 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c49">
         <shoga type="large" id="s49">引</shoga>
-        <hyoshi type="small" id="h10" />
+        <hyoshi type="small" id="h10"/>
       </cell>
       <cell id="c50">
         <shoga type="large" id="s50">ア</shoga>
       </cell>
       <cell id="c51">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s51">ハ</shoga>
       </cell>
       <cell id="c52">
@@ -288,7 +277,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c54">
         <shoga type="large" id="s54">ア</shoga>
-        <hyoshi type="small" id="h11" />
+        <hyoshi type="small" id="h11"/>
       </cell>
       <cell id="c55">
         <shoga type="large" id="s55">引</shoga>
@@ -304,11 +293,11 @@ presenting the results of this research.</p>
         <shoga type="small" id="s58">ヲ</shoga>
       </cell>
       <cell id="c59">
-        <seme />
+        <seme/>
         <shoga type="small" id="s59">ヒ</shoga>
       </cell>
       <cell id="c60">
-        <ugoki />
+        <ugoki/>
         <shoga type="large" id="s60">ヨ</shoga>
       </cell>
       <cell id="c61">
@@ -318,10 +307,10 @@ presenting the results of this research.</p>
       <cell id="c62">
         <tetsuke type="large" id="t24">丅</tetsuke>
         <shoga type="large" id="s62">ロ</shoga>
-        <hyoshi type="small" id="h12" />
+        <hyoshi type="small" id="h12"/>
       </cell>
       <cell id="c63">
-        <yuri />
+        <yuri/>
         <shoga type="large" id="s63">ル</shoga>
       </cell>
       <cell id="c64">
@@ -331,20 +320,20 @@ presenting the results of this research.</p>
         <shoga type="small" id="s65">ヲ</shoga>
       </cell>
       <cell id="c66">
-        <yuri />
+        <yuri/>
         <shoga type="small" id="s66">ル</shoga>
       </cell>
       <cell id="c67">
         <shoga type="large" id="s67">ロ</shoga>
       </cell>
       <cell id="c68">
-        <yuri />
+        <yuri/>
         <shoga type="small" id="s68">ル</shoga>
       </cell>
-      <lb n="4" />
+      <lb n="4"/>
       <cell id="c69">
         <shoga type="large" id="s69">ロ</shoga>
-        <hyoshi type="small" id="h13" />
+        <hyoshi type="small" id="h13"/>
       </cell>
       <cell id="c70">
         <shoga type="large" id="s70">ヲ</shoga>
@@ -365,7 +354,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c75">
         <shoga type="large" id="s75">ア</shoga>
-        <hyoshi type="small" id="h14" />
+        <hyoshi type="small" id="h14"/>
       </cell>
       <cell id="c76">
         <shoga type="large" id="s76">引</shoga>
@@ -383,7 +372,7 @@ presenting the results of this research.</p>
       <cell id="c80">
         <tetsuke type="large" id="t28">六</tetsuke>
         <shoga type="large" id="s80">ト</shoga>
-        <hyoshi type="small" id="h15" />
+        <hyoshi type="small" id="h15"/>
       </cell>
       <cell id="c81">
         <shoga type="large" id="s81">ヲ</shoga>
@@ -396,7 +385,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c84">
         <shoga type="large" id="s84">引</shoga>
-        <hyoshi type="small" id="h16" />
+        <hyoshi type="small" id="h16"/>
       </cell>
       <cell id="c85">
         <shoga type="large" id="s85">ヲ</shoga>
@@ -410,11 +399,11 @@ presenting the results of this research.</p>
       <cell id="c88">
         <shoga type="large" id="s88">．</shoga>
       </cell>
-      <lb n="5" />
+      <lb n="5"/>
       <cell id="c89">
         <tetsuke type="large" id="t29">丅</tetsuke>
         <shoga type="large" id="s89">ト</shoga>
-        <hyoshi type="small" id="h17" />
+        <hyoshi type="small" id="h17"/>
       </cell>
       <cell id="c90">
         <shoga type="large" id="s90">ヲ</shoga>
@@ -426,18 +415,18 @@ presenting the results of this research.</p>
         <shoga type="large" id="s92">ヲ</shoga>
       </cell>
       <cell id="c93">
-        <yuri />
+        <yuri/>
         <shoga type="small" id="s93">ル</shoga>
       </cell>
       <cell id="c94">
         <shoga type="large" id="s94">ロ</shoga>
-        <hyoshi type="small" id="h18" />
+        <hyoshi type="small" id="h18"/>
       </cell>
       <cell id="c95">
         <shoga type="large" id="s95">ヲ</shoga>
       </cell>
       <cell id="c96">
-        <yuri />
+        <yuri/>
         <shoga type="small" id="s96">リ</shoga>
       </cell>
       <cell id="c97">
@@ -449,7 +438,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c99">
         <shoga type="large" id="s99">引</shoga>
-        <hyoshi type="small" id="h19" />
+        <hyoshi type="small" id="h19"/>
       </cell>
       <cell id="c100">
         <shoga type="large" id="s100">引</shoga>
@@ -465,18 +454,18 @@ presenting the results of this research.</p>
         <shoga type="large" id="s103">ヲ</shoga>
       </cell>
       <cell id="c104">
-        <yuri />
+        <yuri/>
         <shoga type="small" id="s104">ル</shoga>
       </cell>
       <cell id="c105">
         <shoga type="large" id="s105">ロ</shoga>
-        <hyoshi type="small" id="h20" />
+        <hyoshi type="small" id="h20"/>
       </cell>
       <cell id="c106">
         <shoga type="large" id="s106">ヲ</shoga>
       </cell>
       <cell id="c107">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s107">ホ</shoga>
       </cell>
       <cell id="c108">
@@ -486,10 +475,10 @@ presenting the results of this research.</p>
       <cell id="c109">
         <shoga type="large" id="s109">ヲ</shoga>
       </cell>
-      <lb n="6" />
+      <lb n="6"/>
       <cell id="c110">
         <shoga type="large" id="s110">引</shoga>
-        <hyoshi type="large" id="h21" />
+        <hyoshi type="large" id="h21"/>
       </cell>
       <cell id="c111">
         <shoga type="large" id="s111">引</shoga>
@@ -506,13 +495,13 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c115">
         <shoga type="large" id="s115">引</shoga>
-        <hyoshi type="small" id="h22" />
+        <hyoshi type="small" id="h22"/>
       </cell>
       <cell id="c116">
         <shoga type="large" id="s116">ア</shoga>
       </cell>
       <cell id="c117">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s117">ハ</shoga>
       </cell>
       <cell id="c118">
@@ -525,7 +514,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c120">
         <shoga type="large" id="s120">ア</shoga>
-        <hyoshi type="small" id="h23" />
+        <hyoshi type="small" id="h23"/>
       </cell>
       <cell id="c121">
         <shoga type="large" id="s121">引</shoga>
@@ -558,10 +547,10 @@ presenting the results of this research.</p>
       <cell id="c129">
         <shoga type="large" id="s129">ヲ</shoga>
       </cell>
-      <lb n="7" />
+      <lb n="7"/>
       <cell id="c130">
         <shoga type="large" id="s130">引</shoga>
-        <hyoshi type="small" id="h24" />
+        <hyoshi type="small" id="h24"/>
       </cell>
       <cell id="c131">
         <shoga type="large" id="s131">引</shoga>
@@ -582,7 +571,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c136">
         <shoga type="large" id="s136">ア</shoga>
-        <hyoshi type="small" id="h25" />
+        <hyoshi type="small" id="h25"/>
       </cell>
       <cell id="c137">
         <shoga type="large" id="s137">引</shoga>
@@ -605,7 +594,7 @@ presenting the results of this research.</p>
       <cell id="c142">
         <tetsuke type="large" id="t45">中</tetsuke>
         <shoga type="large" id="s142">ロ</shoga>
-        <hyoshi type="small" id="h26" />
+        <hyoshi type="small" id="h26"/>
       </cell>
       <cell id="c143">
         <shoga type="large" id="s143">ヲ</shoga>
@@ -622,14 +611,14 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c147">
         <shoga type="large" id="s147">引</shoga>
-        <hyoshi type="small" id="h27" />
+        <hyoshi type="small" id="h27"/>
       </cell>
       <cell id="c148">
         <tetsuke type="large" id="t47">亍</tetsuke>
         <shoga type="large" id="s148">ラ</shoga>
       </cell>
       <cell id="c149">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s149">ハ</shoga>
       </cell>
       <cell id="c150">
@@ -640,11 +629,11 @@ presenting the results of this research.</p>
         <tetsuke type="large" id="t49">丄</tetsuke>
         <shoga type="large" id="s151">ラ</shoga>
       </cell>
-      <pb />
-      <lb n="8" />
+      <pb/>
+      <lb n="8"/>
       <cell id="c152">
         <shoga type="large" id="s152">ア</shoga>
-        <hyoshi type="large" id="h28" />
+        <hyoshi type="large" id="h28"/>
       </cell>
       <cell id="c153">
         <shoga type="large" id="s153">引</shoga>
@@ -661,9 +650,9 @@ presenting the results of this research.</p>
         <shoga type="large" id="s156">ロ</shoga>
       </cell>
       <cell id="c157">
-        <tataku />
+        <tataku/>
         <shoga type="large" id="s157">ホ</shoga>
-        <hyoshi type="small" id="h29" />
+        <hyoshi type="small" id="h29"/>
       </cell>
       <cell id="c158">
         <shoga type="large" id="s158">ヲ</shoga>
@@ -681,7 +670,7 @@ presenting the results of this research.</p>
       <cell id="c162">
         <tetsuke type="large" id="t53">丄</tetsuke>
         <shoga type="large" id="s162">タ</shoga>
-        <hyoshi type="small" id="h30" />
+        <hyoshi type="small" id="h30"/>
       </cell>
       <cell id="c163">
         <shoga type="large" id="s163">ア</shoga>
@@ -694,7 +683,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c166">
         <shoga type="large" id="s166">引</shoga>
-        <hyoshi type="small" id="h31" />
+        <hyoshi type="small" id="h31"/>
       </cell>
       <cell id="c167">
         <shoga type="large" id="s167">ア</shoga>
@@ -708,11 +697,11 @@ presenting the results of this research.</p>
       <cell id="c170">
         <shoga type="large" id="s170">．</shoga>
       </cell>
-      <lb n="9" />
+      <lb n="9"/>
       <cell id="c171">
         <tetsuke type="large" id="t54">五</tetsuke>
         <shoga type="large" id="s171">タ</shoga>
-        <hyoshi type="small" id="h32" />
+        <hyoshi type="small" id="h32"/>
       </cell>
       <cell id="c172">
         <shoga type="large" id="s172">ア</shoga>
@@ -730,18 +719,18 @@ presenting the results of this research.</p>
       <cell id="c176">
         <tetsuke type="large" id="t56">五</tetsuke>
         <shoga type="large" id="s176">ラ</shoga>
-        <hyoshi type="small" id="h33" />
+        <hyoshi type="small" id="h33"/>
       </cell>
       <cell id="c177">
         <shoga type="large" id="s177">ア</shoga>
       </cell>
       <cell id="c178">
-        <ugoki />
+        <ugoki/>
         <shoga type="large" id="s178">リ</shoga>
         <shoga type="large" id="s179">ヤ</shoga>
       </cell>
       <cell id="c179">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s180">ハ</shoga>
       </cell>
       <cell id="c180">
@@ -750,7 +739,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c181">
         <shoga type="large" id="s182">ア</shoga>
-        <hyoshi type="small" id="h34" />
+        <hyoshi type="small" id="h34"/>
       </cell>
       <cell id="c182">
         <shoga type="large" id="s183">引</shoga>
@@ -772,13 +761,13 @@ presenting the results of this research.</p>
       <cell id="c187">
         <tetsuke type="large" id="t60">五</tetsuke>
         <shoga type="large" id="s188">ラ</shoga>
-        <hyoshi type="small" id="h35" />
+        <hyoshi type="small" id="h35"/>
       </cell>
       <cell id="c188">
         <shoga type="large" id="s189">ア</shoga>
       </cell>
       <cell id="c189">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s190">ハ</shoga>
       </cell>
       <cell id="c190">
@@ -788,10 +777,10 @@ presenting the results of this research.</p>
       <cell id="c191">
         <shoga type="large" id="s192">イ</shoga>
       </cell>
-      <lb n="10" />
+      <lb n="10"/>
       <cell id="c192">
         <shoga type="large" id="s193">引</shoga>
-        <hyoshi type="large" id="h36" />
+        <hyoshi type="large" id="h36"/>
       </cell>
       <cell id="c193">
         <shoga type="large" id="s194">引</shoga>
@@ -808,9 +797,9 @@ presenting the results of this research.</p>
         <shoga type="large" id="s197">ロ</shoga>
       </cell>
       <cell id="c197">
-        <tataku />
+        <tataku/>
         <shoga type="large" id="s198">ホ</shoga>
-        <hyoshi type="small" id="h37" />
+        <hyoshi type="small" id="h37"/>
       </cell>
       <cell id="c198">
         <shoga type="large" id="s199">ヲ</shoga>
@@ -825,7 +814,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c201">
         <shoga type="large" id="s202">ア</shoga>
-        <hyoshi type="small" id="h38" />
+        <hyoshi type="small" id="h38"/>
       </cell>
       <cell id="c202">
         <shoga type="large" id="s203">引</shoga>
@@ -847,7 +836,7 @@ presenting the results of this research.</p>
       <cell id="c207">
         <tetsuke type="large" id="t68">五</tetsuke>
         <shoga type="large" id="s208">ラ</shoga>
-        <hyoshi type="small" id="h39" />
+        <hyoshi type="small" id="h39"/>
       </cell>
       <cell id="c208">
         <shoga type="large" id="s209">ア</shoga>
@@ -859,10 +848,10 @@ presenting the results of this research.</p>
       <cell id="c210">
         <shoga type="large" id="s211">ヲ</shoga>
       </cell>
-      <lb n="11" />
+      <lb n="11"/>
       <cell id="c211">
         <shoga type="large" id="s212">引</shoga>
-        <hyoshi type="small" id="h40" />
+        <hyoshi type="small" id="h40"/>
       </cell>
       <cell id="c212">
         <shoga type="large" id="s213">引</shoga>
@@ -883,7 +872,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c217">
         <shoga type="large" id="s218">ア</shoga>
-        <hyoshi type="small" id="h41" />
+        <hyoshi type="small" id="h41"/>
       </cell>
       <cell id="c218">
         <shoga type="small" id="s219">ア</shoga>
@@ -897,7 +886,7 @@ presenting the results of this research.</p>
         <shoga type="large" id="s221">ラ</shoga>
       </cell>
       <cell id="c221">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s222">ハ</shoga>
       </cell>
       <cell id="c222">
@@ -909,7 +898,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c224">
         <shoga type="large" id="s225">引</shoga>
-        <hyoshi type="small" id="h42" />
+        <hyoshi type="small" id="h42"/>
       </cell>
       <cell id="c225">
         <shoga type="large" id="s226">引</shoga>
@@ -925,11 +914,11 @@ presenting the results of this research.</p>
         <shoga type="small" id="s229">ヲ</shoga>
       </cell>
       <cell id="c229">
-        <seme />
+        <seme/>
         <shoga type="small" id="s230">ヒ</shoga>
       </cell>
       <cell id="c230">
-        <ugoki />
+        <ugoki/>
         <shoga type="large" id="s231">ヨ</shoga>
       </cell>
       <cell id="c231">
@@ -939,10 +928,10 @@ presenting the results of this research.</p>
       <cell id="c232">
         <tetsuke type="large" id="t77">丅</tetsuke>
         <shoga type="large" id="s233">ロ</shoga>
-        <hyoshi type="small" id="h43" />
+        <hyoshi type="small" id="h43"/>
       </cell>
       <cell id="c233">
-        <yuri />
+        <yuri/>
         <shoga type="large" id="s234">ル</shoga>
       </cell>
       <cell id="c234">
@@ -952,20 +941,20 @@ presenting the results of this research.</p>
         <shoga type="small" id="s236">ヲ</shoga>
       </cell>
       <cell id="c236">
-        <yuri />
+        <yuri/>
         <shoga type="small" id="s237">ル</shoga>
       </cell>
       <cell id="c237">
         <shoga type="large" id="s238">ロ</shoga>
       </cell>
       <cell id="c238">
-        <yuri />
+        <yuri/>
         <shoga type="small" id="s239">ル</shoga>
       </cell>
-      <lb n="12" />
+      <lb n="12"/>
       <cell id="c239">
         <shoga type="large" id="s240">ロ</shoga>
-        <hyoshi type="large" id="h44" />
+        <hyoshi type="large" id="h44"/>
       </cell>
       <cell id="c240">
         <shoga type="large" id="s241">ヲ</shoga>
@@ -986,7 +975,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c245">
         <shoga type="large" id="s246">ア</shoga>
-        <hyoshi type="small" id="h45" />
+        <hyoshi type="small" id="h45"/>
       </cell>
       <cell id="c246">
         <shoga type="large" id="s247">引</shoga>
@@ -1004,7 +993,7 @@ presenting the results of this research.</p>
       <cell id="c250">
         <tetsuke type="large" id="t81">六</tetsuke>
         <shoga type="large" id="s251">ト</shoga>
-        <hyoshi type="small" id="h46" />
+        <hyoshi type="small" id="h46"/>
       </cell>
       <cell id="c251">
         <shoga type="large" id="s252">ヲ</shoga>
@@ -1017,7 +1006,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c254">
         <shoga type="large" id="s255">引</shoga>
-        <hyoshi type="small" id="h47" />
+        <hyoshi type="small" id="h47"/>
       </cell>
       <cell id="c255">
         <shoga type="large" id="s256">ヲ</shoga>
@@ -1031,11 +1020,11 @@ presenting the results of this research.</p>
       <cell id="c258">
         <shoga type="large" id="s259">．</shoga>
       </cell>
-      <lb n="13" />
+      <lb n="13"/>
       <cell id="c259">
         <tetsuke type="large" id="t82">五</tetsuke>
         <shoga type="large" id="s260">タ</shoga>
-        <hyoshi type="small" id="h48" />
+        <hyoshi type="small" id="h48"/>
       </cell>
       <cell id="c260">
         <shoga type="large" id="s261">ア</shoga>
@@ -1052,7 +1041,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c264">
         <shoga type="large" id="s265">ア</shoga>
-        <hyoshi type="small" id="h49" />
+        <hyoshi type="small" id="h49"/>
       </cell>
       <cell id="c265">
         <shoga type="small" id="s266">ア</shoga>
@@ -1066,7 +1055,7 @@ presenting the results of this research.</p>
         <shoga type="large" id="s268">ラ</shoga>
       </cell>
       <cell id="c268">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s269">ハ</shoga>
       </cell>
       <cell id="c269">
@@ -1078,7 +1067,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c271">
         <shoga type="large" id="s272">引</shoga>
-        <hyoshi type="small" id="h50" />
+        <hyoshi type="small" id="h50"/>
       </cell>
       <cell id="c272">
         <shoga type="large" id="s273">引</shoga>
@@ -1095,7 +1084,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c276">
         <shoga type="large" id="s277">引</shoga>
-        <hyoshi type="small" id="h51" />
+        <hyoshi type="small" id="h51"/>
       </cell>
       <cell id="c277">
         <shoga type="large" id="s278">引</shoga>
@@ -1112,7 +1101,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c281">
         <shoga type="large" id="s282">引</shoga>
-        <hyoshi type="small" id="h52" />
+        <hyoshi type="small" id="h52"/>
       </cell>
       <cell id="c282">
         <shoga type="large" id="s283">ア</shoga>
@@ -1132,11 +1121,11 @@ presenting the results of this research.</p>
         <tetsuke type="small" id="t91">夕</tetsuke>
         <shoga type="small" id="s287">ル</shoga>
       </cell>
-      <lb n="14" />
+      <lb n="14"/>
       <cell id="c287">
         <tetsuke type="large" id="t92">中</tetsuke>
         <shoga type="large" id="s288">ロ</shoga>
-        <hyoshi type="large" id="h53" />
+        <hyoshi type="large" id="h53"/>
       </cell>
       <cell id="c288">
         <shoga type="large" id="s289">ヲ</shoga>
@@ -1153,13 +1142,13 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c292">
         <shoga type="large" id="s293">引</shoga>
-        <hyoshi type="small" id="h54" />
+        <hyoshi type="small" id="h54"/>
       </cell>
       <cell id="c293">
         <shoga type="large" id="s294">ア</shoga>
       </cell>
       <cell id="c294">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s295">ハ</shoga>
       </cell>
       <cell id="c295">
@@ -1176,7 +1165,7 @@ presenting the results of this research.</p>
       <cell id="c298">
         <tetsuke type="large" id="t96">中</tetsuke>
         <shoga type="large" id="s299">ロ</shoga>
-        <hyoshi type="small" id="h55" />
+        <hyoshi type="small" id="h55"/>
       </cell>
       <cell id="c299">
         <shoga type="large" id="s300">ヲ</shoga>
@@ -1197,9 +1186,9 @@ presenting the results of this research.</p>
         <shoga type="small" id="s304">ロ</shoga>
       </cell>
       <cell id="c304">
-        <tataku />
+        <tataku/>
         <shoga type="large" id="s305">ホ</shoga>
-        <hyoshi type="small" id="h56" />
+        <hyoshi type="small" id="h56"/>
       </cell>
       <cell id="c305">
         <shoga type="large" id="s306">ヲ</shoga>
@@ -1210,10 +1199,10 @@ presenting the results of this research.</p>
       <cell id="c307">
         <shoga type="large" id="s308">ヲ</shoga>
       </cell>
-      <lb n="15" />
+      <lb n="15"/>
       <cell id="c308">
         <shoga type="large" id="s309">引</shoga>
-        <hyoshi type="small" id="h57" />
+        <hyoshi type="small" id="h57"/>
       </cell>
       <cell id="c309">
         <shoga type="large" id="s310">引</shoga>
@@ -1230,13 +1219,13 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c313">
         <shoga type="large" id="s314">引</shoga>
-        <hyoshi type="small" id="h58" />
+        <hyoshi type="small" id="h58"/>
       </cell>
       <cell id="c314">
         <shoga type="large" id="s315">ア</shoga>
       </cell>
       <cell id="c315">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s316">ハ</shoga>
       </cell>
       <cell id="c316">
@@ -1253,7 +1242,7 @@ presenting the results of this research.</p>
       <cell id="c319">
         <tetsuke type="large" id="t103">中</tetsuke>
         <shoga type="large" id="s320">ロ</shoga>
-        <hyoshi type="small" id="h59" />
+        <hyoshi type="small" id="h59"/>
       </cell>
       <cell id="c320">
         <tetsuke type="large" id="t104">夕</tetsuke>
@@ -1271,7 +1260,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c324">
         <shoga type="large" id="s325">引</shoga>
-        <hyoshi type="small" id="h60" />
+        <hyoshi type="small" id="h60"/>
       </cell>
       <cell id="c325">
         <tetsuke type="small" id="t106">五</tetsuke>
@@ -1286,7 +1275,7 @@ presenting the results of this research.</p>
         <shoga type="large" id="s328">ラ</shoga>
       </cell>
       <cell id="c328">
-        <tataku />
+        <tataku/>
         <shoga type="small" id="s329">ハ</shoga>
       </cell>
       <cell id="c329">
@@ -1300,12 +1289,12 @@ presenting the results of this research.</p>
       <cell id="c331">
         <shoga type="large" id="s332">．</shoga>
       </cell>
-      <pb />
-      <lb n="16" />
+      <pb/>
+      <lb n="16"/>
       <cell id="c332">
         <tetsuke type="large" id="t111">丄</tetsuke>
         <shoga type="large" id="s333">タ</shoga>
-        <hyoshi type="large" id="h61" />
+        <hyoshi type="large" id="h61"/>
       </cell>
       <cell id="c333">
         <shoga type="large" id="s334">ア</shoga>
@@ -1318,7 +1307,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c336">
         <shoga type="large" id="s337">引</shoga>
-        <hyoshi type="small" id="h62" />
+        <hyoshi type="small" id="h62"/>
       </cell>
       <cell id="c337">
         <shoga type="large" id="s338">ア</shoga>
@@ -1335,7 +1324,7 @@ presenting the results of this research.</p>
       <cell id="c341">
         <tetsuke type="large" id="t112">丄</tetsuke>
         <shoga type="large" id="s342">タ</shoga>
-        <hyoshi type="small" id="h63" />
+        <hyoshi type="small" id="h63"/>
       </cell>
       <cell id="c342">
         <shoga type="large" id="s343">ア</shoga>
@@ -1348,7 +1337,7 @@ presenting the results of this research.</p>
       </cell>
       <cell id="c345">
         <shoga type="large" id="s346">引</shoga>
-        <hyoshi type="small" id="h64" />
+        <hyoshi type="small" id="h64"/>
       </cell>
       <cell id="c346">
         <shoga type="large" id="s347">ア</shoga>

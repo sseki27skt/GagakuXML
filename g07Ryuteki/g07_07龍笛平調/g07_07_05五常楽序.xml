@@ -7,14 +7,16 @@
                     <title>五常楽序</title>
                     <respStmt>
                         <resp>Machine-readable transcription by:</resp>
-                        <persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro Seki</persName>
+                        <persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352"
+                            >Shintaro Seki</persName>
                     </respStmt>
                     <funder>Japan Society for the Promotion of Science</funder>
                     <funder>Foundation for Cultural Heritage and Art Research</funder>
                     <funder>The Kurata Grants, The Hitachi Global Foundation</funder>
                 </titleStmt>
                 <pubStmt>
-                    <distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML on Github</distributor>
+                    <distributor corresp="https://github.com/sseki27skt/GagakuXML"
+                        >sseki27skt/GagakuXML on Github</distributor>
                     <availability>
                         <useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This
                             edition is licensed under the Creative Commons Attribution 4.0
@@ -24,7 +26,8 @@
                 <sourceDesc>
                     <source>
                         <bibl target="https://doi.org/10.20730/100376839">
-                            <title>雅楽譜(Gagaku Score)</title>, transcribed <persName role="transcriber">Hisatsune Ohno</persName>, held by
+                            <title>雅楽譜(Gagaku Score)</title>, transcribed <persName
+                                role="transcriber">Hisatsune Ohno</persName>, held by
                                 <corpName>Tokyo University of the Arts. University
                                 Library</corpName>, available on <name role="distribution">Union
                                 Catalogue Database of Japanese Texts</name>. </bibl>
