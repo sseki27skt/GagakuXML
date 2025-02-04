@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <gagakuXML xmlns:ns0="http://www.music-encoding.org/ns/mei">
     <gagakuMeta>
         <meiHead xmlns="http://www.music-encoding.org/ns/mei">
             <fileDesc>
                 <titleStmt>
-                    <title />
+                    <title>五常楽序</title>
                     <respStmt>
                         <resp>Machine-readable transcription by:</resp>
                         <persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro Seki</persName>
@@ -72,8 +72,8 @@
             <hyoshi type="hyoshi-2">拍子八</hyoshi>
         </front>
         <body>
-            <pb />
-            <lb n="1" />
+            <pb/>
+            <lb n="1"/>
             <cell id="c1">
                 <tetsuke type="large" id="t1">中</tetsuke>
                 <shoga type="large" id="s1">ト</shoga>
@@ -82,7 +82,7 @@
                 <shoga type="large" id="s2">ヲ</shoga>
             </cell>
             <cell id="c3">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s3">ホ</shoga>
             </cell>
             <cell id="c4">
@@ -99,7 +99,7 @@
                 <shoga type="large" id="s7">ア</shoga>
             </cell>
             <cell id="c8">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s8">ハ</shoga>
             </cell>
             <cell id="c9">
@@ -176,7 +176,7 @@
                 <shoga type="large" id="s29">ア</shoga>
             </cell>
             <cell id="c30">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s30">ハ</shoga>
             </cell>
             <cell id="c31">
@@ -196,11 +196,11 @@
                 <shoga type="large" id="s34">ロ</shoga>
             </cell>
             <cell id="c35">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s35">ホ</shoga>
             </cell>
             <cell id="c36">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s36">ヒ</shoga>
             </cell>
             <cell id="c37">
@@ -217,10 +217,10 @@
                 <tetsuke type="large" id="t18">中</tetsuke>
                 <shoga type="large" id="s40">ト</shoga>
             </cell>
-            <lb n="2" />
+            <lb n="2"/>
             <cell id="c41">
                 <shoga type="large" id="s41">引</shoga>
-                <hyoshi type="large" id="h-1" />
+                <hyoshi type="large" id="h-1"/>
             </cell>
             <cell id="c42">
                 <shoga type="large" id="s42">．</shoga>
@@ -257,7 +257,7 @@
                 <shoga type="large" id="s51">ア</shoga>
             </cell>
             <cell id="c52">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s52">ハ</shoga>
             </cell>
             <cell id="c53">
@@ -289,7 +289,7 @@
             <cell id="c60">
                 <shoga type="large" id="s60">．</shoga>
             </cell>
-            <lb n="3" />
+            <lb n="3"/>
             <cell id="c61">
                 <tetsuke type="small" id="t29">亍</tetsuke>
                 <shoga type="small" id="s61">ツ</shoga>
@@ -346,7 +346,7 @@
             </cell>
             <cell id="c76">
                 <shoga type="large" id="s76">引</shoga>
-                <hyoshi type="large" id="h0" />
+                <hyoshi type="large" id="h0"/>
             </cell>
             <cell id="c77">
                 <shoga type="large" id="s77">．</shoga>
@@ -369,7 +369,7 @@
             <cell id="c82">
                 <shoga type="large" id="s82">．</shoga>
             </cell>
-            <lb n="4" />
+            <lb n="4"/>
             <cell id="c83">
                 <tetsuke type="large" id="t41">五</tetsuke>
                 <shoga type="large" id="s83">ト</shoga>
@@ -382,7 +382,7 @@
                 <shoga type="large" id="s85">ア</shoga>
             </cell>
             <cell id="c86">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s86">ハ</shoga>
             </cell>
             <cell id="c87">
@@ -402,7 +402,7 @@
                 <shoga type="large" id="s90">ア</shoga>
             </cell>
             <cell id="c91">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s91">ハ</shoga>
             </cell>
             <cell id="c92">
@@ -433,16 +433,16 @@
                 <tetsuke type="large" id="t50">中</tetsuke>
                 <shoga type="large" id="s99">ト</shoga>
             </cell>
-            <lb n="5" />
+            <lb n="5"/>
             <cell id="c100">
                 <shoga type="large" id="s100">ヲ</shoga>
             </cell>
             <cell id="c101">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s101">ホ</shoga>
             </cell>
             <cell id="c102">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s102">リ</shoga>
             </cell>
             <cell id="c103">
@@ -504,7 +504,7 @@
             <cell id="c118">
                 <shoga type="large" id="s118">イ</shoga>
             </cell>
-            <lb n="6" />
+            <lb n="6"/>
             <cell id="c119">
                 <tetsuke type="large" id="t62">五</tetsuke>
                 <shoga type="large" id="s119">ラ</shoga>
@@ -552,7 +552,7 @@
                 <shoga type="large" id="s131">ア</shoga>
             </cell>
             <cell id="c132">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s132">ハ</shoga>
             </cell>
             <cell id="c133">
@@ -586,7 +586,7 @@
             <cell id="c141">
                 <tetsuke type="large" id="t73">丄</tetsuke>
                 <shoga type="large" id="s141">リ</shoga>
-                <hyoshi type="large" id="h1" />
+                <hyoshi type="large" id="h1"/>
             </cell>
             <cell id="c142">
                 <shoga type="large" id="s142">引</shoga>
@@ -653,8 +653,8 @@
                 <tetsuke type="large" id="t84">丄</tetsuke>
                 <shoga type="large" id="s159">リ</shoga>
             </cell>
-            <pb />
-            <lb n="7" />
+            <pb/>
+            <lb n="7"/>
             <cell id="c160">
                 <shoga type="large" id="s160">イ</shoga>
             </cell>
@@ -694,7 +694,7 @@
                 <shoga type="large" id="s170">ア</shoga>
             </cell>
             <cell id="c171">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s171">ハ</shoga>
             </cell>
             <cell id="c172">
@@ -714,14 +714,14 @@
                 <shoga type="large" id="s175">ロ</shoga>
             </cell>
             <cell id="c176">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s176">ホ</shoga>
             </cell>
             <cell id="c177">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s177">ヒ</shoga>
             </cell>
-            <lb n="8" />
+            <lb n="8"/>
             <cell id="c178">
                 <shoga type="large" id="s178">イ</shoga>
             </cell>
@@ -737,10 +737,10 @@
                 <shoga type="large" id="s181">ト</shoga>
             </cell>shl<cell id="c182">
                 <shoga type="large" id="s182">引</shoga>
-                <hyoshi type="large" id="h2" />
+                <hyoshi type="large" id="h2"/>
             </cell>
             <cell id="c183">
-                <fukura />
+                <fukura/>
                 <tetsuke type="small" id="t96">丅</tetsuke>
                 <tetsuke type="large" id="t97">中</tetsuke>
                 <shoga type="large" id="s183">チ</shoga>
@@ -754,7 +754,7 @@
                 <shoga type="large" id="s185">ヤ</shoga>
             </cell>
             <cell id="c186">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s186">ハ</shoga>
             </cell>
             <cell id="c187">
@@ -778,7 +778,7 @@
                 <shoga type="large" id="s192">ヲ</shoga>
             </cell>
             <cell id="c193">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s193">ヒ</shoga>
             </cell>
             <cell id="c194">
@@ -788,7 +788,7 @@
                 <tetsuke type="large" id="t102">中</tetsuke>
                 <shoga type="large" id="s195">ロ</shoga>
             </cell>
-            <lb n="9" />
+            <lb n="9"/>
             <cell id="c196">
                 <shoga type="large" id="s196">引</shoga>
             </cell>
@@ -803,7 +803,7 @@
                 <shoga type="large" id="s199">ヲ</shoga>
             </cell>
             <cell id="c200">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s200">ヒ</shoga>
             </cell>
             <cell id="c201">
@@ -859,9 +859,9 @@
             <cell id="c215">
                 <shoga type="large" id="s215">ア</shoga>
             </cell>
-            <lb n="10" />
+            <lb n="10"/>
             <cell id="c216">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s216">ハ</shoga>
             </cell>
             <cell id="c217">
@@ -884,7 +884,7 @@
                 <shoga type="large" id="s221">ヲ</shoga>
             </cell>
             <cell id="c222">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s222">ホ</shoga>
             </cell>
             <cell id="c223">
@@ -896,7 +896,7 @@
             </cell>
             <cell id="c225">
                 <shoga type="large" id="s225">引</shoga>
-                <hyoshi type="large" id="h3" />
+                <hyoshi type="large" id="h3"/>
             </cell>
             <cell id="c226">
                 <shoga type="large" id="s226">．</shoga>
@@ -926,9 +926,9 @@
             <cell id="c233">
                 <shoga type="large" id="s233">ヲ</shoga>
             </cell>
-            <lb n="11" />
+            <lb n="11"/>
             <cell id="c234">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s234">ホ</shoga>
             </cell>
             <cell id="c235">
@@ -963,11 +963,11 @@
                 <shoga type="large" id="s243">ヲ</shoga>
             </cell>
             <cell id="c244">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s244">ホ</shoga>
             </cell>
             <cell id="c245">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s245">リ</shoga>
             </cell>
             <cell id="c246">
@@ -990,7 +990,7 @@
                 <tetsuke type="large" id="t129">五</tetsuke>
                 <shoga type="large" id="s250">ル</shoga>
             </cell>
-            <lb n="12" />
+            <lb n="12"/>
             <cell id="c251">
                 <tetsuke type="large" id="t130">五</tetsuke>
                 <shoga type="large" id="s251">ロ</shoga>
@@ -1017,7 +1017,7 @@
                 <shoga type="large" id="s257">ヲ</shoga>
             </cell>
             <cell id="c258">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s258">ホ</shoga>
             </cell>
             <cell id="c259">
@@ -1029,7 +1029,7 @@
             </cell>
             <cell id="c261">
                 <shoga type="large" id="s261">引</shoga>
-                <hyoshi type="large" id="h4" />
+                <hyoshi type="large" id="h4"/>
             </cell>
             <cell id="c262">
                 <shoga type="large" id="s262">．</shoga>
@@ -1042,7 +1042,7 @@
                 <shoga type="large" id="s264">ヲ</shoga>
             </cell>
             <cell id="c265">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s265">ヒ</shoga>
             </cell>
             <cell id="c266">
@@ -1066,7 +1066,7 @@
                 <tetsuke type="large" id="t138">六</tetsuke>
                 <shoga type="large" id="s271">ロ</shoga>
             </cell>
-            <lb n="13" />
+            <lb n="13"/>
             <cell id="c272">
                 <shoga type="large" id="s272">ヲ</shoga>
             </cell>
@@ -1103,7 +1103,7 @@
                 <shoga type="large" id="s281">ア</shoga>
             </cell>
             <cell id="c282">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s282">ハ</shoga>
             </cell>
             <cell id="c283">
@@ -1126,20 +1126,20 @@
                 <shoga type="large" id="s287">ヲ</shoga>
             </cell>
             <cell id="c288">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s288">ホ</shoga>
             </cell>
             <cell id="c289">
                 <shoga type="large" id="s289">．</shoga>
             </cell>
-            <lb n="14" />
+            <lb n="14"/>
             <cell id="c290">
                 <tetsuke type="large" id="t148">六</tetsuke>
                 <shoga type="large" id="s290">ト</shoga>
             </cell>
             <cell id="c291">
                 <shoga type="large" id="s291">引</shoga>
-                <hyoshi type="large" id="h5" />
+                <hyoshi type="large" id="h5"/>
             </cell>
             <cell id="c292">
                 <shoga type="large" id="s292">．</shoga>
@@ -1170,7 +1170,7 @@
                 <shoga type="large" id="s299">ヲ</shoga>
             </cell>
             <cell id="c300">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s300">ホ</shoga>
             </cell>
             <cell id="c301">
@@ -1197,8 +1197,8 @@
                 <tetsuke type="large" id="t155">六</tetsuke>
                 <shoga type="large" id="s307">ロ</shoga>
             </cell>
-            <pb />
-            <lb n="15" />
+            <pb/>
+            <lb n="15"/>
             <cell id="c308">
                 <tetsuke type="large" id="t156">中</tetsuke>
                 <shoga type="large" id="s308">ト</shoga>
@@ -1207,11 +1207,11 @@
                 <shoga type="large" id="s309">ヲ</shoga>
             </cell>
             <cell id="c310">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s310">ホ</shoga>
             </cell>
             <cell id="c311">
-                <seme />
+                <seme/>
                 <shoga type="large" id="s311">リ</shoga>
             </cell>
             <cell id="c312">
@@ -1266,7 +1266,7 @@
                 <tetsuke type="large" id="t166">亍</tetsuke>
                 <shoga type="large" id="s325">タ</shoga>
             </cell>
-            <lb n="16" />
+            <lb n="16"/>
             <cell id="c326">
                 <shoga type="large" id="s326">ア</shoga>
             </cell>
@@ -1275,7 +1275,7 @@
                 <shoga type="large" id="s327">ロ</shoga>
             </cell>
             <cell id="c328">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s328">ホ</shoga>
             </cell>
             <cell id="c329">
@@ -1290,7 +1290,7 @@
                 <shoga type="large" id="s331">ヲ</shoga>
             </cell>
             <cell id="c332">
-                <tataku />
+                <tataku/>
                 <shoga type="large" id="s332">ホ</shoga>
             </cell>
             <cell id="c333">
@@ -1339,7 +1339,7 @@
                 <tetsuke type="large" id="t176">五</tetsuke>
                 <shoga type="large" id="s345">ラ</shoga>
             </cell>
-            <lb n="17" />
+            <lb n="17"/>
             <cell id="c346">
                 <shoga type="large" id="s346">ア</shoga>
             </cell>
@@ -1356,7 +1356,7 @@
             </cell>
             <cell id="c350">
                 <shoga type="large" id="s350">引</shoga>
-                <hyoshi type="large" id="h6" />
+                <hyoshi type="large" id="h6"/>
             </cell>
             <cell id="c351">
                 <shoga type="large" id="s351">．</shoga>
