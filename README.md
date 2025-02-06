@@ -102,7 +102,7 @@ At present, this repository makes available the XML files for the songs listed i
 |   g05_09_14   | 盤渉調 |   越天楽   |
 |   g05_09_15   | 盤渉調 |   採桑老   |
 |   g05_09_16   | 盤渉調 |  剣気褌脱  |
-|               |        |            |
+
 
 ### List of Scores for Hichiriki
 | id (filename) | choshi |    title   |
@@ -212,6 +212,7 @@ At present, this repository makes available the XML files for the songs listed i
 |   g06_09_14  | 盤渉調 |   越天楽   |
 |   g06_09_15  | 盤渉調 |   採桑老   |
 |   g06_09_16  | 盤渉調 |  剣気褌脱  |
+
 
 
 ### List of Scores for Ryuteki

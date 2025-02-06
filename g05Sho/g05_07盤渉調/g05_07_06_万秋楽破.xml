@@ -15,7 +15,8 @@
      <funder>The Kurata Grants, The Hitachi Global Foundation</funder>
     </titleStmt>
     <pubStmt>
-     <distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML on Github</distributor>
+     <distributor corresp="https://github.com/sseki27skt/GagakuXML">sseki27skt/GagakuXML on
+      Github</distributor>
      <availability>
       <useRestrict corresp="https://creativecommons.org/licenses/by/4.0/"> This edition is licensed
        under the Creative Commons Attribution 4.0 International. </useRestrict>
@@ -85,7 +86,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -93,7 +93,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -104,7 +103,6 @@
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>美</aitake>
@@ -112,7 +110,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <lb/>
    <cell>
@@ -123,16 +120,9 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>g</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>i</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin" hyoshi="small">乞</aitake>
+    <aitake hyphenation="end">美</aitake>
+    <hyoshi/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -140,7 +130,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -151,7 +140,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -159,7 +147,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <lb/>
    <cell>
@@ -170,12 +157,8 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">下</aitake>
+    <aitake hyphenation="end">乙</aitake>
    </cell>
    <cell>
     <aitake>乙</aitake>
@@ -183,18 +166,16 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -202,7 +183,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
@@ -214,7 +194,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -222,7 +201,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
@@ -233,7 +211,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -241,142 +218,446 @@
    </cell>
    <cell>
     <aitake>一</aitake>
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>一</aitake>
     <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">乞</aitake>
+    <aitake hyphenation="end">美</aitake>
+    <hyoshi/>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+   </cell>
+
+   <pb/>
+   <lb/>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+
+
+   <section>
+    <cell>
+     <aitake>下</aitake>
+
+    </cell>
+    <cell>
+     <aitake>凢</aitake>
+     <hyoshi type="small"/>
+    </cell>
+    <cell>
+     <aitake>乙</aitake>
+
+    </cell>
+    <lb/>
+    <cell>
+     <aitake>乙</aitake>
+     <hyoshi type="small"/>
+    </cell>
+   </section>
+
+   <section type="返付ノ時">
+    <cell>
+     <aitake>凢</aitake>
+
+    </cell>
+    <cell>
+     <aitake>凢</aitake>
+     <hyoshi type="small"/>
+    </cell>
+    <cell>
+     <aitake>乙</aitake>
+
+    </cell>
+    <lb/>
+    <cell>
+     <aitake>乙</aitake>
+     <hyoshi type="small"/>
+    </cell>
+   </section>
+
+
+
+   <cell>
+    <aitake>．</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>美</aitake>
+   </cell>
+   <cell>
+    <aitake>美</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+
+   </cell>
+
+   <lb/>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乙</aitake>
+   </cell>
+   <cell>
+    <aitake>乙</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">下</aitake>
+    <aitake hyphenation="end">乙</aitake>
+   </cell>
+   <cell>
+    <aitake>乙</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">乞</aitake>
+    <aitake hyphenation="end">美</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
    </cell>
    <pb/>
    <lb/>
    <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>美</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
     <aitake>下</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -384,368 +665,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>[</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>[返付ノ時]<cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>]</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <pb/>
-   <lb/>
-   <cell>
-    <aitake>[</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>[返付ノ時]<cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>]</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake> </aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>美</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>美</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <pb/>
-   <lb/>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>美</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
@@ -756,7 +675,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乙</aitake>
@@ -764,9 +682,8 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <pb/>
    <lb/>
    <cell>
     <aitake>凢</aitake>
@@ -777,7 +694,6 @@
    </cell>
    <cell>
     <aitake>工</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>工</aitake>
@@ -785,30 +701,24 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
    <lb/>
    <cell>
@@ -820,7 +730,6 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
@@ -828,7 +737,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -839,7 +747,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -847,7 +754,7 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
+
    </cell>
    <lb/>
    <cell>
@@ -858,12 +765,8 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -871,7 +774,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -882,7 +784,6 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
@@ -890,7 +791,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
@@ -902,7 +802,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -910,7 +809,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
@@ -922,7 +820,128 @@
    </cell>
    <cell>
     <aitake>引</aitake>
+
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
     <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>工</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乙</aitake>
+   </cell>
+   <cell>
+    <aitake>乙</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+   </cell>
+   <cell>
+    <aitake>乞</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">下</aitake>
+    <aitake hyphenation="end">乙</aitake>
+   </cell>
+   <cell>
+    <aitake>乙</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+   </cell>
+   <lb/>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
    </cell>
    <pb/>
    <lb/>
@@ -931,8 +950,14 @@
     <hyoshi type="small"/>
    </cell>
    <cell>
-    <aitake>工</aitake>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
     <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
    </cell>
    <cell>
     <aitake>工</aitake>
@@ -942,98 +967,44 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>乙</aitake>
+    <aitake>一</aitake>
+
+   </cell>
+   <cell>
+    <aitake>一</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
+    <aitake>美</aitake>
    </cell>
    <lb/>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
+    <aitake>美</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>乞</aitake>
+    <aitake>一</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
+    <aitake>乞</aitake>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1041,18 +1012,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <lb/>
    <cell>
@@ -1060,102 +1019,10 @@
     <hyoshi type="small"/>
    </cell>
    <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <pb/>
-   <lb/>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>美</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>美</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乞</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>工</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>工</aitake>
@@ -1163,7 +1030,6 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
@@ -1174,17 +1040,16 @@
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <lb/>
    <cell>
     <aitake>美</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
+   <lb/>
    <cell>
     <aitake>一</aitake>
     <hyoshi type="small"/>
@@ -1194,7 +1059,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -1202,28 +1066,26 @@
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <lb/>
    <cell>
     <aitake>下</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
+   <lb/>
    <cell>
     <aitake>下</aitake>
     <hyoshi type="small"/>
@@ -1233,7 +1095,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -1241,7 +1102,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -1252,18 +1112,16 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <pb/>
-   <lb/>
    <cell>
     <aitake>凢</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乙</aitake>
-    <hyoshi type="small"/>
    </cell>
+   <lb/>
    <cell>
     <aitake>乙</aitake>
     <hyoshi type="small"/>
@@ -1273,7 +1131,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -1281,28 +1138,26 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <lb/>
    <cell>
     <aitake>美</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
+   <lb/>
    <cell>
     <aitake>乞</aitake>
     <hyoshi type="small"/>
@@ -1312,7 +1167,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1320,7 +1174,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -1330,22 +1183,17 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
    <cell>
     <aitake>一</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
+   <lb/>
    <cell>
     <aitake>一</aitake>
     <hyoshi type="small"/>
@@ -1355,7 +1203,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -1363,61 +1210,24 @@
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <lb/>
    <cell>
     <aitake>下</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <pb/>
    <lb/>
@@ -1426,9 +1236,38 @@
     <hyoshi type="small"/>
    </cell>
    <cell>
-    <aitake>引</aitake>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake hyphenation="begin">下</aitake>
+    <aitake hyphenation="end">乙</aitake>
+   </cell>
+   <cell>
+    <aitake>乙</aitake>
     <hyoshi type="small"/>
    </cell>
+   <cell>
+    <aitake>凢</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+
+   </cell>
+   <cell>
+    <aitake>下</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <lb/>
    <cell>
     <aitake>下</aitake>
     <hyoshi type="small"/>
@@ -1438,7 +1277,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -1446,32 +1284,26 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>下</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">下</aitake>
+    <aitake hyphenation="end">乙</aitake>
    </cell>
-   <cell>
-    <aitake>乙</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
    <cell>
     <aitake>乙</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
+   <lb/>
    <cell>
     <aitake>凢</aitake>
     <hyoshi type="small"/>
@@ -1480,12 +1312,8 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1493,7 +1321,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1504,17 +1331,16 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <lb/>
    <cell>
     <aitake>一</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
+   <lb/>
    <cell>
     <aitake>乞</aitake>
     <hyoshi type="small"/>
@@ -1523,12 +1349,8 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1536,18 +1358,27 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>一</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+
+   </cell>
+   <cell>
+    <aitake>一</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
    </cell>
    <lb/>
    <cell>
@@ -1556,10 +1387,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1567,29 +1394,12 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
-   <pb/>
    <lb/>
-   <cell>
-    <aitake>二</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>帖</aitake>
-    <hyoshi type="small"/>
-   </cell>
+   <nijo/>
    <kando/>
    <cell>
     <aitake>乞</aitake>
@@ -1597,7 +1407,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -1605,7 +1414,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1616,7 +1424,7 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
+
    </cell>
    <lb/>
    <cell>
@@ -1625,18 +1433,16 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
+    <hyoshi type="large"/>
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -1644,7 +1450,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>.</aitake>
@@ -1655,7 +1460,7 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
+
    </cell>
    <lb/>
    <cell>
@@ -1664,7 +1469,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1675,7 +1479,6 @@
    </cell>
    <cell>
     <aitake>工</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>工</aitake>
@@ -1683,7 +1486,6 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
@@ -1693,61 +1495,53 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <lb/>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>引</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>一</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>.</aitake>
-   </cell>
-   <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
    <pb/>
    <lb/>
    <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>引</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="large"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+   </cell>
+   <cell>
+    <aitake>一</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+   </cell>
+   <cell>
+    <aitake>工</aitake>
+    <hyoshi type="small"/>
+   </cell>
+   <cell>
+    <aitake>.</aitake>
+   </cell>
+   <cell>
+    <aitake>凢</aitake>
+
+   </cell>
+   <lb/>
+   <cell>
     <aitake>凢</aitake>
     <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>工</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>工</aitake>
@@ -1758,7 +1552,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1766,7 +1559,6 @@
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>美</aitake>
@@ -1777,7 +1569,7 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
+
    </cell>
    <lb/>
    <cell>
@@ -1786,7 +1578,6 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>乞</aitake>
@@ -1796,12 +1587,8 @@
     <aitake>.</aitake>
    </cell>
    <cell>
-    <aitake>凢</aitake>
-    <hyoshi type="small"/>
-   </cell>
-   <cell>
-    <aitake>工</aitake>
-    <hyoshi type="small"/>
+    <aitake hyphenation="begin">凢</aitake>
+    <aitake hyphenation="end">工</aitake>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1809,7 +1596,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1820,7 +1606,7 @@
    </cell>
    <cell>
     <aitake>工</aitake>
-    <hyoshi type="small"/>
+
    </cell>
    <lb/>
    <cell>
@@ -1829,7 +1615,6 @@
    </cell>
    <cell>
     <aitake>凢</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>凢</aitake>
@@ -1840,7 +1625,6 @@
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>美</aitake>
@@ -1848,7 +1632,6 @@
    </cell>
    <cell>
     <aitake>一</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>一</aitake>
@@ -1859,7 +1642,7 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
+
    </cell>
    <lb/>
    <cell>
@@ -1868,7 +1651,6 @@
    </cell>
    <cell>
     <aitake>美</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>美</aitake>
@@ -1879,7 +1661,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -1887,7 +1668,6 @@
    </cell>
    <cell>
     <aitake>引</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
@@ -1898,9 +1678,8 @@
    </cell>
    <cell>
     <aitake>乞</aitake>
-    <hyoshi type="small"/>
+
    </cell>
-   <pb/>
    <lb/>
    <cell>
     <aitake>乞</aitake>
@@ -1908,7 +1687,6 @@
    </cell>
    <cell>
     <aitake>下</aitake>
-    <hyoshi type="small"/>
    </cell>
    <cell>
     <aitake>下</aitake>
