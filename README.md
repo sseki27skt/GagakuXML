@@ -311,22 +311,3 @@ At present, this repository makes available the XML files for the songs listed i
 | g07_09_15 | 盤渉調 |   越天楽   |
 | g07_09_16 | 盤渉調 |   採桑老   |
 | g07_09_17 | 盤渉調 |  剣気褌脱  |
-
-<cell>
-    <fuji type="small">丅</fuji>
-    <fuji type="large">中</fuji>
-    <shoga type="large">チ</shoga>
-</cell>
-
-<cell>
-    <fuji type="small">丅</fuji>
-    <fuji type="large">中</fuji>
-    <shoga type="large" hyphenation="begin">チ</shoga>
-    <shoga type="large" hyhenation="end">ヨ</shoga>
-</cell>
-
-<cell>
-    <ugoki/>
-    <shoga type="large" hyphenation="begin">リ</shoga>
-    <shoga type="large" hyphenation="end">ヨ</shoga>
-</cell>
