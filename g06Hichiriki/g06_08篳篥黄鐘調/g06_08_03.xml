@@ -8,7 +8,7 @@
                     <mei:title>喜春楽破</mei:title>
                     <mei:respStmt>
                         <mei:resp>Machine-readable transcription by:</mei:resp>
-                        <mei:persName role="encider" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro Seki</mei:persName>
+                        <mei:persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro Seki</mei:persName>
                     </mei:respStmt>
                     <mei:funder>Japan Society for the Promotion of Science</mei:funder>
                     <mei:funder>Foundation for Cultural Heritage and Art Research</mei:funder>
@@ -224,7 +224,7 @@
             <lb n="3"/>
             <cell id="c40">
                 <shoga type="large" id="s40" label="ラ"/>
-                <fuji type="large" id="t17" label="凢 "/>
+                <fuji type="large" id="t17" label="凢"/>
             </cell>
             <cell id="c41">
                 <shoga type="large" id="s41" label="ア"/>
@@ -234,7 +234,7 @@
             </cell>
             <cell id="c43">
                 <shoga type="large" id="s43" label="タ"/>
-                <fuji type="large" id="t18" label="四 "/>
+                <fuji type="large" id="t18" label="四"/>
             </cell>
             <cell id="c44">
                 <shoga type="large" id="s44" label="ア"/>
@@ -264,7 +264,7 @@
             </cell>
             <cell id="c52">
                 <shoga type="large" id="s52" label="チ"/>
-                <fuji type="large" id="t19" label="丅 "/>
+                <fuji type="large" id="t19" label="丅"/>
             </cell>
             <cell id="c53">
                 <shoga type="large" id="s53" label="イ"/>

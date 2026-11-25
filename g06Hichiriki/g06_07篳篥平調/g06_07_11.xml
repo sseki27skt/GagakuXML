@@ -8,7 +8,7 @@
                     <mei:title>林歌</mei:title>
                     <mei:respStmt>
                         <mei:resp>Machine-readable transcription by:</mei:resp>
-                        <mei:persName role="encider" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro Seki</mei:persName>
+                        <mei:persName role="encoder" auth.uri="https://orcid.org/0000-0003-1177-7352">Shintaro Seki</mei:persName>
                     </mei:respStmt>
                     <mei:funder>Japan Society for the Promotion of Science</mei:funder>
                     <mei:funder>Foundation for Cultural Heritage and Art Research</mei:funder>
@@ -102,7 +102,7 @@
             <cell id="c6">
                 <hyoshi type="small" id="h3"/>
                 <shoga type="large" id="s6" label="ヒ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c7">
                 <shoga type="large" id="s7" label="イ"/>
@@ -133,7 +133,7 @@
             <cell id="c14">
                 <hyoshi type="large" id="h6"/>
                 <shoga type="large" id="s14" label="ホ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c15">
                 <shoga type="large" id="s15" label="ヲ"/>
@@ -152,7 +152,7 @@
             <cell id="c19">
                 <hyoshi type="small" id="h8"/>
                 <shoga type="large" id="s19" label="ホ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c20">
                 <shoga type="large" id="s20" label="ヲ"/>
@@ -513,7 +513,7 @@
             <cell id="c111">
                 <hyoshi type="small" id="h39"/>
                 <shoga type="large" id="s111" label="ホ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c112">
                 <shoga type="large" id="s112" label="ロ"/>
@@ -549,7 +549,7 @@
             <cell id="c120">
                 <hyoshi type="small" id="h42"/>
                 <shoga type="large" id="s120" label="ホ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c121">
                 <shoga type="large" id="s121" label="ヲ"/>
@@ -621,7 +621,7 @@
             <cell id="c137">
                 <hyoshi type="small" id="h48"/>
                 <shoga type="large" id="s137" label="ホ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c138">
                 <shoga type="large" id="s138" label="ヲ"/>
@@ -673,7 +673,7 @@
             <cell id="c150">
                 <hyoshi type="small" id="h53"/>
                 <shoga type="large" id="s150" label="ホ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c151">
                 <shoga type="large" id="s151" label="ロ"/>
@@ -797,7 +797,7 @@
             <cell id="c181">
                 <hyoshi type="small" id="h64"/>
                 <shoga type="large" id="s181" label="ハ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c182">
                 <shoga type="large" id="s182" label="ア"/>
@@ -826,7 +826,7 @@
             <cell id="c188">
                 <hyoshi type="small" id="h67"/>
                 <shoga type="large" id="s188" label="フ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c189">
                 <shoga type="large" id="s189" label="ウ"/>
@@ -850,7 +850,7 @@
             <cell id="c194">
                 <hyoshi type="small" id="h69"/>
                 <shoga type="large" id="s194" label="ホ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c195">
                 <shoga type="large" id="s195" label="ロ"/>
@@ -975,7 +975,7 @@
             <cell id="c225">
                 <hyoshi type="small" id="h80"/>
                 <shoga type="large" id="s225" label="ハ"/>
-                <tataki/>
+                <tataku/>
             </cell>
             <cell id="c226">
                 <shoga type="large" id="s226" label="ア"/>
